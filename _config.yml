@@ -22,7 +22,7 @@ repo: database
 # Masthead title
 masthead_link: http://database.apievangelist.com
 masthead_font_size: 90
-masthead_title: '{"database API"}'
+masthead_title: '{"Database APIs"}'
 
 # Feature
 feature_title: API Guide
