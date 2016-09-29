@@ -1,5 +1,373 @@
 [
 	{
+		"curated_id": "nkz3irkByF9bx116oto89ARtVVea116M6lt0123adXIAVNkyNttMAk12355kByMAA7cu8Y123SRF6BEKFlps8123Ml123116GFHiDQ117117",
+		"item_date": "2016-09-21 09:55:12",
+		"title": "Evolution to RESTful with NoSQL Documents",
+		"url": "https://medium.com/m/global-identity",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dP6VQs336SvCWSJEP5jifVS2123RduWMiQ6gpYqNXZxwzF6asKFYTyMV7RS09eovLv2styHPuhHjZ1TsrjvbyS0Q117117",
+		"item_date": "2016-09-20 00:00:00",
+		"title": "Build Custom Drivers With New ODBC and JDBC SDK v81 Release",
+		"url": "https://dzone.com/articles/build-custom-drivers-with-new-odbc-and-jdbc-sdj-v8",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PJ5x8PCDKRdNHkLYy5RNGnV6e116iRRBtGn43kIfzQFoRWohQlGT6bMGvETPuOzspDQvlCUqTHzK6PfK5xGfnj4Q117117",
+		"item_date": "2016-09-21 00:00:00",
+		"title": "Inside CockroachDBs Survivability Model",
+		"url": "https://dzone.com/articles/inside-cockroachdbs-survivability-model",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "qq0GPPhqEFLeH1166kqL9116116kKW116ojbaoH9dQiTg116im4Jp0IAMDbOHJd10mNOLLdiuKKpCfuJ9EcUtF4123zt2je66w117117",
+		"item_date": "2016-09-20 00:00:00",
+		"title": "The Apache Software Foundation Announces Apache CouchDB v20",
+		"url": "https://blogs.apache.org/foundation/entry/the_apache_software_foundation_announces99",
+		"domain": "blogs.apache.org",
+		"image": ""
+	},
+	{
+		"curated_id": "xWUhzeO9ewOOtLQztZBS7GEeushPuMTz2XZWaLbAO4kY56fKmaDKZhrHTCd123wMgBgXm116VLxsZCvOzbPx6116Sq7w117117",
+		"item_date": "2016-09-18 00:00:00",
+		"title": "Audit and Log Database DML Changes in PostgreSQL With Cyan Audit",
+		"url": "https://dzone.com/articles/audit-log-database-changes-in-postgresql",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cNbAFv8AHM123K3AhNdDYr9k123vlE8cPMbozvMXPNcgK123aBAE1loIWNc0M1Ew0v5hgdKMUSmoN1160oxl7EVNU123ZUcQ117117",
+		"item_date": "2016-09-13 00:00:00",
+		"title": "MongoDB Compass launches with Mapbox",
+		"url": "https://www.mapbox.com/blog/mongodb/",
+		"domain": "www.mapbox.com",
+		"image": ""
+	},
+	{
+		"curated_id": "IBSFKkcEcV9sQO116zfXPfdpqaacN123WLjdnDrVxYBMSiroWvYV11JrxqZ1233123Uy2ocdt0ounLOuLKmxDKe7y1O116Bg117117",
+		"item_date": "2016-09-13 06:48:03",
+		"title": "Zeroday vulnerability found within MySQL database application",
+		"url": "http://www.zdnet.com/article/zero-day-vulnerability-found-within-mysql-database-application/#ftag=RSSbaffb68",
+		"domain": "www.zdnet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kMps90ZjVDxstp98hBbW9x7WD9oV5CG32h123K8d116tiHD6sWmGT3XDzPd2lI116D6h5hVssHX123123sa1KeoqFtqEjZ0Q117117",
+		"item_date": "2016-09-07 15:01:38",
+		"title": "Tweet How to steal any developer039s local database httpstcouJSIznIkYx by bvdbijl",
+		"url": "https://twitter.com/datawireio/statuses/773642408462540800",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "c6iEjWEzYI4N2ZKAGjaZKT3kYNGNxMTwXwsSgavs2ljV9mg123gX123peGcmTLMoERC79RQe8FnF41qpDOQEX5oFAg117117",
+		"item_date": "2016-09-08 10:50:19",
+		"title": "My SPA demo",
+		"url": "https://myapp-7175.restdb.io/public/index",
+		"domain": "myapp-7175.restdb.io",
+		"image": ""
+	},
+	{
+		"curated_id": "Jy8Wf3jWmRMYAkLg7Lk02n6C40rLt7dkkF0mSjbqdIvPKLyZsFbMXDYmExUQkM4km1kvKj2T123DzmcRwFA1165mUg117117",
+		"item_date": "2016-09-08 10:50:19",
+		"title": "Twitter",
+		"url": "https://twitter.com/restdbio/status/773941550141345793/photo/1",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "BXdrKQTdD7b6uykf5dXpHneC8ZJJcv9VbVxi123AxyEvXQLmR0MUmLHE9TM8qMMwB6i5HdFkzMQST80HEuw9123RKw117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Pirate Metrics Better Acquisition With Firebase",
+		"url": "https://firebase.googleblog.com/2016/09/pirate-metrics-better-acquisition-with-firebase.html",
+		"domain": "firebase.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SJaCnx9GnjphhMltwuvZUA2nBcYqh116PD2iyq9rTk3nd6L0pHHJRwzpGQAREeqHQommalvWhBmnnpizo9RkdR7g117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "New Reader Endpoint for Amazon Aurora  Load Balancing  Higher Availability",
+		"url": "https://aws.amazon.com/blogs/aws/new-reader-endpoint-for-amazon-aurora-load-balancing-higher-availability/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "uqz50dzw2ceNish6HL8vDgmmFcp116PmaabQeLgMDXAyGPxDrjGuPSe6gbt9yj6FsGQSlIEcfaDHwA84BnkDTRuA117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "SQL and NoSQL for JSON",
+		"url": "https://dzone.com/articles/sql-and-nosql-for-json",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hURhruFD116nJrGtKhcHdCQtShqzGehZtFrLQyc3NjK3dLeV116xM4xc123kOv8RZsTOCpTbA116NgiwEHCqNgpoXolxOQ117117",
+		"item_date": "2016-08-30 17:35:00",
+		"title": "Tutorial Using Entity Framework Core as an InMemory Database for ASPNET Core",
+		"url": "https://stormpath.com/blog/tutorial-entity-framework-core-in-memory-database-asp-net-core",
+		"domain": "stormpath.com",
+		"image": ""
+	},
+	{
+		"curated_id": "yjwRsAO6iOirpHPBKmZObcWJKkXiyUqLLl9JF2Ot7Xyg123myRuIeQpN4LKKIjsC6kF116lwCDTMdn7mtSKmU123hx8A117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "Remote Config With Firebase",
+		"url": "https://dzone.com/articles/remote-config-with-firebase",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PbGReKgZzyRSx8KeTRYOJ8IHMW18fHY5Q588ewqwhPTyJX811235EzZ0z2gLSd09W1dInn1165C7BS3d6t4i2YSIww117117",
+		"item_date": "2016-09-01 23:34:07",
+		"title": "GraphQL The next generation of API design",
+		"url": "https://medium.com/apollo-stack/graphql-the-next-generation-of-api-design-f24b1689756a#.ojfedkr0t",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1w4cWG697MzwO8jJi1sFUwwY6j4zCc4c9PmK0kJz8LZOJTTb4HSdFm8XwQfT74aaOvVVsjdkOzQeD8Sy8ZMkIQ117117",
+		"item_date": "2016-09-01 23:34:21",
+		"title": "All you need to know about GraphQLjs 07",
+		"url": "https://medium.com/apollo-stack/all-you-need-to-know-about-graphql-js-0-7-921e75dd7fd1#.91sdbfowq",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "VTK7123t0sG3DApwHldPLHLoBXWmGE8iJW7HW8m2SmqGZvo5wTugrj04Y0KioZCXjHTiXRzFC49o7KkUE1D3hJLg117117",
+		"item_date": "2016-09-01 23:34:34",
+		"title": "GraphQL Concepts Visualized  Building Apollo",
+		"url": "https://medium.com/apollo-stack/the-concepts-of-graphql-bc68bd819be3#.86qs97vk8",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "imo78oG1rrK116CSVtt9zmJOATGJAwbiw123XpmdbN1gC35F2bfDwoAHqYiiMRHvHFxcrmtN0116GHS9MB116123BkvMpwLw117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "Establish a Secure SSL Connection to PostgreSQL DB Server",
+		"url": "https://dzone.com/articles/establish-a-secure-ssl-connection-to-postgresql-db",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "OXAjHRTSByWnTVQj123wT5cjDdU4f8B09116y7Zt9Avu4Qze75fPVASvqhWlosmWflY4AqDYawpoictI116edK116hAWVw117117",
+		"item_date": "2016-09-02 00:00:00",
+		"title": "Discovering Database Metadata with the JDBC Metadata API",
+		"url": "https://www.tutcity.com/java/jdbc-metadata-api.119746.html",
+		"domain": "www.tutcity.com",
+		"image": ""
+	},
+	{
+		"curated_id": "f8tMDWDo7rQX3Pk0SIwdMLvrDkF123aHKhqP0NaWUxM3qFW5Kw9KMl7WBtZKoz3jZ3AoInxdyJP6uVyrnJikO07Q117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "JDBC Tutorial Extracting Database Metadata via JDBC Driver",
+		"url": "https://www.progress.com/blogs/jdbc-tutorial-extracting-database-metadata-via-jdbc-driver",
+		"domain": "www.progress.com",
+		"image": ""
+	},
+	{
+		"curated_id": "gfTzk1NOO4883YpfdVBPdaVnu4UUVlfmuDSlV7Ys7FnvEOh0o67UBRCSdjOKwhOTDYaNSroEcR6twjwfQjXJaQ117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "Efficiently Transforming JDBC Query Results to JSON",
+		"url": "https://gkbrown.org/2016/08/26/efficiently-transforming-jdbc-query-results-to-json/",
+		"domain": "gkbrown.org",
+		"image": ""
+	},
+	{
+		"curated_id": "N1GHDjdw5PUhPC3Rp116HbtDRvKVSPzT0DFs2pWlLNODoY4JnFeYqSODnUFyAmzdU7S7HNnvOGfhgl2sHbfuAuNQ117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "Data as a Service REST APIs Transforming the Cloud era",
+		"url": "https://apilama.com/2016/08/29/data-as-a-service-rest-apis-transforming-the-cloud-era/",
+		"domain": "apilama.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1162fLrZyjR9wHHl2vrcA4MPHiXQAFyOUhvzXokeeX9gf56h3PRR0XtjVm123RG6g83Y8G1236miGCVkuPeYHhYGef0A117117",
+		"item_date": "2016-08-26 00:00:00",
+		"title": "Visualizing Your Data With MongoDB Compass",
+		"url": "https://dzone.com/articles/visualizing-your-data-with-mongodb-compass",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UhswBOkeYN5L123i8PeJdbWnbTs9YqiJTiOGfnw123kyLaKY123aIOtB1t116WD79xY14Ld4XQ123XNhlPx3Kn6akZLWDLtw117117",
+		"item_date": "2016-08-26 00:00:00",
+		"title": "Database Migration in Continuous Integration Processes",
+		"url": "https://dzone.com/articles/flyway-db-migration-in-continuous-integration-proc",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FfVAjssLM116iBNocverHaBnEcBn116RE4PNLxKC5WJ0HiQ4mJe6116RiSpPyAjK116FGubIqqOEW1WumDIO123hGwulXM4Q117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "GeoFile Spatial Reference Systems and Databases",
+		"url": "https://www.compose.com/articles/geofile-spatial-reference-systems-2/",
+		"domain": "www.compose.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PWOyb46zS34XsFIq0nu4m14R1aVX6NCcM9UC9rdJVaN4i0nijtdiR5AmX5xgdChL8NOiygtqComobp5JVc4lCQ117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "Database Building 101 HighLevel Graph Operations",
+		"url": "https://dzone.com/articles/high-level-graph-operations",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "RLkOo7VU2TasgAErpVbz4oUsdo1m9oN123Q4FQ9MqJxjlBBEnXH1xus0HU11651sL4na9xt9WgeykFWmQGSkhw8mtw117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "Top Most Overlooked MySQL Performance Optimizations Part II",
+		"url": "https://dzone.com/articles/top-most-overlooked-mysql-performance-optimization-1",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "uv116KLTgAqwxsF2k37I2suKS116v9AFW5nfg123u7tirYdSd123MOkDAeJRUFqtVt7FJzHh6SERZrkkivRReLiA953ynw117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "SQL Server is the New Hunting Ground in the Cloud",
+		"url": "https://www.infoq.com/news/2016/08/sql-server-google-cloud",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1167f6E3LPwtL3JLmxCy2J8T006QTy6ijjavdsPIJLN5msSMOc116OCPwgr116yX9uuiRfxS4YTiKVcxFAqXbzJNEp116w117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "Top Most Overlooked MySQL Performance Optimizations Part I",
+		"url": "https://dzone.com/articles/top-most-overlooked-mysql-performance-optimization",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "pCs123xtpyaw123wwt9HHngA116i0k5BhgiMokjHJ4YCJ4RdbMe123E2ctgnae3CplEZQ116E2lDAX2123lfUlpjJpgJFPaCRg117117",
+		"item_date": "2016-08-22 22:30:56",
+		"title": "Context aware MySQL pools via HAProxy",
+		"url": "http://githubengineering.com/context-aware-mysql-pools-via-haproxy/",
+		"domain": "githubengineering.com",
+		"image": ""
+	},
+	{
+		"curated_id": "u25trWH3pQL8TcgnV6pgSQjvPV0lU5HBCuhpuTB4jcT8116T2555XuXu0CYf116n3ofu116snbl6JslA1169j123CLAx09KQ117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "Advancing enterprise database workloads on Google Cloud Platform",
+		"url": "https://cloudplatform.googleblog.com/2016/08/why-Google-Cloud-Platform-is-ready-for-your-enterprise-database-workloads.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "BNjbAjnuVL123yrGSvaGTBqEvVxp116ZDPrsPA56SiRmdHJhvc1163gSyQC9BYiT116t4mHNWaJ7qoFEHn1RRSj62cPdtw117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Eight Benefits of DBaaS",
+		"url": "http://www.dbmaestro.com/2016/08/eight-benefits-of-dbaas/",
+		"domain": "www.dbmaestro.com",
+		"image": ""
+	},
+	{
+		"curated_id": "JfslSX7LHiAU4P7S123Y2TcI93tZOOv8FP10F123Y10vdpq5EgfxCPv3vk7cfv27FNKZIQ53nHNkHBSWWps87DIJfQ117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Google Cloud Datastore serves over 15 trillion queries per month and is ready for more",
+		"url": "https://cloudplatform.googleblog.com/2016/08/google-cloud-datastore-serves-over-15.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "81rt0NBSbVSaQI47xQsf7JwcmDmGXiZYie2wHJCxd116ubzA9FI40WF9mCqbgcCVPLeBphMchtABngyp1SQ5yS4A117117",
+		"item_date": "2016-08-18 00:00:00",
+		"title": "New Import for Compose MongoDB",
+		"url": "https://www.compose.com/articles/new-import-for-compose-mongodb/",
+		"domain": "www.compose.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YB6geyRT2qRv116cwJJI7wCs1myDo1Ozoki6jz55reDKF5O5lYkdJBzALRo6Uny6sVI5Eo3O7POBMM116jpEVcXbRA117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "Barriers to Database Deployment Automation and How to Overcome Them",
+		"url": "https://dzone.com/articles/barriers-to-database-deployment-automation-and-how",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YV5J6q65i84qlRHm1nzCCgh69pwG80o87ehZNTVE44cw116sNVALNZeC8sRb7LURqdmifpQNqw3p0IlfD116oFzQkA117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "Database Building 101 The Cost of Graph Storage",
+		"url": "https://dzone.com/articles/database-building-101-the-cost-of-graph-storage",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "HCiXpUs116DUyCdNsZE6d1163bKcNSM7BXCuy7ADbHvohgV7YPu5r7K123aMsj72nsCEyV4sB4g1QALv4DHjlIzxpzQQ117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "Google says its databases are enterprise ready",
+		"url": "http://www.pcworld.com/article/3108419/google-says-its-databases-are-enterprise-ready.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "QmdDN3XALPxgW80sMpoN123NGNGkIkq6OWJlvWYgDQ0CjTd71DFUIRo7uBZvVYIwW6177PuXmwHhWQg77ReFqXFA117117",
+		"item_date": "2016-08-11 06:52:00",
+		"title": "Tweet Some great material to get started with GraphQL httpstcov73ZpgZfVh",
+		"url": "https://twitter.com/reindexio/statuses/763734718022049792",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "c47NYfzkEXv8BeTBDe7fCMd1sKdsNcu2Q9DrH5NJpBg7PLo8YTyfFNTf2hYSdI9116MDQJCedRZ3I1160OutGaxWmw117117",
+		"item_date": "2016-08-12 00:00:00",
+		"title": "Postgres vs MongoDB for Storing JSON Data",
+		"url": "https://dzone.com/articles/postgres-vs-mongodb-for-storing-json-data",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wtQ6fjA7CtisdHk3fjpigrtQRwmUH6lt4LbBOwTUcB9QkiYdyDKu4MXgGsIJBMeB4xoALsMKxTKmeYGL123qLt2w117117",
+		"item_date": "2016-08-11 00:00:00",
+		"title": "Amazon Kinesis Analytics   Process Streaming Data in Real Time with SQL",
+		"url": "https://aws.amazon.com/blogs/aws/amazon-kinesis-analytics-process-streaming-data-in-real-time-with-sql/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "xiN1161FqPK4Hqa0eHDOG0DJwIXNVU6JrUMWHHJdEUFkjchFcicBmobS7PXaoO2116Fk4Z116SQnmPed7QxEQ123hUJZTQ117117",
+		"item_date": "2016-08-11 00:00:00",
+		"title": "Azure SQL Database For Your First Database",
+		"url": "https://dzone.com/articles/azure-sql-database-for-your-first-database",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "VaDUQBCUI123QGRI1ZZqFyjyp0vSse7xfJMeBCQayRCw116LEPDbovLDqh5iJCbly3BRXul6t0vxFZo8zMMKT9mQ2A117117",
+		"item_date": "2016-08-08 00:00:00",
+		"title": "AWS Adds Native SQL Server Backups to DatabaseasaService",
+		"url": "https://www.infoq.com/news/2016/08/aws-native-sql-backup",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YEgoYKfyFMoGSZ6qs05EFCKSJxmiU9hMnFCA123jzzxub7PID2n6TV4MkhxtrE0gQ0F4p1p1k116J1231165mEZgVCl0NA117117",
+		"item_date": "2016-08-10 00:00:00",
+		"title": "Log API for Memory Databases",
+		"url": "http://blog.datomic.com/2016/08/log-api-for-memory-databases.html",
+		"domain": "blog.datomic.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WQk8SwRHz116m54tn5zNDx99mvGTGwoUTAws123r1J0GWuhiIT4GXwcQz0nNL28lmCaPQnaWDQd382al3DG2UPlHnQ117117",
+		"item_date": "2016-08-10 00:00:00",
+		"title": "Feature Compaction",
+		"url": "https://blog.couchdb.org/2016/08/10/feature-compaction/",
+		"domain": "blog.couchdb.org",
+		"image": ""
+	},
+	{
+		"curated_id": "E2Ve57qBY4bwnDe2Ksrh6t8kQbOv04NcTXqLbJjc7I1162VuMIPz4JMC5BqbbBE0TeAaPn5DTm9ZEtnwcLGFcfjQ117117",
+		"item_date": "2016-08-09 00:00:00",
+		"title": "Compose View Say hello to the Database Advocate",
+		"url": "https://www.compose.com/articles/compose-view-say-hello-to-the-database-advocate/",
+		"domain": "www.compose.com",
+		"image": ""
+	},
+	{
 		"curated_id": "kAP3XjuXmwTD1236dV123S2PQQ4iyxTTwkTWHFUl116D116JDxLZWD7Q1bxFYgL8TzH470116eQRro7SxpnI3b116AAEYEYZfg117117",
 		"item_date": "2016-08-01 12:39:00",
 		"title": "Tweet Introducing ghost our online schema migration tool for MySQL by ShlomiNoach httpstcoBbpelcRkrq httpstcoyRK3v8vhc1",
