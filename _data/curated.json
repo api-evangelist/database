@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "NyCx5bi9P8oMkpE9l1HZ3wVEaiMXoxkwU8UjQiL2A6hPteqD116A145M123CK0Dq8zbujcPZH2iAqSAAth5ygjKD6Q117117",
+		"item_date": "2016-10-06 00:00:00",
+		"title": "Group Security in the Firebase Database",
+		"url": "https://firebase.googleblog.com/2016/10/group-security-in-firebase-database.html",
+		"domain": "firebase.googleblog.com",
+		"image": ""
+	},
+	{
 		"curated_id": "VuKhRSTCMLVi5WzM3gcYG5twgY9hZZvzcujod4dMlZOS116vxAMuQySd5t76FGmM116d23bMFzP9OUV9P73iw2EvUg117117",
 		"item_date": "2016-09-28 00:00:00",
 		"title": "Monitor Azure Redis Cache with Datadog",
