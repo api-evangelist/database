@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "zx123SHjo7kVMed50vtMJr5PZvgkOY1wOSLR4dkDOXGsa8nPMlNqzQNOqaCG8GUc3ekHBJnnnvjdkWg9MoRyyV4w117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "Connecting to Compose for MySQL",
+		"url": "https://www.compose.com/articles/connecting-to-compose-for-mysql/",
+		"domain": "www.compose.com",
+		"image": ""
+	},
+	{
+		"curated_id": "5F2lPXxamRRAfmGFBGh0lvtNOX5GWOUv6RxZX116m9opIY6TN2URue0Pce9EmPy3TvPT8aK8tJYHAglZzkmJavQg117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "Seeq Releases R15 Adds SQL Server Integration Historian Support and Ease of Use Features",
+		"url": "http://www.remotemagazine.com/main/news/seeq-releases-r15-adds-sql-server-integration-historian-support-and-ease-of-use-features/",
+		"domain": "www.remotemagazine.com",
+		"image": ""
+	},
+	{
 		"curated_id": "4UWLi0C1heXI3q8tDtK830eZSGpHlKUQ3ZIXN2nD6d6tywbKG8VS2mJor116btTJthzgMqr3G5kPT0fAJDU27BEQ117117",
 		"item_date": "2016-10-08 00:00:00",
 		"title": "Sync SQLite on Android App to MySQL DB using REST API",
