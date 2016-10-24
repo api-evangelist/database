@@ -1,5 +1,77 @@
 [
 	{
+		"curated_id": "xw3w116RSxzq2V2nY5DM3yHz1JcO8ouXlXNtdBLogm3FT64XHGOCJ123lrW2SwxcYJANe83jeJP75Dcp8tSihb44jQ117117",
+		"item_date": "2016-10-18 00:00:00",
+		"title": "Amazon Aurora Update  Call Lambda Functions From Stored Procedures Load Data From S3",
+		"url": "https://aws.amazon.com/blogs/aws/amazon-aurora-update-call-lambda-functions-from-stored-procedures-load-data-from-s3/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1116QQWPji00lKjm7VtTmnUCOJBPeVJRRPBAx8EmjuKYJqbJgVOqpYHo1PsN2pCLthFQ5FwKNXSxgGbrlmVJ8nzA117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "Do you know why Compose proxies database connections",
+		"url": "https://www.compose.com/articles/do-you-know-why-compose-proxies-database-connections/",
+		"domain": "www.compose.com",
+		"image": ""
+	},
+	{
+		"curated_id": "HyGED3bXqT4LcIB6eQNnUqkcu7123tNIXKZBC6W7HXFRfUXcHKWZfuAhY3n6zEAz9mpU3WYScKHw108zdNGAzYSA117117",
+		"item_date": "2016-10-20 00:00:00",
+		"title": "The Importance of Securing Your Database and the Cost of Failure",
+		"url": "https://dzone.com/articles/lack-of-database-security-has-exposed-the-personal",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XzCcYRCVgWrF1QUS4i836o5g29raxsm2ZArRyRRb1M9FzKtXdBx7dN7gYJJpR123BeClTCewmc7HmhqWEAjn0G4w117117",
+		"item_date": "2016-10-20 00:00:00",
+		"title": "Build your own Movie Database with SQL Server",
+		"url": "http://www.codeproject.com/Tips/1143973/Build-your-own-Movie-Database-with-SQL-Server",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "n7ufxBMa9m8Jn2QLxtTdVTxyhe0iOwcqlAqKYqIJbFIH116smSjfP4116XjVOTEtPDp4hBiCEmZ1MRokbXzxiuZNfg117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "Always Encrypted feature in SQL Server 2016",
+		"url": "http://www.codeproject.com/Articles/1142885/Always-Encrypted-feature-in-SQL-Server",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ncaYdtpVSUahF123RwLtmLZXkgXTKVmIPx0ZKMWU1NMPnAHA95t4JZo6gli123HnsEw1utkBg31y9HR5Y1GBYV1vCw117117",
+		"item_date": "2016-10-17 00:00:00",
+		"title": "DreamFactory 231 includes Logstash and Redshift",
+		"url": "http://blog.dreamfactory.com/dreamfactory-2.3.1-release",
+		"domain": "blog.dreamfactory.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6v1pzVM877dKd123p5rxVLVyjDj8HvQgfyWtcr2cFwzjQPtRQpdUg5Ie8SlxNtbenPc3lIbkq9WvT2AQvPAHsgGA117117",
+		"item_date": "2016-10-17 00:00:00",
+		"title": "How We Do Databases",
+		"url": "https://flynn.io/blog/how-we-do-databases",
+		"domain": "flynn.io",
+		"image": ""
+	},
+	{
+		"curated_id": "cWyvEVh1162HIleeQx75ib5dodUbJkHAPmoIQK116qymKiTpMEHAbeYb03X76YIoEq16AuWTwDXTnVRE6tJNFfh1164Q117117",
+		"item_date": "2016-10-17 00:00:00",
+		"title": "MySQL 57 Performance Tuning Immediately After Installation",
+		"url": "https://dzone.com/articles/mysql-57-performance-tuning-immediately-after-inst",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "E1GkVfKtdvRKpfrR4kKLv116Dj881Mn0YWitq4A8EjE6ER12bnUzGCpaCAj3FPhuCFoEbl1h116CSW2GFpqmCSz93A117117",
+		"item_date": "2016-10-17 00:00:00",
+		"title": "Introducing an Apache Spark Datasource for OrientDB",
+		"url": "https://dzone.com/articles/apache-spark-datasource-for-orientdb",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "DkCf34uimL1234ZxM9GyD10diWTvKd1231163COs4RkEstTB1234tP0BlyBrl116PTderbCk16PStuKzKY6Y1vrA1164KIlsHA117117",
 		"item_date": "2016-10-10 00:00:00",
 		"title": "Using Couchbase to Store NonJSON Data",
