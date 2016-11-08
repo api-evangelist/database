@@ -1,5 +1,37 @@
 [
 	{
+		"curated_id": "iQwIAF5KxTz1239s6B6AX4jIHkh1KcaUtkh9NWDd1PD4OJDD9uF61r4VO817kRq1r0VLeLKOI9XM3DjnL8yNTLRA117117",
+		"item_date": "2016-11-04 00:00:00",
+		"title": "Make datadriven decisions with the Asana API and Asana2sql",
+		"url": "https://blog.asana.com/2016/11/make-data-driven-decisions-with-the-asana-api-and-asana2sql/",
+		"domain": "blog.asana.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Vn6g9qbZVwf0AzZ7QwoEeszmogmBG5OO280i9f123hbUFjw8Ck4d123xiYr0VSNCQ8guOJPMTGDLxy8GCoi4aMx9MA117117",
+		"item_date": "2016-11-03 00:00:00",
+		"title": "Heisenberg Cloud Spots Exposed Database Services Misconfigurations",
+		"url": "http://www.darkreading.com/cloud/heisenberg-cloud-spots-exposed-database-services-misconfigurations/d/d-id/1327396",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8SQBOorql3K2CJFiiQnKzHbGctBnP123RIzoq1168D7AR72ACLM2i6CYk116B13lXYSUnmoY1kL7PaeB116VgdeKYNrvBA117117",
+		"item_date": "2016-11-03 00:00:00",
+		"title": "ArangoDB 31  A Solid Ground to Scale part II",
+		"url": "https://www.arangodb.com/2016/11/arangodb-3-1-solid-ground-scale-part-ii/",
+		"domain": "www.arangodb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "rtkekg2PLtfs43rRGt8haHzONL1jdV3LH5x123zP116V4ZpPXw5mBS4vC116HV9J82tj6KzILnPdboMf6U3He123B8PabQ117117",
+		"item_date": "2016-10-31 00:00:00",
+		"title": "Persisting Couchbase Data Across Container Restarts",
+		"url": "https://dzone.com/articles/persisting-couchbase-data-across-container-restart",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "xw3w116RSxzq2V2nY5DM3yHz1JcO8ouXlXNtdBLogm3FT64XHGOCJ123lrW2SwxcYJANe83jeJP75Dcp8tSihb44jQ117117",
 		"item_date": "2016-10-18 00:00:00",
 		"title": "Amazon Aurora Update  Call Lambda Functions From Stored Procedures Load Data From S3",
