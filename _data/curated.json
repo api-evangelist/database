@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "TbqbXKolpU116QCTAFQe123Zmu3Fr5jDs0HWKwy5bQNmlcNCyKiCtVYolKrkmzQY20K41238o6WQeR9vp5OcfxVWSRHQ117117",
+		"item_date": "2016-12-18 00:00:00",
+		"title": "Considerations for SQL Server on Linux",
+		"url": "https://www.codeproject.com/Articles/1161619/Considerations-for-SQL-Server-on-Linux",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7R7lixoJsJxu116123rhBx9w8uxk4PXBixkOhc123Plh9NCEtQh00JTTXl3ORBhXD2WcyqmjUNpkH22ax6I1D79Hjhdg117117",
+		"item_date": "2016-12-18 00:00:00",
+		"title": "Starting an ArangoDB Cluster the Easy Way",
+		"url": "https://dzone.com/articles/starting-an-arangodb-cluster-the-easy-way",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "iQwIAF5KxTz1239s6B6AX4jIHkh1KcaUtkh9NWDd1PD4OJDD9uF61r4VO817kRq1r0VLeLKOI9XM3DjnL8yNTLRA117117",
 		"item_date": "2016-11-04 00:00:00",
 		"title": "Make datadriven decisions with the Asana API and Asana2sql",
