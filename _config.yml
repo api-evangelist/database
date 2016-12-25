@@ -1,4 +1,4 @@
-title:        API Database
+title:        Database APIs
 url:          http://database.apievangelist.com
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-database.png
 logo_width:   80
@@ -25,13 +25,13 @@ tags_path : /tags.html
 # Masthead title
 masthead_link: http://database.apievangelist.com
 masthead_font_size: 65
-masthead_title: '{"API Database"}'
+masthead_title: '{"Database APIs"}'
 
 # Feature
 feature_title: API Guide
 feature_link: http://apievangelist.com
 feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
-feature_image_width: 50
+feature_image_width: 40
 
 # Project
 project_image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-database.png
