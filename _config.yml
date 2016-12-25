@@ -34,7 +34,7 @@ feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/a
 feature_image_width: 40
 
 # Project
-project_image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-database.png
+project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-database-new.png
 project_summary: This is a research project to look at the role the database plays in the API lifecycle. The most common approach to deploying an API is still directly out of the database, onto the web. This is my research into how databases are used as source, and how APIs are used to manage databases. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling I've aggregated here in this research projects Github repository.
 
 # Navigation
