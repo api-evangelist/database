@@ -1,712 +1,1193 @@
-- patent_id: kWL123nTe116DBrWHS8aRr8vaTiypgVR5nMfNm8f0rsrNVc117
-  name: Method and apparatus for maintaining data integrity across distributed computer
-    systems
+- patent_id: IFF7oVZCakmpAbZraiMz123W15XlpNrvuDfZKNabzIsFk117
+  name: API for programmatic retrieval and replay of database trace
   summary: ""
-  abstract: A method and apparatus are generally disclosed for maintaining data integrity
-    across distributed computer systems. In one embodiment, the method of the invention
-    includes the step of transmitting an object from a server application to a client
-    application. The method also includes the step of transmitting an object state
-    from the server application to the client application. The method further includes
-    the steps of synchronizing the object and object state between the server application
-    and the client application, and updating the object by invoking a server application
-    method after the step of synchronizing. An apparatus and article of manufacture
-    for carrying out the steps of the method are also disclosed.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07003587&OS=07003587&RS=07003587
-  owner: Computer Associates Think, Inc.
-  publication_number: 07003587
-  publication_date: "2006-02-21"
-  application_number: 09559237
-  application_date: "2000-04-26"
-  number: 07003587
-  tags:
-  - Deployment
-- patent_id: m93h7SaJEVw6CEslQqqcVOEnTh5kh123JX5ycxDC1xkTg117
-  name: Autonomic control of a distributed computing system in accordance with a hierarchical
-    model
-  summary: ""
-  abstract: 'A distributed computing system conforms to a multi-level, hierarchical
-    organizational model. One or more control nodes provide for the efficient and
-    automated allocation and management of computing functions and resources within
-    the distributed computing system in accordance with the organization model. The
-    model includes four distinct levels: fabric, domains, tiers and nodes that provide
-    for the logical abstraction and containment of the physical components as well
-    as system and service application software of the enterprise. A user, such as
-    a system administrator, interacts with the control nodes to logically define the
-    hierarchical organization of distributed computing system. The control node includes
-    an automation subsystem having one or more rule engines that provide autonomic
-    control of the application nodes in accordance with a set of one or more rules.'
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07680799&OS=07680799&RS=07680799
-  owner: Computer Associates Think, Inc.
-  publication_number: 07680799
-  publication_date: "2010-03-16"
-  application_number: "11074291"
-  application_date: "2005-03-07"
-  number: 07680799
-  tags:
-  - Deployment
-- patent_id: 7FbrSyHpj2ijuNhlR1iZJlslNqfkczae5bJBl3df1m0117
-  name: Deployment of configuration information
-  summary: ""
-  abstract: A system and methods providing the automated configuration management
-    and configuration information communication/deployment for a business process
-    server computing application operating in a distributed computing environment
-    is provided. In an illustrative implementation, a configuration management and
-    configuration information communication/deployment tool operating in a distributed
-    computing environment allows cooperating parties cooperating to operate a business
-    process server computing application to more easily and efficiently update the
-    configuration information of one or components of the business process server
-    computing application responsive to changes in business practice changes between
-    the cooperating parties. In the contemplated implementation, packages are requested
-    by the cooperating parties using the configuration tool. The packages contain
-    information indicative of desired business practice changes and the information
-    required to reconfigure the business application to accommodate such changes.
-    The tool allows for closed loop and real-time testing of the configuration changes.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07797403&OS=07797403&RS=07797403
+  abstract: Trace and replay objects can be designed to automatically perform operations
+    concerning database trace data upon invocation by custom computer processes. Trace
+    data can be saved to any of variety of locations. It can be manipulated for the
+    purpose of storage or replay. Trace data can be played back against any database
+    server using numerous replay configuration options. Replay notifications allow
+    data to be changed just before it is submitted to a database for execution, and
+    allow immediate examination of replay results and validation of playback correctness.
+    Thus, trace and replay objects greatly simplify manageability of trace data. Custom
+    processes can now completely automate security audit and health monitoring of
+    traced database servers. Automatic verification of new server releases and security
+    packs can also be performed. Custom processes can use the provided objects to
+    flexibly access and manipulate the retrieval, storage, and replay of database
+    trace data.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07822741&OS=07822741&RS=07822741
   owner: Microsoft Corporation
-  publication_number: 07797403
-  publication_date: "2010-09-14"
-  application_number: "10193891"
-  application_date: "2002-07-12"
-  number: 07797403
+  publication_number: 07822741
+  publication_date: "2010-10-26"
+  application_number: "10872633"
+  application_date: "2004-06-21"
+  number: 07822741
   tags:
-  - Deployment
-- patent_id: 3123bKgItSumT01SDsMJvgUGApzZ4nN8LDaAwotlWcHFY117
-  name: Method and system for managing information technology data
+  - Testing
+  - Database
+- patent_id: tdEJ3oj0uEbd0tEvg2Hew8z9XWtBeGGlVtVlixtAn3c117
+  name: Searching content managed by a search engine using relational database type
+    queries
   summary: ""
-  abstract: A database system for storing information technology (IT) management operational
-    data and a method and apparatus for managing IT data are provided. The database
-    utilizes an integrated database schema. IT operational data is stored into the
-    database using the integrated database schema and the database is accessed by
-    plural applications and/or products using the integrated database schema.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08037106&OS=08037106&RS=08037106
-  owner: Computer Associates Think, Inc.
-  publication_number: 08037106
-  publication_date: "2011-10-11"
-  application_number: "11366146"
-  application_date: "2006-03-02"
-  number: 08037106
+  abstract: According to one embodiment of the present invention, a system searches
+    content managed by a search engine. The system receives a relational database
+    type query, translates the relational database type query into a query for the
+    search engine, and submits the translated query to the search engine to retrieve
+    information. The system formats resulting information from the search engine into
+    a relational database query result set. Embodiments of the present invention further
+    include a method and computer program product for searching content managed by
+    a search engine in substantially the same manners described above.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09501529&OS=09501529&RS=09501529
+  owner: INTERNATIONAL BUSINESS MACHINES CORPORATION
+  publication_number: 09501529
+  publication_date: "2016-11-22"
+  application_number: "14501393"
+  application_date: "2014-09-30"
+  number: 09501529
   tags:
-  - Deployment
-- patent_id: AnjOpjAypY1cWCKbTE2HmnfRoFCD11685UN5DSnWm123oFA117
-  name: Publish/subscribe mechanism for web services
+  - Search
+  - Database
+- patent_id: V7WQv15BbZHEXWhsMrR6qDr3bsZk116PPyvXGIFlU7123J4117
+  name: Database-driven entity framework for internet of things
   summary: ""
-  abstract: A method for managing events in a web service environment is provided.
-    A request for a subscription to desired events in an event class in an associated
-    catalog namespace of a catalog repository is received from a subscribing application.
-    The subscription request includes an event filter to select the desired events
-    from a plurality of events described by the event class. An event which is received
-    from a web evens source and described by the event class is processed through
-    the event filter. If the received event matches the event filter, the received
-    event is forwarded to the subscribing application through an event listener associated
-    with the subscribing application.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=07958515&OS=07958515&RS=07958515
-  owner: Computer Associates Think, Inc.
-  publication_number: 07958515
-  publication_date: "2011-06-07"
-  application_number: "11063374"
-  application_date: "2005-02-22"
-  number: 07958515
+  abstract: Unified and normalized management of an object within a structured data
+    store on any machine and/or across difference machines. In an embodiment, a first
+    agent accesses a first request dataset representing a two-dimensional structure.
+    Each row in the request dataset comprises an identification of an agent, a statement,
+    an identification of a resource to execute the statement, and one of a plurality
+    of request types. Each row in the request dataset is processed according to the
+    identification of the agent in the row. When the identified agent is the first
+    agent, the request type of the row is accessed, and one or more elements in the
+    row are processed based on the request type. When the identified agent is not
+    the first agent, the row is sent within a second request dataset to the identified
+    agent (which may be on a different machine than the first agent) for processing.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09495401&OS=09495401&RS=09495401
+  owner: ""
+  publication_number: 09495401
+  publication_date: "2016-11-15"
+  application_number: "14685545"
+  application_date: "2015-04-13"
+  number: 09495401
   tags:
-  - Real Time
-  - Deployment
-- patent_id: XuIArxdRZbvqmnW3Qzji4zVd2v8IG7wzur1pHlP2e7U117
-  name: Managing a deployment of a computing architecture
+  - Internet of Things
+  - Database
+- patent_id: Q5ahctkphu4VTXeq8pGLXaCfqOcYAyIhFyl8wZbs6OQ117
+  name: System and method for intelligent database backup
   summary: ""
-  abstract: Embodiments are provided to deploy a number of computing devices based
-    in part on a deployment file, but the embodiments are not so limited. In an embodiment,
-    a dispatch application can be used to deploy a number of computing devices, wherein
-    the deployment includes a number deployment parameters and functions associated
-    with a configuration of the number of computing devices. The dispatch application
-    can be used to deploy a number of computing devices, including virtual devices,
-    logical devices, and other devices and systems. Other embodiments are available.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08010777&OS=08010777&RS=08010777
-  owner: Microsoft Corporation
-  publication_number: 08010777
-  publication_date: "2011-08-30"
-  application_number: "11824673"
-  application_date: "2007-07-02"
-  number: 08010777
+  abstract: Systems and methods are provided for backing up database storage. A protection
+    policy for database storage is activated at a remote host, wherein the database
+    storage is not physically accessible by the computing device, such that the out-of-band
+    storage is not in communication with the remote host through the computing device.
+    A backup request is transmitted to the remote host comprising data indicative
+    of a volume on the database storage to back up according to the protection policy.
+    A response to the backup request is received comprising staging disk requirements
+    including a required size for a staging disk. A staging disk is determined based
+    on the response. The staging disk is presented to the remote host so that the
+    remote host can perform a backup of the volume to the staging disk using a database
+    backup tool provided by a vendor of the database storage.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09495435&OS=09495435&RS=09495435
+  owner: ACTIFIO, INC.
+  publication_number: 09495435
+  publication_date: "2016-11-15"
+  application_number: "13920950"
+  application_date: "2013-06-18"
+  number: 09495435
   tags:
-  - Deployment
-- patent_id: 12c3YiZ4VSqZuEDCr7JObnVGT116QgBEf0jq1fjAywTYI117
-  name: High-level language for specifying configurations of cloud-based deployments
+  - Database
+  - Backup
+- patent_id: e0123123tDRji1166B2axQ36dMHF3kD4QSr8PVWP123oYF0itL4117
+  name: System and method for accessing dimensional databases
   summary: ""
-  abstract: A high-level object-oriented specification language allows configurable
-    components of a cloud-based deployment to be modeled by a class definition that
-    includes a group of configurable class parameters. The object-oriented specification
-    language supports extension of an existing base class definition to create new
-    class definitions, and supports inheritance of class parameters from the existing
-    base class definition by the new class definitions. A cloud-based deployment can
-    be customized based on class definitions used in configuring one or more generic
-    deployments, such as by modifying class parameter values of the class definitions,
-    varying interrelationships between the classes, and supplementing existing class
-    parameters with new class parameters. The high-level object-oriented specification
-    language supports class definitions that model hardware and virtual resources
-    as well as software roles and service roles served by software applications and
-    services in a cloud-based deployment. Syntax for specifying dependency and connectivity
-    between classes is also provided.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08261295&OS=08261295&RS=08261295
-  owner: Google Inc.
-  publication_number: 08261295
-  publication_date: "2012-09-04"
-  application_number: "13247830"
-  application_date: "2011-09-28"
-  number: 08261295
+  abstract: In one embodiment, a method includes defining a slice of a dimensional
+    database. The slice includes at least one dimension and at least one measurement
+    and is expressable as a table. The method further includes building, in a structured
+    query language (SQL) dialect, a single query that queries the slice and one or
+    more non-dimensional databases. The SQL dialect represents the at least one dimension,
+    the at least one measurement, and data attributes of the one or more non-dimensional
+    databases. In addition, the method includes parsing the single query. The parsing
+    includes generating a dimensional query for the dimensional database and a non-dimensional
+    query for each of the one or more non-dimensional databases. Furthermore, the
+    method includes executing the dimensional query on the dimensional database. Moreover,
+    the method includes, for each non-dimensional database of the one or more non-dimensional
+    databases, executing the non-dimensional query on the non-dimensional database.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09495437&OS=09495437&RS=09495437
+  owner: Dell Software Inc.
+  publication_number: 09495437
+  publication_date: "2016-11-15"
+  application_number: "14869072"
+  application_date: "2015-09-29"
+  number: 09495437
   tags:
-  - Deployment
-- patent_id: SJCqH6jviEOP2116Ppx1eE9P2MaU2rd7taBUTt56eIf8w117
-  name: Meta-architecture for multi-tiered enterprise software application and system
+  - Dimensional
+  - Database
+- patent_id: qDpX9PcE4p1thM2bEIYAcJTvnS4KGp7E6PtUh123ofjbI117
+  name: Gateway enablement of analytic database services
   summary: ""
-  abstract: A method for dynamic manipulation of a multi-tiered enterprise software
-    application comprises providing a meta-architecture in a presentation tier of
-    a multi-tiered enterprise software application. The meta-architecture comprises
-    at least screen content associated with the software application. The meta-architecture
-    is capable of tying at least two tiers of the multi-tiered enterprise software
-    application together, and allowing the dynamic manipulation of the multi-tiered
-    enterprise software application without at least one of reprogramming the multi-tiered
-    enterprise software application and recompiling source code for the multi-tiered
-    enterprise software application. The method concludes by storing the meta-architecture
-    in a database repository.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08185915&OS=08185915&RS=08185915
-  owner: Computer Associates Think, Inc.
-  publication_number: 08185915
-  publication_date: "2012-05-22"
-  application_number: "11837184"
-  application_date: "2007-08-10"
-  number: 08185915
-  tags:
-  - Deployment
-- patent_id: j4116Z5O8eQzGnBMxpc5aPxyaReoFjWx1dj1Vp4FLx2OU117
-  name: Automated deployment and configuration of applications in an autonomically
-    controlled distributed computing system
-  summary: ""
-  abstract: A distributed computing system conforms to a multi-level, hierarchical
-    organizational model. One or more control nodes provide for the efficient and
-    automated allocation and management of computing functions and resources within
-    the distributed computing system in accordance with the organization model. A
-    user interacts with the control nodes to logically define the hierarchical organization
-    of distributed computing system. The control node includes an automation subsystem
-    having one or more rule engines that provide autonomic control of the application
-    nodes in accordance with a set of one or more rules. An application governor uses
-    a set of software image objects to configure an application on an application
-    node. Each of the application software image objects share a common interface
-    and are therefore interchangeable.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08140624&OS=08140624&RS=08140624
-  owner: Computer Associates Think, Inc.
-  publication_number: 08140624
-  publication_date: "2012-03-20"
-  application_number: "11607820"
-  application_date: "2006-12-01"
-  number: 08140624
-  tags:
-  - Deployment
-- patent_id: 8YgGs6dUclHv9ODXVikckOnXU5mM3TyIT5diiBYrHGo117
-  name: Metadata driven API development
-  summary: ""
-  abstract: The described method and system synchronizes source code with byproducts
-    or artifacts of an application creation process. In one embodiment, a generation
-    tool may be used to produce source code header files based on a design specification,
-    where the source code header files are compiled with a current version of source
-    code. Compilation errors may direct a developer to modify either the specification
-    or the source code to eliminate the errors. The described method and system may
-    be integrated into a development platform that is adapted to direct the user to
-    perform particular revisions or updates to bring the source code in line with
-    the artifacts.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08117589&OS=08117589&RS=08117589
-  owner: Microsoft Corporation
-  publication_number: 08117589
-  publication_date: "2012-02-14"
-  application_number: "12146462"
-  application_date: "2008-06-26"
-  number: 08117589
-  tags:
-  - Deployment
-- patent_id: pXavtzzmpaQXqjnMhSoGDxnvcajEjeKjZ42123pBHFCdM117
-  name: Enforceable launch configurations
-  summary: ""
-  abstract: Users intending to launch instances or otherwise access virtual resources
-    in a multi-tenant environment can specify a launch configuration. For each type
-    of instance or each type of user, at least one launch configuration is created
-    that includes parameters and values to be used in instantiating an instance of
-    that type, the values being optimized for the current environment and type of
-    instance. Launch configurations can be optimized for different types of users,
-    such as to account for security credentials and access levels. Such an approach
-    enables users to launch instances by contacting the resource provider directly
-    without need for a proxy, which can function as a choke point under heavy load.
-    The use of an appropriate launch configuration can be enforced for any type of
-    user at any level, such as at the sub-net level, by modifying a request that does
-    not specify an appropriate launch configuration.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08560699&OS=08560699&RS=08560699
-  owner: Amazon Technologies, Inc.
-  publication_number: 08560699
-  publication_date: "2013-10-15"
-  application_number: "12979863"
-  application_date: "2010-12-28"
-  number: 08560699
-  tags:
-  - Deployment
-- patent_id: 5wq2Y8YI3glFMwLyOVPbPCl2H0QxC0n012323xAUpxgR0117
-  name: Managing computing deployment in presence of variable workload
-  summary: ""
-  abstract: Automated or autonomic techniques for managing deployment of one or more
-    resources in a computing environment based on varying workload levels. The automated
-    techniques may comprise predicting a future workload level based on data associated
-    with the computing environment. Then, an estimation is performed to determine
-    whether a current resource deployment is insufficient, sufficient, or overly sufficient
-    to satisfy the future workload level. Then, one or more actions are caused to
-    be taken when the current resource deployment is estimated to be insufficient
-    or overly sufficient to satisfy the future workload level. Actions may comprise
-    resource provisioning, resource tuning and/or admission control.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08386995&OS=08386995&RS=08386995
-  owner: Google Inc.
-  publication_number: 08386995
-  publication_date: "2013-02-26"
-  application_number: "11763726"
-  application_date: "2007-06-15"
-  number: 08386995
-  tags:
-  - Deployment
-- patent_id: CKCyg123HQsufd4g1W3Cj16NYVIbBaFJWlX284Dw3e5KM117
-  name: Device authentication within deployable computing environment
-  summary: ""
-  abstract: A deployable computing environment may facilitate interaction and data
-    sharing between users and devices. Users, devices, and relationships between the
-    users and devices may be represented within the deployable computing environment.
-    A relationship between a user and a device may specify that the device is owned
-    by the user and that the device is authorized to perform operations within the
-    deployable computing environment on behalf of the user. Secure authentication
-    of devices and users for interaction within the deployable computing environment
-    is achieved by authenticating tickets corresponding to the user, the device, and
-    the relationship. A device identification ticket and a user identification ticket
-    are used to authenticate the device and user for interaction within the deployable
-    computing environment. A device claim ticket allows the device to perform delegated
-    operations (e.g., data synchronization, peer connectivity, etc.) on behalf of
-    the user without the user's credentials (e.g., user identification ticket).
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08412930&OS=08412930&RS=08412930
-  owner: Microsoft Corporation
-  publication_number: 08412930
-  publication_date: "2013-04-02"
-  application_number: "12248137"
-  application_date: "2008-10-09"
-  number: 08412930
-  tags:
-  - Deployment
-- patent_id: maxk4D7gNTtPz1no5BIm8jJKSgiF5JJ116UcGj6pf782k117
-  name: Metadata driven automatic deployment of distributed server systems
-  summary: ""
-  abstract: Automatic and reliable deployment of system topology to computing devices
-    within an enhanced communication system is provided. Specific roles and features
-    associated with individual devices such as servers are defined in a centrally
-    managed topology document, which is replicated to devices to be configured along
-    with one or more modules for performing local configuration. Upon deployment,
-    the module(s) determine a local device configuration, a desired configuration
-    for the device, and update the device's configuration installing and activating
-    roles and features assigned to the device by the topology document. Feedback regarding
-    the results of the configuration is provided to a central management store such
-    that administration can monitor status of devices within the system. Modifications
-    to the assigned roles and prerequisites for supporting those roles are made dynamically
-    through the same mechanism as system topology changes.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08396949&OS=08396949&RS=08396949
-  owner: Microsoft Corporation
-  publication_number: 08396949
-  publication_date: "2013-03-12"
-  application_number: "12792888"
-  application_date: "2010-06-03"
-  number: 08396949
-  tags:
-  - Deployment
-- patent_id: OdnvhLEqhrAtXYxlHdnsS4ZFwzurB73MRuf7JWZEooc117
-  name: Selecting updates for deployment to a programmable execution service application
-  summary: ""
-  abstract: "A test environment is created for use in selecting updates for deployment
-    to a programmable execution service (\u201CPES\u201D) application. The test environment
-    is created in one embodiment by replicating a production network and one or more
-    production virtual machine instances executing the PES application. Once the test
-    environment has been created, the test environment is utilized to test and select
-    updates for deployment to the PES application. The updates may be selected by
-    deploying the updates to the test environment and using the test environment to
-    determine whether the deployed updates are compatible with the PES application,
-    permit the PES application to continue to operate performantly, and/or permit
-    the PES application to meet one or more business performance metrics. Once the
-    updates have been selected, the updates may be applied to production virtual machine
-    instances executing the PES application."
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08839222&OS=08839222&RS=08839222
-  owner: Amazon Technologies, Inc.
-  publication_number: 08839222
-  publication_date: "2014-09-16"
-  application_number: "13238893"
-  application_date: "2011-09-21"
-  number: 08839222
-  tags:
-  - Deployment
-- patent_id: 0iKFdZLXQ116W81123Rxphkkj5prRJlEP2Zeqz9PCM4kd8o117
-  name: Continuous deployment system for software development
-  summary: ""
-  abstract: Examples of a continuous deployment system are provided that manage and
-    track releases of software code, where some or all of the steps between check-in
-    and deployment to production can be automated. Such systems can reduce the amount
-    of developer effort needed to deploy a package, as developers may not have to
-    be responsible for scheduling package builds, clicking deployment buttons, or
-    manually running tests. The system can take care of all or some of that work.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08677315&OS=08677315&RS=08677315
-  owner: Amazon Technologies, Inc.
-  publication_number: 08677315
-  publication_date: "2014-03-18"
-  application_number: "13245539"
-  application_date: "2011-09-26"
-  number: 08677315
-  tags:
-  - Deployment
-- patent_id: YDyFp3ZAam0nVGnUEzHc116x1KzD877MP87116gJlVC116sG4117
-  name: Web API server program, web API publication method
-  summary: ""
-  abstract: There is provided a technique with which a function that an OSGi bundle
-    is equipped with may be published via a web API with ease. A web API server program
-    according to the present invention receives as an HTTP request a class name and
-    method name of an OSGi bundle (OSGi service) registered with an OSGi framework,
-    calls and executes an OSGi bundle (OSGi service) that matches them, and returns
-    a result thereof as an HTTP response (see FIG. ).
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=08701129&OS=08701129&RS=08701129
-  owner: Hitachi Solutions, Ltd.
-  publication_number: 08701129
-  publication_date: "2014-04-15"
-  application_number: "13635150"
-  application_date: "2011-08-09"
-  number: 08701129
-  tags:
-  - Deployment
-- patent_id: cDRCGJgtsGi4X6G4OS4fPUU123PSdvLwfcYitZWDxjb1230117
-  name: Tag-based deployment to overlapping host sets
-  summary: ""
-  abstract: Methods and systems for deploying software packages are provided. In an
-    example, a deployment service allows users to deploy software packages to target
-    sets of computing devices where the target sets may overlap. The deployment service
-    prevents software packages from being deployed to target sets that would conflict
-    with a software package deployed to at least some of the target set as a result
-    of the target set overlapping with another set.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09110756&OS=09110756&RS=09110756
-  owner: Amazon Technologies, Inc.
-  publication_number: 09110756
-  publication_date: "2015-08-18"
-  application_number: "13705003"
-  application_date: "2012-12-04"
-  number: 09110756
-  tags:
-  - Deployment
-- patent_id: 3R86JVpBHaQ8CuJ123uqgaVuIl6NzY8wcNeJai8KpVuC4117
-  name: Tag-based resource configuration control
-  summary: ""
-  abstract: In a system that provides network-based infrastructure services, customer
-    resources are tagged in accordance with policies provided by the customers. Resources
-    may be automatically tagged upon creation based on the provided policies. In addition,
-    existing resources may be analyzed and automatically tagged to indicate characteristics
-    of the resources that may be of interest to the customer. The customers may also
-    specify configuration policies in terms of resource tags, and the system may be
-    configured to apply and/or enforce the configuration policies.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09112777&OS=09112777&RS=09112777
-  owner: AMAZON TECHNOLOGIES, INC.
-  publication_number: 09112777
-  publication_date: "2015-08-18"
-  application_number: "13633555"
-  application_date: "2012-10-02"
-  number: 09112777
-  tags:
-  - Deployment
-- patent_id: a123x3yJTIipZljZSIOzEjyEvCLIz80ZacayBm116w0ppXE117
-  name: Scalable services deployment
-  summary: ""
-  abstract: "Embodiments provide an abstraction on top of virtual machine allocation
-    APIs to expose scalable services. The services are higher level components that
-    expose a particular set of functionalities. A deployment manager handles matching
-    and managing virtual machine allocations in order to meet the customer demands
-    for the managed services. A deployment service exposes a \u201Cservice\u201D as
-    a unit of resource allocation in a distributed computing environment or cloud
-    computing service. Client components interact with the deployment service to request
-    new service instances to meet customer demand."
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09189285&OS=09189285&RS=09189285
-  owner: MICROSOFT TECHNOLOGY LICENSING, LLC
-  publication_number: 09189285
-  publication_date: "2015-11-17"
-  application_number: "13716066"
-  application_date: "2012-12-14"
-  number: 09189285
-  tags:
-  - Deployment
-- patent_id: ZeFaQ3YG1yO0st80KE1233Sk86Z4hqpDHxRw6IbHeWrwM117
-  name: Provisioning dedicated network resources with API services
-  summary: ""
-  abstract: Embodiments are disclosed that provision a cloud-based service together
-    with a dedicated network connection to provision a cloud-based service element.
-    In response to the request both the cloud-based service element and a dedicated
-    network connection are provisioned. Provisioning the cloud-based service element
-    together with the dedicated network connection enables the cloud-based service
-    element to utilize the dedicated network connection.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09197709&OS=09197709&RS=09197709
-  owner: LEVEL 3 COMMUNICATIONS, LLC
-  publication_number: 09197709
-  publication_date: "2015-11-24"
-  application_number: "14039363"
-  application_date: "2013-09-27"
-  number: 09197709
-  tags:
-  - Network
-  - Deployment
-- patent_id: rggyIx564Pqtiahyk8k5ho59f0vx9qOAWkp8OFPRPmY117
-  name: Tag-based deployment
-  summary: ""
-  abstract: Methods and systems for deploying upgrades are provided. In an example,
-    a release package containing upgrade for software application, operating system,
-    firmware and the like may be tagged with one or more package tags. Each of the
-    package tags may be associated with a tag category comprising one or more tag
-    values which may form a tag hierarchy. In an example, a target host for a upgrade
-    release may be tagged with one or more host tags similar to the package tags.
-    In an embodiment, a release package may be selected from a plurality of release
-    packages to be deployed to a host by matching the package tags associated with
-    the release package to the host tags associated with the host. The package tags,
-    host tags and associated tag categories may be arbitrarily defined and/or extended.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09489188&OS=09489188&RS=09489188
-  owner: Amazon Technologies, Inc.
-  publication_number: 09489188
+  abstract: An example database system comprises one or more database servers configured
+    to serve database data of a database and configured to provide database services
+    and a generic database gateway server coupled to the one or more database servers,
+    the generic database gateway server configured to provide an interface to define
+    analytic database services which can be called during run-time by inputting a
+    uniform resource identifier at a user device to provide to the user device with
+    database server data processed by one or more predefined analytic operations,
+    the generic database gateway server being configured to obtain, during design
+    time, a specification of an analytic database service by selecting database server
+    data of the one or more database servers and one or more analytic operations to
+    be applied on the selected data by the analytic database service, convert the
+    obtained specification of the analytic database service into one or more objects
+    in a format that can be processed on the one or more database servers, wherein
+    the one or more objects include one or more analytic database service data objects
+    specifying one or more attributes of the analytic database service and one or
+    more analytic database service metadata objects, the one or more analytic database
+    service metadata objects including annotations to the attributes of the one or
+    more analytic database service data objects to be processed by the one or more
+    database servers to implement the one or more predefined analytic operations and
+    provide the one or more converted objects to the one or more database servers
+    to be called by a user by inputting a uniform resource identifier.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09489436&OS=09489436&RS=09489436
+  owner: SAP SE
+  publication_number: 09489436
   publication_date: "2016-11-08"
-  application_number: "13677200"
-  application_date: "2012-11-14"
-  number: 09489188
+  application_number: "14265698"
+  application_date: "2014-04-30"
+  number: 09489436
+  tags:
+  - Database
+  - Analytics
+- patent_id: tT123aZdf1qZMZgw9HNjL7UTo0QHCIWdGHo4qx7ZyP2Ks117
+  name: Master data management database asset as a web service
+  summary: ""
+  abstract: A method, system, apparatus, and article of manufacture is configured
+    to expose a database asset as a web service. A relational database management
+    system (RDBMS) that stores information is executed in a computer system. As part
+    of a process and framework, a series of business rules and process workflows are
+    maintained that manage data that resides in RDBMS tables. A rule is created that
+    contains an application programming interface definition with predefined input
+    and output for exposing the database asset as the web service. The rule is exposed
+    as the web service. The web service is used to invoke a database operation based
+    on the database asset, and to output a result.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09489437&OS=09489437&RS=09489437
+  owner: Teradata US, Inc.
+  publication_number: 09489437
+  publication_date: "2016-11-08"
+  application_number: "13250716"
+  application_date: "2011-09-30"
+  number: 09489437
   tags:
   - Deployment
-- patent_id: mPl4b6DZ9281U23i4BRURWbRl5UTwN1eJ3skB116SXFsY117
-  name: Continuous deployment system for software development
+  - Database
+- patent_id: FoqMI1gNZMwQRh1plwjxAWoll9lGOvEwuvjS2dI7j6o117
+  name: Scheduling of splits and moves of database partitions
   summary: ""
-  abstract: Examples of a continuous deployment system are provided that manage and
-    track releases of software code, where some or all of the steps between check-in
-    and deployment to production can be automated. Such systems can reduce the amount
-    of developer effort needed to deploy a package, as developers may not have to
-    be responsible for scheduling package builds, clicking deployment buttons, or
-    manually running tests. The system can take care of all or some of that work.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09454351&OS=09454351&RS=09454351
+  abstract: A system that implements a data storage service may store data in multiple
+    replicated partitions on respective computing nodes on behalf of clients. A storage
+    node may, based on the amount of provisioned resources on a given storage device
+    or logical volume, identify candidate partition management operations to be performed,
+    and may send information about the operations to a central partition management
+    scheduler. The scheduler may apply a global prioritization scheme to determine
+    an order in which to perform the candidate operations. The order may be based
+    on whether the operations include partition splits or partition moves, whether
+    they aim to reduce provisioned storage capacity or reduce throughput capacity
+    on a storage device or logical volume, whether they conflict with each other,
+    whether the total number of partitions (or replicas thereof) involved in partition
+    management at any given time exceeds a pre-determined limit, or whether they were
+    requested by clients.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09489443&OS=09489443&RS=09489443
   owner: Amazon Technologies, Inc.
-  publication_number: 09454351
-  publication_date: "2016-09-27"
-  application_number: "14196875"
-  application_date: "2014-03-04"
-  number: 09454351
+  publication_number: 09489443
+  publication_date: "2016-11-08"
+  application_number: "13902419"
+  application_date: "2013-05-24"
+  number: 09489443
   tags:
-  - Deployment
-- patent_id: FewwMoXvkYVpKkB3STL9H2RYtKSNJ3CBGGKFSb7Dh3M117
-  name: Approaches for deployment approval
+  - Maintenance
+  - Database
+- patent_id: T0NbBR2gNu116mZNUWcdWPTkAmqQ1YKc7cQaPgBCduCFc117
+  name: Isolating resources and performance in a database management system
   summary: ""
-  abstract: A deployment approval system receives, from a deployment tool, a deployment
-    request for performing a deployment to a particular resource. The deployment approval
-    system can identify at least one rule for approving or rejecting the deployment
-    request based on one or more criteria. The deployment approval system can determine
-    whether the deployment request satisfies the one or more criteria in the at least
-    one rule to approve or reject the request. If the deployment request is approved,
-    the deployment approval system sends an approval to the deployment tool to perform
-    the deployment. The deployment tool can then perform the deployment and, once
-    the deployment is complete, the deployment approval system can receive a confirmation
-    of the deployment. The deployment approval system can then store data describing
-    the deployment in an audit repository.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09438599&OS=09438599&RS=09438599
-  owner: Amazon Technologies, Inc.
-  publication_number: 09438599
-  publication_date: "2016-09-06"
-  application_number: "14231109"
-  application_date: "2014-03-31"
-  number: 09438599
-  tags:
-  - Deployment
-- patent_id: H0sqhECeI208D1n123Vbr01TW29rzFO4sSb123GIQ116wZ1PA117
-  name: Network device configuration deployment pipeline
-  summary: ""
-  abstract: The following description is directed to configuring network devices.
-    In one example, a deployed configuration for a network device can be collected.
-    The deployed configuration can be representative of a state of the network device
-    at the time of collection. A difference can be detected between the deployed configuration
-    and an authoritative configuration for the network device. In response to detecting
-    the difference, an update of the network device according to the authoritative
-    configuration for the network device can be scheduled.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09419856&OS=09419856&RS=09419856
-  owner: Amazon Technologies, Inc.
-  publication_number: 09419856
-  publication_date: "2016-08-16"
-  application_number: "14557165"
-  application_date: "2014-12-01"
-  number: 09419856
-  tags:
-  - Deployment
-- patent_id: S7ez1231NEhMAXXmGPF8uhCIanndU4AamftTJ8cL0Vsi4117
-  name: Middleware services framework for on-premises and cloud deployment
-  summary: ""
-  abstract: A framework and middleware services for developing, deploying and managing
-    composite applications is disclosed. The middleware services may be deployed on-premises
-    or in the cloud. The framework includes a rich collection of middleware services,
-    an application model to compose services into a composite application, a high-density
-    multi-tenant scalable container to host the composition logic, and unified lifecycle
-    management of the composite application and its constituent services.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09336060&OS=09336060&RS=09336060
-  owner: MICROSOFT TECHNOLOGY LICENSING, LLC
-  publication_number: 09336060
-  publication_date: "2016-05-10"
-  application_number: "13163620"
-  application_date: "2011-06-17"
-  number: 09336060
-  tags:
-  - Deployment
-- patent_id: UR1Gqbfuq1FH0N09kN116MYvC7PYPM7u9UF0Wpx32EjN0117
-  name: Automating deployment of service applications by exposing hosting environment
-    constraints
-  summary: ""
-  abstract: Methods, systems, and computer-readable media for automating deployment
-    of service applications by exposing environmental constraints in a service model
-    are provided. In general, the methods are performed in the context of a general
-    purpose platform configured as a server cloud to run various service applications
-    distributed thereon. Accordingly, the general purpose platform may be flexibly
-    configured to manage varying degrees of characteristics associated with each of
-    the various service applications. Typically, these characteristics are provided
-    in the service model that governs the environmental constraints under which each
-    component program of the service application operates. As such, hosting environments
-    are selected and adapted to satisfy the environmental constraints associated with
-    each component program. Adapting the hosting environments includes installing
-    parameters transformed from configuration settings of each component program via
-    map constructs, thereby refining the hosting environment to support operation
-    of the component program.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09300532&OS=09300532&RS=09300532
+  abstract: Techniques for tenant performance isolation in a multiple-tenant database
+    management system are described. These techniques may include providing a reservation
+    of server resources. The server resources reservation may include a reservation
+    of a central processing unit (CPU), a reservation of Input/Output throughput,
+    and/or a reservation of buffer pool memory or working memory. The techniques may
+    also include a metering mechanism that determines whether the resource reservation
+    is satisfied. The metering mechanism may be independent of an actual resource
+    allocation mechanism associated with the server resource reservation.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09477710&OS=09477710&RS=09477710
   owner: Microsoft Technology Licensing, LLC
-  publication_number: 09300532
-  publication_date: "2016-03-29"
-  application_number: "12258156"
-  application_date: "2008-10-24"
-  number: 09300532
+  publication_number: 09477710
+  publication_date: "2016-10-25"
+  application_number: "13747686"
+  application_date: "2013-01-23"
+  number: 09477710
   tags:
-  - Deployment
-- patent_id: FJKTI7yrO2l0ddXNbUxZajic0foVU123Objr38nECTMt4117
-  name: Deployable, consistent, and extensible computing environment platform
+  - Performance
+  - Database
+- patent_id: rPa48phzXRKdPwR3kvZlphYazz1116qyYUB5116XCnYGXSo117
+  name: Systems and user interfaces for dynamic access of multiple remote databases
+    and synchronization of data based on user rules
   summary: ""
-  abstract: The diverse objects comprising a computing environment may be represented
-    together as a deployable object hierarchy, which may facilitate the deployment,
-    as well as the consistency, of a computing environment rendered by a plurality
-    of devices. The processes within the computing environment often operate on the
-    objects of the object hierarchy in a variety of ways, including simple operations
-    (creation, reading, updating, and deleting) and more sophisticated operations
-    (synchronizing, paginating, and caching), as well as with the object hierarchy
-    in general. A platform may be devised to facilitate the various operations of
-    the processes on the object hierarchy. The platform may be embodied, such as in
-    an application runtime, and deployed to a variety of platforms to facilitate an
-    equivalent execution of the processes on any type of device and consistent interactions
-    with the object hierarchy.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09298747&OS=09298747&RS=09298747
-  owner: Microsoft Technology Licensing, LLC
-  publication_number: 09298747
-  publication_date: "2016-03-29"
-  application_number: "12052556"
-  application_date: "2008-03-20"
-  number: 09298747
+  abstract: A computing system is configured to access a plurality of remote databases
+    in order to identify data inconsistencies between the remote databases and provide
+    user interfaces to a user in order to initiate communication via one or more APIs
+    to certain remote databases indicating updates that reconcile said data inconsistencies.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09477737&OS=09477737&RS=09477737
+  owner: CONSUMERINFO.COM, INC.
+  publication_number: 09477737
+  publication_date: "2016-10-25"
+  application_number: "14548016"
+  application_date: "2014-11-19"
+  number: 09477737
   tags:
-  - Deployment
-- patent_id: hL9tIINRf79xSd32jGYX1AeqmhbP116nOGAmKd116XOIcn4117
-  name: Method and system for realizing rest interface of cloud cache in Nginx
+  - Sync
+  - Database
+- patent_id: Q1m8O123A82E2PjlJNNlCO31QWyI6QUFngPBe3xx2w174117
+  name: Intermediate data format for database population
   summary: ""
-  abstract: 'The present invention provides a method for realizing a REST (Representational
-    State Transfer) interface of a cloud cache in an Nginx. The method includes: receiving
-    a Hyper Text Transport Protocol (HTTP) message transmitted from a client, and
-    parsing out key information and an operation type corresponding to the HTTP message
-    according to a preset configuration file; converting the key information and the
-    operation type into a parameter required by a cloud cache operation and a cloud
-    cache operation type, and transmitting the parameter to a cloud cache apparatus,
-    so that the cloud cache apparatus performs the cloud cache operation according
-    to the parameter and the cloud cache operation type; receiving a cloud cache operation
-    result returned by the cloud cache apparatus, processing the cloud cache operation
-    result, and returning the processed result to the client. The present invention
-    also provides a corresponding system. The present invention enables a larger cache
-    capacity and better saves CPU resources, thereby enabling a more powerful cache
-    function of the Nginx.'
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09332085&OS=09332085&RS=09332085
-  owner: ZTE Corporation
-  publication_number: 09332085
-  publication_date: "2016-05-03"
-  application_number: "14241689"
-  application_date: "2012-04-23"
-  number: 09332085
-  tags:
-  - Deployment
-- patent_id: xbPusqWUal5GoI18orFvMszwtvq9NaVtoTxWdIo3nsc117
-  name: API platform that includes server-executed client-based code
-  summary: ""
-  abstract: A technique for providing an API from a server to one of more endpoint
-    devices including receiving a request for data from a endpoint device, retrieving
-    one or more data resources from the data resources available within the server,
-    based upon the request, manipulating the data within the retrieved data resources
-    into a response optimized for the endpoint device, and transmitting the response
-    to the endpoint device.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09485305&OS=09485305&RS=09485305
-  owner: NETFLIX, Inc.
-  publication_number: 09485305
-  publication_date: "2016-11-01"
-  application_number: "13890782"
-  application_date: "2013-05-09"
-  number: 09485305
-  tags:
-  - Deployment
-- patent_id: QzxIPrhPsD4YLJueaUw9KS96H0zOmjnRSIfvq4dT8jM117
-  name: Generating virtualized application programming interface (API) implementation
-    from narrative API documentation
-  summary: ""
-  abstract: A virtualized Application Program Interface (API) implementation is generated
-    based upon narrative API documentation that includes sentences that describe the
-    API, by generating programming statements for the virtualized API implementation
-    based upon parsing the narrative API documentation, and generating the virtualized
-    API implementation based on upon the programming statements for the virtualized
-    API implementation. The parsing of the narrative documentation may use a natural
-    language parser and a domain-specific ontology for the API that may be obtained
-    or created for the API. The virtualized API implementation may be generated using
-    an API virtualizer.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09471283&OS=09471283&RS=09471283
-  owner: CA, Inc.
-  publication_number: 09471283
+  abstract: An approach is provided that receives input from multiple data sources
+    and transforms it into a common, intermediate format, where only one generic parser
+    is required for the purpose of transformation into RDF, and the subsequent input
+    to a triplestore database. A triplestore management tool provides this capability.
+    The triplestore management tool includes a formatting component configured to
+    receive data sources from a plurality of data source parsers, and transform each
+    of the data sources into a single format. A parsing component parses each transformed
+    data source at a common parser, and loads each of the transformed data sources
+    from the common parser to a triplestore database.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09471653&OS=09471653&RS=09471653
+  owner: International Business Machines Corporation
+  publication_number: 09471653
   publication_date: "2016-10-18"
-  application_number: "14302140"
-  application_date: "2014-06-11"
-  number: 09471283
+  application_number: "13282083"
+  application_date: "2011-10-26"
+  number: 09471653
+  tags:
+  - Database
+- patent_id: gKi3116mz0S8b0yYm5836jJ5GRSBkY6Yt123m2C5TC2N3UY117
+  name: Metric gathering and reporting system for identifying database performance
+    and throughput problems
+  summary: ""
+  abstract: A database back end system includes a monitoring server operable to poll
+    a first database for a first query running on the first database and add the first
+    query to a query list in a second database, and a reporting server operable to
+    normalize the first query, analyze the second database to find a second query
+    in the query list, wherein the second query is found based upon the normalized
+    first query, and report the second query to a user, wherein the reporting is based
+    upon the analyzing of the second database to find the second query.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09465850&OS=09465850&RS=09465850
+  owner: SECUREWORKS CORP.
+  publication_number: 09465850
+  publication_date: "2016-10-11"
+  application_number: "14704366"
+  application_date: "2015-05-05"
+  number: 09465850
+  tags:
+  - Performance
+  - Monitoring
+  - Database
+- patent_id: 0ddKx4YwOgStrgi5DnEP3LQDuvF39H4cvqlfteR47Fc117
+  name: Rotational maintenance of database partitions
+  summary: ""
+  abstract: A distributed database management system may comprise a group of partitions
+    that includes a master writeable partition and one or more additional partitions
+    that act as read-only replicas of the master. A rotational mechanism for performing
+    maintenance operations on non-master partitions may be employed to transition
+    a second partition, selected for undergoing maintenance, into a role as the new
+    master following performance of the maintenance operation.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09460126&OS=09460126&RS=09460126
+  owner: Amazon Technologies, Inc.
+  publication_number: 09460126
+  publication_date: "2016-10-04"
+  application_number: "14337009"
+  application_date: "2014-07-21"
+  number: 09460126
+  tags:
+  - Maintenance
+  - Database
+- patent_id: Mml76gzviIagsQf5E0q116JKtLTs3TMwg0D0UtrzJJ3gM117
+  name: Managing databases in data storage systems
+  summary: ""
+  abstract: There is disclosed a method for use in managing databases in data storage
+    systems comprising a plurality of nodes. A request is received to provision storage
+    for a specified application intending to use a database. Based on application-awareness,
+    the storage system is provisioned for storing the database in response to receiving
+    the request. Database tables are distributed across the nodes based on a forecasted
+    first I/O profile between application and database. Information is captured in
+    connection with the activity between the application and database. A second I/O
+    profile is determined based on the captured information. The second I/O profile
+    is an actual in-running I/O profile between application and database. The first
+    I/O profile and second I/O profile are compared. The database tables are re-organized
+    on the nodes based on the comparison identifying a discrepancy between first and
+    second I/O profiles such that storage system is rebalanced.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09460136&OS=09460136&RS=09460136
+  owner: EMC Corporation
+  publication_number: 09460136
+  publication_date: "2016-10-04"
+  application_number: "13173455"
+  application_date: "2011-06-30"
+  number: 09460136
+  tags:
+  - Storage
+  - Database
+- patent_id: tiBx123O2qOyr4CJ123px68qSWKRD0MTpIP40LmpTgH3GUk117
+  name: Storage device selection for database partition replicas
+  summary: ""
+  abstract: A system that implements a data storage service may store data in multiple
+    replicated partitions on respective storage nodes. The selection of the storage
+    nodes (or storage devices thereof) on which to store the partition replicas may
+    be performed by administrative components that are responsible for partition management
+    and resource allocation for respective groups of storage nodes (e.g., based on
+    a global view of resource capacity or usage), or the selection of particular storage
+    devices of a storage node may be determined by the storage node itself (e.g.,
+    based on a local view of resource capacity or usage). Placement policies applied
+    at the administrative layer or storage layer may be based on the percentage or
+    amount of provisioned, reserved, or available storage or IOPS capacity on each
+    storage device, and particular placements (or subsequent operations to move partition
+    replicas) may result in an overall resource utilization that is well balanced.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09460185&OS=09460185&RS=09460185
+  owner: Amazon Technologies, Inc.
+  publication_number: 09460185
+  publication_date: "2016-10-04"
+  application_number: "14733887"
+  application_date: "2015-06-08"
+  number: 09460185
+  tags:
+  - Replication
+  - Database
+- patent_id: C1164123RLJiesh9JuOcHJLMOswidSYhS5wQrNr116qGkEXD8117
+  name: Creation of a graph database of a virtualization infrastructure
+  summary: ""
+  abstract: In a computer-implemented method for creating a graph database of a virtualization
+    infrastructure, data defining entities and relationships of the entities of a
+    virtualization infrastructure is received at a graph database, wherein the relationships
+    of the entities are in accordance with an inventory structure of the virtualization
+    infrastructure. The graph database is populated with the entities and the relationships
+    of the entities of the virtualization infrastructure.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09460187&OS=09460187&RS=09460187
+  owner: VMware, Inc.
+  publication_number: 09460187
+  publication_date: "2016-10-04"
+  application_number: "13912358"
+  application_date: "2013-06-07"
+  number: 09460187
   tags:
   - Virtualization
-  - Deployment
-- patent_id: 1u5Mkhf0KpUHtPK3m6gGQubxur5i0llHFWa0FPOqDFc117
-  name: Self-service composed web APIs
+  - Graph
+  - Database
+- patent_id: pbzoDSy3uSVyzcuZfgVBhJA5f5GU7eE0SEHxHO6329Y117
+  name: Secure storage and retrieval of data in a database with multiple data classes
+    and multiple data identifiers
   summary: ""
-  abstract: Individual datasets are accessed using an application programming interface
-    (API). Multiple APIs may be combined into a composite API that allows a user to
-    access multiple datasets using a single query. The composite API may be designed
-    to provide a simpler way to consume information from multiple datasets in response
-    to a particular scenario or problem. The composite API may comprise multiple levels
-    of intermediate APIs that call on each other to access desired datasets. A user
-    may select the datasets that the composite API accesses and/or the composite API
-    may require certain specific datasets. The composite API may be offered for sale
-    or use by other users via a website, such as a data market.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09262183&OS=09262183&RS=09262183
-  owner: MICROSOFT TECHNOLOGY LICENSING, LLC
-  publication_number: 09262183
-  publication_date: "2016-02-16"
-  application_number: "13453772"
-  application_date: "2012-04-23"
-  number: 09262183
+  abstract: Secure storage and retrieval of data is provided with multiple data classes
+    and data identifiers. Data values of a client are stored by receiving one or more
+    authentication sets, at least one data value, an associated data class of the
+    data value and a pseudo-random client value; calculating a data seed value based
+    on the pseudo-random client value, a pseudo-random server value and the associated
+    data class of the data value; generating a random data index value; generating
+    a database index value based on the data seed value and the random data index
+    value; storing the database index value; and providing the random data index value
+    to the client. The client can be authenticated at the time of storage based on
+    the one or more authentication sets. The authentication of the client and the
+    storage of the data can be atomic such that only authenticated clients store the
+    one or more data values. Techniques are also provided for the retrieval of stored
+    data.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09455973&OS=09455973&RS=09455973
+  owner: EMC Corporation
+  publication_number: 09455973
+  publication_date: "2016-09-27"
+  application_number: "14139978"
+  application_date: "2013-12-24"
+  number: 09455973
+  tags:
+  - Database
+- patent_id: oBMgx0W8EYYMbW6UtxgccNYuh0DZqmTTv3Fm99ZjyNY117
+  name: Streaming restore of a database from a backup system
+  summary: ""
+  abstract: A distributed data warehouse system may maintain data blocks on behalf
+    of clients in multiple clusters in a data store. Each cluster may include a single
+    leader node and multiple compute nodes, each including multiple disks storing
+    data. The warehouse system may store primary and secondary copies of each data
+    block on different disks or nodes in a cluster. Each node may include a data structure
+    that maintains metadata about each data block stored on the node, including its
+    unique identifier. The warehouse system may back up data blocks in a remote key-value
+    backup storage system with high durability. A streaming restore operation may
+    be used to retrieve data blocks from backup storage using their unique identifiers
+    as keys. The warehouse system may service incoming queries (and may satisfy some
+    queries by retrieving data from backup storage on an as-needed basis) prior to
+    completion of the restore operation.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09449038&OS=09449038&RS=09449038
+  owner: Amazon Technologies, Inc.
+  publication_number: 09449038
+  publication_date: "2016-09-20"
+  application_number: "13792643"
+  application_date: "2013-03-11"
+  number: 09449038
+  tags:
+  - Restore
+  - Database
+  - Backup
+- patent_id: 5IErEPPIkxiiBqlIMI5zk123A9RnTsbKPQLnoWre0JA9M117
+  name: Automatic repair of corrupted blocks in a database
+  summary: ""
+  abstract: A distributed data warehouse system maintains data blocks on behalf of
+    clients, and stores primary and secondary copies of data blocks on different disks
+    or nodes in a cluster. The data warehouse system may back up data blocks in a
+    key-value backup storage system. In response to a query targeting a data block
+    previously stored in the cluster, the data warehouse system may determine whether
+    a consistent, uncorrupted copy of the data block is available in the cluster (e.g.,
+    by applying a consistency check). If not (e.g., if a disk or node failed), the
+    data warehouse system may automatically initiate an operation to restore the data
+    block from the backup storage system, using a unique identifier of the data block
+    to access a backup copy. The target data may be returned in a query response prior
+    to restoring primary and secondary copies of the data block in the cluster.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09449039&OS=09449039&RS=09449039
+  owner: Amazon Technologies, Inc.
+  publication_number: 09449039
+  publication_date: "2016-09-20"
+  application_number: "13792671"
+  application_date: "2013-03-11"
+  number: 09449039
+  tags:
+  - Repair
+  - Maintenance
+  - Database
+- patent_id: Uv8G7w3j5vucQEuCl3pnL0VcUkkqOrEADNlJ5xUNgY0117
+  name: Customizable storage system for virtual databases
+  summary: ""
+  abstract: A database storage system provides replication capability that allows
+    data from a source database and application specific data from a source application
+    to be replicated respectively to a target database storage system and a target
+    application, thereby creating a virtual database and a virtual application. The
+    database storage system generates a plurality of snapshots of the virtual database
+    at a corresponding plurality of time points and a plurality of snapshots of the
+    virtual application at the corresponding plurality of time points. The database
+    storage system associates the plurality of snapshots of the virtual database with
+    the plurality of snapshots of the virtual application at the corresponding plurality
+    of time points so as to generate a historical time-sequence of concurrent modifications
+    to both the virtual database and the virtual application at the one or more development
+    environments, thereby allowing concurrent read/write and rollback, of data and
+    applications.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09436556&OS=09436556&RS=09436556
+  owner: Delphix Corp.
+  publication_number: 09436556
+  publication_date: "2016-09-06"
+  application_number: "14322597"
+  application_date: "2014-07-02"
+  number: 09436556
+  tags:
+  - Storage
+  - Database
+- patent_id: qtvFxuVnWxi51ssVai5mfF593RDVu0KcKh116RK123LJfOI117
+  name: Optimization of mixed database workload scheduling and concurrency control
+    by mining data dependency relationships via lock tracking
+  summary: ""
+  abstract: The present disclosure relates generally to the field of determining data
+    access patterns associated with different workloads. In various examples, determining
+    data access patterns associated with different workloads may be implemented in
+    the form of systems, methods and/or algorithms. The present disclosure also relates
+    generally to the field of scheduling workloads (and/or recommending scheduling
+    for workloads) based upon the determined data access patterns associated with
+    the different workloads. In various examples, scheduling workloads (and/or recommending
+    scheduling for workloads) may be implemented in the form of systems, methods and/or
+    algorithms.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09436721&OS=09436721&RS=09436721
+  owner: International Business Machines Corporation
+  publication_number: 09436721
+  publication_date: "2016-09-06"
+  application_number: "14193221"
+  application_date: "2014-02-28"
+  number: 09436721
+  tags:
+  - Database
+- patent_id: AtwnpuRVnBZt5oz4K2EGhHs9uP5YtwacPqc2116ivaBqI117
+  name: Migrating data in tables in a database
+  summary: ""
+  abstract: 'Techniques for migrating data in a database include identifying an update
+    to one or more data entries of a source table; determining that a status of a
+    trigger associated with the source table indicates to update a logging table,
+    and in response: updating, in a first transaction, (i) the one or more data entries
+    of the source table, and (ii) one or more data entries of the logging table based
+    on the user input, and copying content of the source table to a target table;
+    and determining that the status indicates to update the target table, and in response:
+    updating, in a second transaction, (i) the one or more data entries of the source
+    table and (ii) one or more data entries of the target table based on the user
+    input, and updating the content of the target table based on the one or more data
+    entries of the logging table.'
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09436724&OS=09436724&RS=09436724
+  owner: SAP SE
+  publication_number: 09436724
+  publication_date: "2016-09-06"
+  application_number: "14059380"
+  application_date: "2013-10-21"
+  number: 09436724
+  tags:
+  - Migration
+  - Database
+- patent_id: zdovhE6FUwmN9DA0PS8HWaqBxQ3QKYgt3TweYUS06mU117
+  name: Implementation of clustered in-memory database
+  summary: ""
+  abstract: An in-memory database system and method for administrating a distributed
+    in-memory database, comprising one or more nodes having modules configured to
+    store and distribute database partitions of collections partitioned by a partitioner
+    associated with a search conductor. Database collections are partitioned according
+    to a schema. Partitions, collections, and records, are updated and removed when
+    requested by a system interface, according to the schema. Supervisors determine
+    a node status based on a heartbeat signal received from each node. Users can send
+    queries through a system interface to search managers. Search managers apply a
+    field processing technique, forward the search query to search conductors, and
+    return a set of result records to the analytics agents. Analytics agents perform
+    analytics processing on a candidate results records from a search manager. The
+    search conductors comprising partitioners associated with a collection, search
+    and score the records in a partition, then return a set of candidate result records
+    after receiving a search query from a search manager.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09430547&OS=09430547&RS=09430547
+  owner: QBase, LLC
+  publication_number: 09430547
+  publication_date: "2016-08-30"
+  application_number: "14558254"
+  application_date: "2014-12-02"
+  number: 09430547
   tags:
   - Deployment
-- patent_id: C116gE0UoVSN1uZy123azTnjbVrKQPon39IHUyRGFs3fH5M117
-  name: Methods and systems for supporting a rendering API using a runtime environment
+  - Database
+- patent_id: 9HX5q38SonsxdXlEQYLKXdCqUC116116116QrKGF8kwXCOdDQ117
+  name: Optimizing data synchronization between mobile clients and database systems
   summary: ""
-  abstract: A computing device can comprise an I/O interface and a processing element
-    connected to the I/O interface and implementing a runtime environment. The processing
-    element can implement a program component that causes the processing element to
-    expose a rendering API not natively supported by the runtime environment, the
-    rendering API invocable by code comprised in a markup document accessed by the
-    processor over the I/O interface. The rendering API can be exposed by causing
-    the runtime environment to respond to and update a proxy object that mirrors properties,
-    methods, and behaviors defined by the rendering API.
-  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09286142&OS=09286142&RS=09286142
-  owner: Adobe Systems Incorporated
-  publication_number: 09286142
-  publication_date: "2016-03-15"
-  application_number: "13081728"
-  application_date: "2011-04-07"
-  number: 09286142
+  abstract: Mechanisms and methods are provided for optimizing data synchronization
+    between clients and database systems. These mechanisms and methods provide optimizations
+    for synchronization requests, by either breaking a synchronization request into
+    multiple smaller requests, or by executing different code routines for differing
+    client types, or by pre-caching data that a user is anticipated to want at a future
+    point. Such optimization techniques can enable clients with varying capacities
+    (e.g., mobile client vs. full desktop client) to optimally utilize their respective
+    device capabilities.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09424329&OS=09424329&RS=09424329
+  owner: salesforce.com, inc.
+  publication_number: 09424329
+  publication_date: "2016-08-23"
+  application_number: "14480424"
+  application_date: "2014-09-08"
+  number: 09424329
+  tags:
+  - Sync
+  - Database
+- patent_id: 116r3G216R3sTJb6jceBmW116Pm2XPYlik3aJtMH1GHJ2Bs117
+  name: Method for efficiently processing comments to records in a database, while
+    avoiding replication/save conflicts
+  summary: ""
+  abstract: A system for processing comment contents associated with a parent document
+    by providing a parent document user interface including a display object enabling
+    a user to enter comment contents, creating a comment document associated with
+    said parent document and storing said comment contents in said comment document,
+    obtaining said comment contents from said comment document and displaying said
+    comment contents within a region of said parent document user interface, copying,
+    in response to detecting a change of state of said parent document from a state
+    in which comments can be added to a state in which comments cannot be added, said
+    comment contents from said comment document into said parent document, deleting
+    said comment document, and presenting said comment contents after deleting said
+    comment document.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09424553&OS=09424553&RS=09424553
+  owner: GOOGLE INC.
+  publication_number: 09424553
+  publication_date: "2016-08-23"
+  application_number: "13610121"
+  application_date: "2012-09-11"
+  number: 09424553
+  tags:
+  - Replication
+  - Database
+- patent_id: O1g4cF116TdHOc3t9Ma5KTsDfgfhsA06eMvLbuOGXcDD8117
+  name: Database-independent mechanism for retrieving relational data as XML
+  summary: ""
+  abstract: Techniques are disclosed for retrieving both data stored in relational
+    form and data stored in XML form responsive to a single XQuery query. The techniques
+    allow applications to retrieve relational data residing in various relational
+    database management systems by using XQuery and XQuery for Java. In one such embodiment,
+    an embeddable serverless computer component implements the techniques, and includes
+    a combination of one or more relational adaptors and a mediator to access relational
+    data and transform it into appropriate XML. The techniques are embeddable, and
+    can be standards-based, database-independent, and operating-system independent.
+    Optimized performance and scalability from desktop to enterprise applications
+    are enabled as the number of users and/or database size increases.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09411851&OS=09411851&RS=09411851
+  owner: Progress Software Corporation
+  publication_number: 09411851
+  publication_date: "2016-08-09"
+  application_number: "13872967"
+  application_date: "2013-04-29"
+  number: 09411851
+  tags:
+  - Database
+- patent_id: 6123uavZpPFpvlJyDmRelcM7Ppqu58ttlmNVaHp485FKE117
+  name: Mass delete restriction in a database
+  summary: ""
+  abstract: In an approach for limiting mass deletions from database tables, a computer
+    receives a deletion request corresponding to data in a database table. The computer
+    determines whether the database table includes a restriction of a mass deletion.
+    Responsive to determining the database table includes a restriction of a mass
+    deletion of data from a database table, the computer determines whether the quantity
+    of data in the deletion request exceeds the restriction of a mass deletion. Responsive
+    to determining the quantity of data in the deletion request exceeds the restriction
+    of a mass deletion, the computer prevents execution of the deletion request.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09405788&OS=09405788&RS=09405788
+  owner: International Business Machines Corporation
+  publication_number: 09405788
+  publication_date: "2016-08-02"
+  application_number: "14163684"
+  application_date: "2014-01-24"
+  number: 09405788
+  tags:
+  - Database
+- patent_id: t8F4SdufHXezss0Q8ArvPghoOXR7TSvcqxLcW07xJY4117
+  name: Systems and methods for managing replicated database data
+  summary: ""
+  abstract: Systems and methods for replicating database data and generating read-only
+    copies of the replicated data in a clean shutdown state. For example, systems
+    can include a tracking module (e.g., a filter driver) that monitors transactions
+    from a database application to a source storage device to generate log entries
+    having at least one marker indicating a known good state of the application. The
+    systems further include a computer coupled to a target storage device comprising
+    a database and log files. The computer processes the transactions, based on the
+    log entries, to replicate data to the target storage device; performs a first
+    snapshot on data stored in the database and log files; replays into the database
+    data stored in the log files; performs another snapshot on the database; and reverts
+    the database back to a state in which the database existed at the time of the
+    first snapshot.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09396244&OS=09396244&RS=09396244
+  owner: Commvault Systems, Inc.
+  publication_number: 09396244
+  publication_date: "2016-07-19"
+  application_number: "14675506"
+  application_date: "2015-03-31"
+  number: 09396244
+  tags:
+  - Replication
+  - Database
+- patent_id: zlty78NZuPg1gr48Y116554SRqJtQ8zhiUwzoy2LWnZcU117
+  name: Virtual database rewind
+  summary: ""
+  abstract: A database storage system allows users to modify the state of a virtual
+    database. The database storage system provides a respective virtual database (VDB)
+    at a respective destination, the respective VDB having a first timeflow stored
+    in a respective container. A user can send a request to rewind a VDB. The request
+    identifies timeflow of the VDB and a state of the VDB associated with a timeflow.
+    The database storage system modifies the virtual database to refer to database
+    blocks associated with a snapshot of the VDB associated with the identified timeflow.
+    The database storage system maintains a new timeflow for the modified VDB. The
+    database storage system also allows the virtual database to be refreshed to a
+    state of a source database. The source database can be a database stored in an
+    external system or a virtual database stored within the database storage system.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09396074&OS=09396074&RS=09396074
+  owner: Delphix Corp.
+  publication_number: 09396074
+  publication_date: "2016-07-19"
+  application_number: "14324485"
+  application_date: "2014-07-07"
+  number: 09396074
+  tags:
+  - Database
+- patent_id: 123TFQN3jdKl1Az116JRhYauqZbKtHNOuM6116RFhGE0Jz2w8117
+  name: Interfacing with a virtual database system
+  summary: ""
+  abstract: User interactions with a database storage system allow creation of virtual
+    databases based on point-in-time copies associated with a source database. Multiple
+    point-in-time copies are obtained for each source database. A point-in-time copy
+    retrieves data changed in the source database since the retrieval of a previous
+    point-in-time copy. A virtual database (VDB) is created by creating a set of files
+    in the data storage system and mounting the files on a database server allowing
+    the database server to access the files. User interactions allow the user to specify
+    the source database, a point in time associated with the source database and a
+    destination server to create the virtual database. User input can specify other
+    attributes associated with the virtual database including the file paths, database
+    parameters etc. The user can specify schedules of various actions, including making
+    and retention of point-in-time copies.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09389962&OS=09389962&RS=09389962
+  owner: Delphix Corporation
+  publication_number: 09389962
+  publication_date: "2016-07-12"
+  application_number: "14573761"
+  application_date: "2014-12-17"
+  number: 09389962
+  tags:
+  - Database
+- patent_id: Loc9cWlu1163pvszzQi9yQGKxeQ123XgiBLS5X9rYdKjnFo117
+  name: Database architecture for storing multi-structured data
+  summary: ""
+  abstract: In various embodiments, a system for ingesting, organizing, and storing
+    data is disclosed. The system comprises a processor and a memory unit. A document
+    database is stored by the memory unit. The document database is configured to
+    store data without any foreknowledge of a structure of the data. The data comprises
+    an ontology comprising a plurality of terms describing the data within the document
+    database. A graph database is stored by the memory unit. The graph database comprises
+    a materialized view of the document database. The graph database provides connections
+    between the ontology. The document database and the graph database share common
+    entity profile UUIDs.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09390159&OS=09390159&RS=09390159
+  owner: ZEPHYR HEALTH, INC.
+  publication_number: 09390159
+  publication_date: "2016-07-12"
+  application_number: "14203160"
+  application_date: "2014-03-10"
+  number: 09390159
+  tags:
+  - Database
+- patent_id: UrSB1zzcJNXBVGqL0urmYdaSTl116w0sifCCrEP9QWmng117
+  name: Systems and methods for searching cloud-based databases
+  summary: ""
+  abstract: Systems and methods for searching cloud-based databases are provided herein.
+    A service provider may have a need to make their database(s) searchable through
+    search technology. However, the service provider may not have the resources to
+    implement such search technology. The search technology may allow for search queries
+    against these cloud-based databases. The technology described herein provides
+    a solution addressing the service provider's need, by giving a search technology
+    that furnishes search results in a fast, accurate manner. In further embodiments,
+    systems and methods to monetize those search results are also described herein.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09390434&OS=09390434&RS=09390434
+  owner: SoundHound, Inc.
+  publication_number: 09390434
+  publication_date: "2016-07-12"
+  application_number: "13890194"
+  application_date: "2013-05-08"
+  number: 09390434
+  tags:
+  - Search
+  - Database
+- patent_id: 116m15LE42iBDc7yiWqUrTSa34116r7TqEnHa2i9sf5JVV0117
+  name: Database query language gateway
+  summary: ""
+  abstract: A method includes receiving a query request, generating a modified query
+    in a database query language by modifying a stored query in the database query
+    language based on the query request, and transmitting the modified query to a
+    database endpoint. The method includes receiving query results in the database
+    query language and converting by the processor the query results from the database
+    query language to a format usable by a reporting engine.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09384248&OS=09384248&RS=09384248
+  owner: INTERNATIONAL BUSINESS MACHINES CORPORATION
+  publication_number: 09384248
+  publication_date: "2016-07-05"
+  application_number: "13914107"
+  application_date: "2013-06-10"
+  number: 09384248
+  tags:
+  - Gateway
+  - Database
+- patent_id: UL0HS35QnqX9f8n62rVhHZFAnrzFATOnCs5h123v8b3Bs117
+  name: Systems and methods for exporting, publishing, browsing and installing on-demand
+    applications in a multi-tenant database environment
+  summary: ""
+  abstract: In accordance with embodiments, there are provided mechanisms and methods
+    for creating, exporting, viewing and testing, and importing custom applications
+    in a multitenant database environment. These mechanisms and methods can enable
+    embodiments to provide a vehicle for sharing applications across organizational
+    boundaries. The ability to share applications across organizational boundaries
+    can enable tenants in a multi-tenant database system, for example, to easily and
+    efficiently import and export, and thus share, applications with other tenants
+    in the multi-tenant environment.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09378227&OS=09378227&RS=09378227
+  owner: salesforce.com, inc.
+  publication_number: 09378227
+  publication_date: "2016-06-28"
+  application_number: "14160537"
+  application_date: "2014-01-21"
+  number: 09378227
+  tags:
+  - Export
+  - Database
+- patent_id: mfVm4VARKleChSdwXTAgXppQHtfijzF4jlTnxOSTn9M117
+  name: Methods, systems, and computer-readable media for providing a query layer
+    for cloud databases
+  summary: ""
+  abstract: A method, non-transitory computer readable medium, and apparatus for receiving
+    data from a cloud database. One or more queries requesting data from the cloud
+    database are received. The one or more queries are converted from a row-store
+    database query into a column-store database query. An optimal join plan is identified
+    for the one or more queries using a cost based optimizer based on metadata for
+    one or more relations in the cloud database. The optimal join plan is executed
+    using a cloud application programming interface.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09372890&OS=09372890&RS=09372890
+  owner: Infosys Technologies, Ltd.
+  publication_number: 09372890
+  publication_date: "2016-06-21"
+  application_number: "13304043"
+  application_date: "2011-11-23"
+  number: 09372890
+  tags:
+  - Database
+- patent_id: E123mVZi3fuPOZC123sqhuXPYctTTK0gK116nWi6mdwM9rD24117
+  name: Method for efficient database formation and search on media devices acting
+    synchronously with television programming
+  summary: ""
+  abstract: Techniques for efficient database formation and search in applications
+    embedded in a media device are provided. The search may be performed synchronously
+    with presentation of media programming content on a nearby media presentation
+    device. A mobile media device captures some temporal fragments of the presented
+    audio/video content on its microphone and camera, and then generates query fingerprints
+    for the captured fragment. A local reference database resides on the mobile media
+    device and a master reference database resides on a remote server with a most
+    recent chunk of reference fingerprints transferred dynamically to the local mobile
+    media device. A chunk of the query fingerprints generated locally on the mobile
+    media device are searched on the local reference database for continuous content
+    search and identification. The method presented automatically switches between
+    the local search on the mobile media device and a remote search on an external
+    search server.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09367544&OS=09367544&RS=09367544
+  owner: Gracenote, Inc.
+  publication_number: 09367544
+  publication_date: "2016-06-14"
+  application_number: "13826502"
+  application_date: "2013-03-14"
+  number: 09367544
+  tags:
+  - media
+  - Database
+- patent_id: gz7d5lb424ref6hVX116QfDSDMypMdWzYGQsRcu2hbkZ4117
+  name: Methods and apparatus for suppressing network feed activities using an information
+    feed in an on-demand database service environment
+  summary: ""
+  abstract: Disclosed are systems, apparatus, methods, and computer readable media
+    for suppressing network feed activities using an information feed in an on-demand
+    database service environment. In one embodiment, a message is received, including
+    data indicative of a user action. An entity associated with the user action is
+    identified, where the entity is a type of record stored in a database. A type
+    of the entity is identified. It is determined whether the entity type is a prohibited
+    entity type. When the entity type is not a prohibited entity type, the message
+    data is saved to one or more tables in the database. The tables are configured
+    to store feed items of an information feed capable of being displayed on a device.
+    When the entity type is a prohibited entity type, the saving of the message data,
+    to the one or more tables in the database configured to store the feed items,
+    is prohibited.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09367643&OS=09367643&RS=09367643
+  owner: salesforce.com, inc.
+  publication_number: 09367643
+  publication_date: "2016-06-14"
+  application_number: "14245743"
+  application_date: "2014-04-04"
+  number: 09367643
+  tags:
+  - Feed
+  - Database
+- patent_id: kh116sWAUEKg123aYBcpvP0CYU8xHbIEI2FXZFsu8S2QtmQ117
+  name: Systems and methods of using an artificially intelligent database management
+    system and interfaces for mobile, embedded, and other computing devices
+  summary: ""
+  abstract: "The current disclosure generally relates to database management systems
+    (DBMSs) and may be generally directed to methods and systems of using artificial
+    intelligence (i.e. machine learning and/or anticipation functionalities, etc.)
+    to learn a user's use of a DBMS, store this \u201Cknowledge\u201D in a knowledgebase,
+    and anticipate the user's future operating intentions. The current disclosure
+    may also be generally directed to associative methods and systems of constructing
+    DBMS commands. The current disclosure may also be generally directed to methods
+    and systems of using a simplified DBMS command language (SDCL) for associative
+    DBMS command construction. The current disclosure may also be generally directed
+    to artificially intelligent methods and systems for associative DBMS command construction.
+    The current disclosure may also be generally directed to methods and systems for
+    associative DBMS command construction through voice input. Other methods, systems,
+    features, elements and/or their embodiments are also disclosed."
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09367806&OS=09367806&RS=09367806
+  owner: ""
+  publication_number: 09367806
+  publication_date: "2016-06-14"
+  application_number: "13962948"
+  application_date: "2013-08-08"
+  number: 09367806
+  tags:
+  - Mobile
+  - Embedded
+  - Database
+- patent_id: S8lU1yvQK19kpewylP1qAs9EWZBkfk8WxfxmwPiLPRI117
+  name: Interfacing with a virtual database system
+  summary: ""
+  abstract: User interactions with a database storage system allow creation of virtual
+    databases based on point-in-time copies associated with a source database. Multiple
+    point-in-time copies are obtained for each source database. A point-in-time copy
+    retrieves data changed in the source database since the retrieval of a previous
+    point-in-time copy. A virtual database (VDB) is created by creating a set of files
+    in the data storage system and mounting the files on a database server allowing
+    the database server to access the files. User interactions allow the user to specify
+    the source database, a point in time associated with the source database and a
+    destination server to create the virtual database. User input can specify other
+    attributes associated with the virtual database including the file paths, database
+    parameters etc. The user can specify schedules of various actions, including making
+    and retention of point-in-time copies.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09361186&OS=09361186&RS=09361186
+  owner: Delphix Corporation
+  publication_number: 09361186
+  publication_date: "2016-06-07"
+  application_number: "14573761"
+  application_date: "2014-12-17"
+  number: 09361186
   tags:
   - Deployment
+  - Database
+- patent_id: nXuSX5Xs8TtMwYx1166JTDFnVhvjs1v6pnRYSEWrcd123Wg117
+  name: Database replication
+  summary: ""
+  abstract: A database server receives a request from a client application for performing
+    a data transaction on persistent data storage. The request is sent to a set of
+    replication servers. An acknowledgement for the request is received from each
+    replication server, including a start sequence number and an end sequence number
+    for data that is stored in local cache of the replication server, and a latest
+    committed sequence number for data that was written to the persistent data storage
+    by the replication server. A maximum value of latest committed sequence numbers
+    received from the set of replication servers is determined. For each replication
+    server, it is examined whether there is a gap between the start sequence number
+    for data stored in local cache and the maximum value of the latest committed sequence
+    numbers. Based on the examining, it is determined whether there is an occurrence
+    of loss of data.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09361348&OS=09361348&RS=09361348
+  owner: Google Inc.
+  publication_number: 09361348
+  publication_date: "2016-06-07"
+  application_number: "14444220"
+  application_date: "2014-07-28"
+  number: 09361348
+  tags:
+  - Replication
+  - Database
+- patent_id: 1hTvKlTtIIccyqrLEYtWF0ma8ngtKqKp8cpQtmJ2akY117
+  name: Accessing schema-free databases
+  summary: ""
+  abstract: Accessing a schema-free database includes constructing a model indicating
+    a structure for the data to be used by applications accessing the data, validating
+    the model based on the structure and on the data stored in the schema-free database,
+    providing an API based on the structure, and accessing the database using the
+    API. The model may be constructed by extracting data structure information from
+    a program. The program may be written in the Ruby programming language or the
+    Python programming language. The API may be a RESTful API.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09361359&OS=09361359&RS=09361359
+  owner: EMC Corporation
+  publication_number: 09361359
+  publication_date: "2016-06-07"
+  application_number: "12586719"
+  application_date: "2009-09-25"
+  number: 09361359
+  tags:
+  - Database
+- patent_id: VOVkbhgWYc0Iw8cqRU123JKrWBHfLQGI8Y02116XfvATpnw117
+  name: Using a graph database of a virtualization infrastructure
+  summary: ""
+  abstract: In a computer-implemented method for providing management of a virtualization
+    infrastructure, a query related to the virtualization infrastructure is received.
+    A graph database of the virtualization infrastructure is accessed, the graph database
+    including nodes associated with members of the virtualization infrastructure and
+    edges associated with relationships of the members of the virtualization infrastructure,
+    wherein the nodes and the relationships include types. An answer to the query
+    is received from the graph database.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09355163&OS=09355163&RS=09355163
+  owner: VMware, Inc.
+  publication_number: 09355163
+  publication_date: "2016-05-31"
+  application_number: "13912389"
+  application_date: "2013-06-07"
+  number: 09355163
+  tags:
+  - Graph
+  - Database
+- patent_id: IfdloA0kizc1162EglpkU2Y8Qmnm5cuneRZLY9dxzD0cg117
+  name: Systems and methods for searching cloud-based databases
+  summary: ""
+  abstract: Systems and methods for searching cloud-based databases are provided herein.
+    A service provider may have a need to make their database(s) searchable through
+    search technology. However, the service provider may not have the resources to
+    implement such search technology. The search technology may allow for search queries
+    against these cloud-based databases. The technology described herein provides
+    a solution addressing the service provider's need, by giving a search technology
+    that furnishes search results in a fast, accurate manner. In further embodiments,
+    systems and methods to monetize those search results are also described herein.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09355407&OS=09355407&RS=09355407
+  owner: Soundhound, Inc.
+  publication_number: 09355407
+  publication_date: "2016-05-31"
+  application_number: "13481514"
+  application_date: "2012-05-25"
+  number: 09355407
+  tags:
+  - Search
+  - Database
+- patent_id: uiOT0U123m4V1f7aQ7ceMyYwDIAG4wPUp1239aMMTE123zKjs117
+  name: Searching content managed by a search engine using relational database type
+    queries
+  summary: ""
+  abstract: According to one embodiment of the present invention, a system searches
+    content managed by a search engine. The system receives a relational database
+    type query, translates the relational database type query into a query for the
+    search engine, and submits the translated query to the search engine to retrieve
+    information. The system formats resulting information from the search engine into
+    a relational database query result set. Embodiments of the present invention further
+    include a method and computer program product for searching content managed by
+    a search engine in substantially the same manners described above.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09348870&OS=09348870&RS=09348870
+  owner: INTERNATIONAL BUSINESS MACHINES CORPORATION
+  publication_number: 09348870
+  publication_date: "2016-05-24"
+  application_number: "14173980"
+  application_date: "2014-02-06"
+  number: 09348870
+  tags:
+  - Search
+  - Relational
+  - Database
+- patent_id: gMkzJ76L1GbS9fcY9h0tgJDOTnbfAybiTOvdsEk3Me4117
+  name: Managing a binary object in a database system
+  summary: ""
+  abstract: A method for managing a binary object in a database system is provided.
+    The method may include receiving a request to store the binary object and determining
+    if a size of the binary object is above a first threshold. If the size is less
+    than the first threshold, the method may include storing the binary object in
+    a database of the database system using a database communication protocol. If
+    the size is above the first threshold, the method may include determining if the
+    size is above a second threshold. To this end, if the size is less than the second
+    threshold, the method may include storing the binary object in a file system of
+    the database system using the database communication protocol. Furthermore, if
+    the size is above the second threshold, the method may include storing the binary
+    object in the file system using a file system communication protocol.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09336218&OS=09336218&RS=09336218
+  owner: Microsoft Technology Licensing, LLC
+  publication_number: 09336218
+  publication_date: "2016-05-10"
+  application_number: "14487066"
+  application_date: "2014-09-15"
+  number: 09336218
+  tags:
+  - Database
+- patent_id: uQ9opFG0Q1h7k1167UmzBtKTeKfiW123n7tYUbZmj7g8O9s117
+  name: Techniques for accessing a parallel database system via external programs
+    using vertical and/or horizontal partitioning
+  summary: ""
+  abstract: Techniques for accessing a parallel database system via an external program
+    using vertical and/or horizontal partitioning are provided. An external program
+    to a database management system (DBMS) configures external mappers to process
+    a specific portion of query results on specific access module processors of the
+    DBMS that are to house query results. The query is submitted by the external program
+    to the DBMS and the DBMS is directed to organize the query results in a vertical
+    or horizontal manner. Each external mapper accesses its portion of the query results
+    for processing in parallel on its designated AMP or set of AMPS to process the
+    query results.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09336270&OS=09336270&RS=09336270
+  owner: Teradata US, Inc.
+  publication_number: 09336270
+  publication_date: "2016-05-10"
+  application_number: "14218160"
+  application_date: "2014-03-18"
+  number: 09336270
+  tags:
+  - Database
+- patent_id: 4xhkcmfaFm1161160K4N3SARf2QWeUixpjxgbUgtNeCB8II117
+  name: Collection of web server performance metrics to a centralized database for
+    reporting and analysis
+  summary: ""
+  abstract: Systems, methods, and computer-readable media are provided for, among
+    other things, generating web server performance metrics from log file information
+    and storing the metrics offline in a centralized database. A collector accesses
+    log file information from a log file for a web server and generates web server
+    performance metrics on a per web page basis. The web server metrics include a
+    number of requests for a web page, error count for the web page, average response
+    time for the web page, total number of bytes transferred for the web page, and
+    a number of times a service level objection for the web page was exceeded. The
+    web server metrics are stored in a centralized database such that the metrics
+    are available for offline web server performance reporting and analysis.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09330051&OS=09330051&RS=09330051
+  owner: Sprint Communications Company L.P.
+  publication_number: 09330051
+  publication_date: "2016-05-03"
+  application_number: "11945398"
+  application_date: "2007-11-27"
+  number: 09330051
+  tags:
+  - Performance
+  - Database
+  - Analysis
+- patent_id: pxQyJgGYP4rybuYTSOe9pjQsOzC982Jm123oHNKAS1szE117
+  name: Methods and systems to facilitate providing spreadsheet and database data
+    to users via a social network
+  summary: ""
+  abstract: A spreadsheet application platform facilitates accessing a spreadsheet
+    stored using a spreadsheet database at a server computer. The spreadsheet application
+    platform includes a computer-implemented social network, and a publisher may use
+    the social network to publish a spreadsheet so that other users of the social
+    network may subscribe to and access the spreadsheet's data. Further, a subscribed
+    user may generate other spreadsheets that reference the publisher's spreadsheet
+    via the application platform. When a stored value for a cell of the publisher's
+    spreadsheet is updated at the spreadsheet database, the application platform may
+    generate update requests for one or more target spreadsheet cells that reference
+    the updated cell. An update request may indicate that a target cell is to be updated,
+    and the application platform may process a plurality of update requests in parallel
+    to update the stored values for a corresponding plurality of spreadsheet cells.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09330080&OS=09330080&RS=09330080
+  owner: SAP SE
+  publication_number: 09330080
+  publication_date: "2016-05-03"
+  application_number: "13169325"
+  application_date: "2011-06-27"
+  number: 09330080
+  tags:
+  - Spreadsheet
+  - Social
+  - Database
+- patent_id: Y83wUf1n8OiQq0Djo9TQD26iOzwEPNub0dTEAVJjjPo117
+  name: Transient virtual single tenant queries in a multi-tenant shared database
+    system
+  summary: ""
+  abstract: A data processing method comprising using an application server computer,
+    establishing a shared multi-tenant system in which tenant data that is associated
+    with tenants is stored together in a real shared data store system; providing
+    to a tenant computing device identifiers that identify virtual objects, wherein
+    each of the virtual objects represents a data entity that is stored in the real
+    shared data store system; receiving a SQL query from the tenant computing device
+    that specifies a data operation on a first virtual object of the virtual objects;
+    rewriting the SQL query by dynamically replacing the first virtual object with
+    an identifier of a function; executing the function and the rewritten query without
+    explicit metadata to generate a result set; sending the result set to the tenant
+    computing device.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09330140&OS=09330140&RS=09330140
+  owner: XACTLY CORPORATION
+  publication_number: 09330140
+  publication_date: "2016-05-03"
+  application_number: "14799210"
+  application_date: "2015-07-14"
+  number: 09330140
+  tags:
+  - Database
+- patent_id: dPR8LzToxUWs7z3MQ62CdkgWo116123GnaKxT2Hkq8Umag4117
+  name: Application programming interface (API) for navigation applications that merges
+    incremental updates with existing map database
+  summary: ""
+  abstract: A system and method for efficiently updating the map database in a mobile
+    computing system, such as a vehicle navigation system. The system includes a central
+    server that computes changes between the latest version of a master map database
+    and a previous version of the map database, and wirelessly transmits the changes
+    to participating vehicles' onboard navigation systems. The navigation system stores
+    the changes in a look-aside buffer, and a navigation processor uses the stored
+    changes to update a base map database.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09304005&OS=09304005&RS=09304005
+  owner: GM Global Technology Operations LLC
+  publication_number: 09304005
+  publication_date: "2016-04-05"
+  application_number: "12631708"
+  application_date: "2009-12-04"
+  number: 09304005
+  tags:
+  - Database
+- patent_id: K2V405Bs116mFnYF3pn9S1fkiVatY9116rtON9N9nlwvoik117
+  name: Systems, methods, and apparatuses for implementing data upload, processing,
+    and predictive query API exposure
+  summary: ""
+  abstract: Disclosed herein are systems and methods for implementing data upload,
+    processing, and predictive query API exposure including means for receiving a
+    dataset in a tabular form, the dataset having a plurality of rows and a plurality
+    of columns; processing the dataset to generate indices representing probabilistic
+    relationships between the rows and the columns of the dataset; storing the indices
+    in a database; exposing an Application Programming Interface (API) to query the
+    indices in the database; receiving a request for a predictive query or a latent
+    structure query against the indices in the database; querying the database for
+    a prediction based on the request via the API; and returning the prediction responsive
+    to the request. Other related embodiments are further disclosed.
+  url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=09367853&OS=09367853&RS=09367853
+  owner: salesforce.com, inc.
+  publication_number: 09367853
+  publication_date: "2016-06-14"
+  application_number: "14014221"
+  application_date: "2013-08-29"
+  number: 09367853
+  tags:
+  - Search
+  - Predictive
+  - Database
