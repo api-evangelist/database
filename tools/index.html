@@ -1,34 +1,86 @@
 ---
 layout: page
-title: 'Database API Tooling'
 ---
-<h1>{{ site.title }} Tooling</h1>
+<h3>{{ site.tools_title }}</h3>
 <p>{{ site.tools_desc }}</p>
-<table width="100%" border="0">
-  {% for tool in site.data.tools %}
-    {% if tool.tags contains 'Database' %}
+<center>
+<table width="90%" border="0" align="center" cellpadding="5">
     <tr>
-      <td align="center" valign="middle" width="160">
-        <a href="{{ tool.url }}"><img src="{{ tool.logo }}" width="150" align="left" style="padding: 15px;" /></a>
+      <td align="center" valign="middle" height="100" width="25%">
+        <p><a href="database/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-database-new.png" width="100" /></a></p>
       </td>
-      <td align="left" width="75%">
-        <a href="{{ tool.url }}" style="color: #000;">
-          <strong>{{ tool.name }}</strong>
-        </a>
-        <p>{{ tool.details }}</p>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="frameworks/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-framework.png" width="115" /></a></p>
       </td>
-      <td width="75" align="center" valign="middle">
-          <a href="{{ tool.url }}" target="_blank" title="Website">
-            <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="50" />
-          </a>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="microservices/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-microservice.png" width="105" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="real-time/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-real-time.png" width="100" /></a></p>
       </td>
     </tr>
     <tr>
-      <td colspan="3">
-        <hr>
+      <td align="center" valign="top">
+        <p><a href="database/"><strong>Database</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="frameworks/"><strong>Framework</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="microservices/"><strong>Microservices</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="real-time/"><strong>Real Time</strong></a></p>
       </td>
     </tr>
-    {% endif %}
-  {% endfor %}
+    <tr>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="containers/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-shipping-container.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="search/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-search.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="mock/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-mock-interface.png" width="80" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="serverless/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-serverless.png" width="100" /></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <p><a href="containers/"><strong>Containers</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="search/"><strong>Search</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="mock/"><strong>Mock</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="serverless/"><strong>Serverless</strong></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="connectors/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-connector.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%">
+        <p><a href="internet-of-things/"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-internet-of-things.png" width="100" /></a></p>
+      </td>
+      <td align="center" valign="middle" width="25%"></td>
+      <td align="center" valign="middle" width="25%">  </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <p><a href="connectors/"><strong>Connector</strong></a></p>
+      </td>
+      <td align="center" valign="top">
+        <p><a href="internet-of-things/"><strong>Internet of Things</strong></a></p>
+      </td>
+      <td align="center" valign="top"></td>
+      <td align="center" valign="top"></td>
+    </tr>
 </table>
-<p>If there is an "open source tool" that should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues">submit as a Github Issue, and I will consider adding</a>.</p>
+</center>
+<p>{{ site.tools_footer }}</p>

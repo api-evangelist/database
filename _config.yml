@@ -1,4 +1,4 @@
-title:        Database APIs
+title:        API Database
 url:          http://database.apievangelist.com
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-database.png
 logo_width:   80
@@ -11,27 +11,30 @@ author:
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-
-paginate: 150
-paginate_path: "/blog/page:num"
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 org: api-evangelist
 repo: database
 
+paginate: 150
+paginate_path: "/blog/page:num"
+
+categories_path : /categories.html
+tags_path : /tags.html
+
 # Masthead title
 masthead_link: http://database.apievangelist.com
-masthead_font_size: 90
-masthead_title: '{"Database APIs"}'
+masthead_font_size: 65
+masthead_title: '{"API Database"}'
 
 # Feature
 feature_title: API Guide
 feature_link: http://apievangelist.com
 feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
-feature_image_width: 45
+feature_image_width: 50
 
 # Project
-project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-database.png
+project_image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-database.png
 project_summary: This is a research project to look at the role the database plays in the API lifecycle. The most common approach to deploying an API is still directly out of the database, onto the web. This is my research into how databases are used as source, and how APIs are used to manage databases. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling I've aggregated here in this research projects Github repository.
 
 # Navigation
@@ -68,7 +71,7 @@ navigation:
     size1: 80
     extend: 1
     label2: JSON
-    link2: /data/organizations.json
+    link2: /data/companies.json
     size2: 60
     padding: 0
     decorate: 0
@@ -120,10 +123,32 @@ footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empower
 footer_image_width: 60
 
 # curated
-curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to database API--these are the links I am including in my research.
+curated_desc:
+curated_title: News I Have Curated
+curated_desc: AAs I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to API database--these are the links I am including in my research.
+curated_footer: If there is something you think should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding.
+
+# Blog
+blog_title: Blog Posts on API Database
+blog_desc: These are posts from the API Evangelist blog that are focused on API deplooyment, allowing for a filtered look at my analysis on the topic. I rely on these posts, along with the curated, organizations, APIs, and tools to help paint me a picture of what is going on.
+blog_footer: If there is an API database related story you'd like me to know about, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding as part of my research.
 
 # organizations
-org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with database API. These are the organizations I'm currently including in my database API research.
+org_title: Some Organizations To Watch
+org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with API database. These are the organizations I'm currently including in my API database research.
+org_footer: If there is an organization you think should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding.
 
 # tools
-tools_desc: These are the open source database related tooling that I am tracking on as part of my research, and can be used as part of the database process.
+tools_title: API Database Tooling
+tools_desc: These are the open source API database tooling that I am tracking on as part of my research, and can be used to help in the API database process.
+tools_footer: If there is an open source tool that should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues">submit as a Github Issue, and I will consider adding</a>, if it is open source, and fits into this API design research.
+
+# building blocks
+building_block_title: API Database Building Blocks
+building_block_desc: As I monitor the API space I am always on the hunt for the common building blocks that make up any area of my work--these are some of the common elements I have aggregated from across the world of API database.
+building_block_footer: I am always adding to, and shifting my lists of the common building blocks as I evolve my understand of the space, and who is doing interesting things with API depoyment.
+
+# patents
+patent_title: API Database Patents
+patent_desc: I have been tracking on API related patents for some years, trying to understand how APIs are being referenced in patents, and in some cases the focus of the patent. Here are the patents I've tagged as being DNS related from the companies who are doing interesting things with DNS APIs.
+patent_footer: I tend to process the new patent filings and publications every couple of weeks. When ready I try to publish them along with my research.
