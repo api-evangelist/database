@@ -1,5 +1,45 @@
 [
 	{
+		"curated_id": "ayW7Gshev2F57123FDrSIjwDjvwFeV7123snC2123Mup0sdC116B8Bb8VNZp70zNqWhlCGDmyDbfjEpxkb07h61168PCjJbw117117",
+		"item_date": "2017-01-13 00:00:00",
+		"title": "Dont Let Your Apps and Databases Become a Ransomware Targets How to Protect Your Database",
+		"url": "https://dzone.com/articles/dont-let-your-applications-and-databases-become-a",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7yR6116b4fuA2Ke0lJzCwunSPWrUbc2RPykslnKosFR1M2ev123KYwoMz48I9P1E4OjS4pehz7Pl123i7h3FAzXD1232Pg117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "Reaching and harnessing consensus with ArangoDB",
+		"url": "https://www.arangodb.com/2017/01/reaching-harnessing-consensus-arangodb/",
+		"domain": "www.arangodb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "S1236sIOZ06o2CPnb79NgHwUNpzW1yhmIJEo8QmvLC5xUPICFPeHMANQVYiIE8NxjR81D9pef123hRX612317f5RKE116g117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "The Apache Software Foundation Announces Apache Zest Renamed to Apache Polygene",
+		"url": "https://blogs.apache.org/foundation/entry/the-apache-software-foundation-announces2",
+		"domain": "blogs.apache.org",
+		"image": ""
+	},
+	{
+		"curated_id": "116ZV2ly2rpq116icZHsUHXfhIcdacXgMfTAJzGSKTWOqOOIUySb0bM6IqKL1LFnGE9SM9YpPqpe1161161QE3lhILnc3w117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "How to Manage Electronic Library Databases with Intellexer API",
+		"url": "https://www.programmableweb.com/news/how-to-manage-electronic-library-databases-intellexer-api/how-to/2017/01/09",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "bi5vnvuQ8re9g74YJ60EU9cIo4oRjOkqvPV4GjBmbr00gjGsn4bnMMrDD116lDU6r9t1YOoab4LkHDOSZAVrhFkg117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "MongoDB vs Couchbase Part 2 JSON Tooling and Indexes",
+		"url": "https://dzone.com/articles/mongodb-vs-couchbase-part-2-json-tooling-and-more",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "3VMCxKbSxzsS51Gqfe2zlOBryCPwMsiSv4KXe0iLfAzBZ6ahAWRyI9S116KeA116123oJvh11601DDnh2rm116n7el1230xB4w117117",
 		"item_date": "2017-01-04 00:00:00",
 		"title": "An Overview of Query Language Types",
