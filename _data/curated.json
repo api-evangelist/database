@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "r66re93uvTKLfxWMF4FoFOpckvp506WQ0DRh4qsVsmYln2WO7QuBAJTK83ZcGwWcBC3xVd1WvefuFLR116i5u6qg117117",
+		"item_date": "2017-01-17 00:00:00",
+		"title": "Incorporating the Database Into the DevOps Tool Chain",
+		"url": "https://dzone.com/articles/3-tools-to-help-incorporate-the-database-into-the",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "1235s4LkjR3ffLTTHmzUgn116rB4WaNSUnzfKM7kX2emv3dr7NPXFe4cMpCRkRlO4QT2O4QUuRBt1164wpgsXmpqCrow117117",
 		"item_date": "2017-01-21 00:00:00",
 		"title": "Improving Azure SQL Database Performance using InMemory Technologies",
@@ -13,6 +21,14 @@
 		"title": "Attackers start wiping data from CouchDB and Hadoop databases",
 		"url": "http://www.pcworld.com/article/3159527/security/attackers-start-wiping-data-from-couchdb-and-hadoop-databases.html#tk.rss_all",
 		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "j123Hs123Iy4lRUGha84PHXQqMgJrf91DkqE4vu5SkBZiLyw4db03KWalLXfMu3IaVkkN2KjqIba2WGgIxNzJqiO123Q117117",
+		"item_date": "2017-01-18 00:00:00",
+		"title": "New  Create an Amazon Aurora Read Replica from an RDS MySQL DB Instance",
+		"url": "https://aws.amazon.com/blogs/aws/new-create-an-amazon-aurora-read-replica-from-a-mysql-db-instance/",
+		"domain": "aws.amazon.com",
 		"image": ""
 	},
 	{
