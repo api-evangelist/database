@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "0err4ReIoXmt8p8cj1tJGIMsSXGIkabaLrAcofiP88BXi4xeFZ2Fma3O6xO7VBcaPRZaLA123WjlEjkRPCOBSK4A117117",
+		"item_date": "2017-02-15 00:00:00",
+		"title": "The key differences between MySQL and NoSQL DBs",
+		"url": "http://www.monitis.com/blog/cc-in-review-the-key-differences-between-mysql-and-nosql-dbs/",
+		"domain": "www.monitis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "jkKw7C63lR5U2IMAJXdzQUGvx123DjNiRjr7SaLO8DbnJa5fanmprP8RHTQFruZQr4PL8Uh1m1UR8kuHcOtjQBMw117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "Couchbase and the DocumentOriented NoSQL Database",
+		"url": "https://dzone.com/articles/couchbase-and-the-document-oriented-nosql-database",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "agBoUNQZjJhAwlwvZrqVbqSFQ87YT3jZeLR7kuzuLFWK2SmkbOCBRDrEMVq8BXWu8JwYREOSWRXdcMcHCF2DVQ117117",
 		"item_date": "2017-02-11 20:01:03",
 		"title": "Tweet Learn how AWS Database Migration can help you migrate from a commercial database into AmazonAurorahellip httpstco9ah5Fu0fdS",
@@ -10,7 +26,7 @@
 	{
 		"curated_id": "qfjSyZbJm8Qo7JIfz4bDDGOadY123WryCei4BJ0u0XYhf2zXqs3bTABUEry123AnZ5SL9GKiXnLX4dZ9ybQOirrBVw117117",
 		"item_date": "2017-02-07 07:36:47",
-		"title": "Datafiniti Expands Query Capabilities and Accelerates Data Delivery Performance with Backend",
+		"title": "Datafiniti Expands Query Capabilities and Data Delivery Performance with Backend Migration",
 		"url": "https://blog.datafiniti.co/datafiniti-expands-query-capabilities-and-accelerates-data-delivery-performance-with-backend-d675507208e#.2tpsbvh3y",
 		"domain": "blog.datafiniti.co",
 		"image": ""
