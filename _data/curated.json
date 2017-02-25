@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "hZ8Q4aossWyPFpBXuo67FETqCg116ym2d4CYzNd93116RSfcDp05ysevCt1X9exB9rYhAov6FtKBxSiUFruy9ydGMA117117",
+		"item_date": "2017-02-23 00:00:00",
+		"title": "Using SSL for InTransit Data Encryption to Improve MySQL Security",
+		"url": "https://dzone.com/articles/using-ssl-for-in-transit-data-encryption-to-improv",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "0err4ReIoXmt8p8cj1tJGIMsSXGIkabaLrAcofiP88BXi4xeFZ2Fma3O6xO7VBcaPRZaLA123WjlEjkRPCOBSK4A117117",
 		"item_date": "2017-02-15 00:00:00",
 		"title": "The key differences between MySQL and NoSQL DBs",
