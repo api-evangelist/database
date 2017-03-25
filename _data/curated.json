@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "DIWtV998VITJWiJ7ucUA11639vkGZC123Wx1DSNuPkF75ecrLU86H3TsNIxxyMrvY0GU6GuzHbq1123rhSZviXCj4FuQ117117",
+		"item_date": "2017-03-20 00:00:00",
+		"title": "Faster Operations with the jsonb Data Type in PostgreSQL",
+		"url": "https://www.compose.com/articles/faster-operations-with-the-jsonb-data-type-in-postgresql/",
+		"domain": "www.compose.com",
+		"image": ""
+	},
+	{
 		"curated_id": "a9kwHuZgsbdZZXpZk6Lv9TLVVtQ9hpCzTgDjg2cV8Kn5oorEUBSVeK7x123D5qnlb9SH3sMoPsCqUFYILwCZdM0w117117",
 		"item_date": "2017-03-14 00:00:00",
 		"title": "How to move data with Transporter  from disk to database",
