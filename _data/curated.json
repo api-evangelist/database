@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "IlJz6UZo9bRccIV0XVMLGXuTQ9hF116b6iUtKMt4F56kr9bteE5GYov9yQ1c0MbEbc74dJjKU1161Asv116ffJ123TaUFQ117117",
+		"item_date": "2017-04-19 00:00:00",
+		"title": "Amazon DynamoDB Accelerator DAX  InMemory Caching for ReadIntensive Workloads",
+		"url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-accelerator-dax-in-memory-caching-for-read-intensive-workloads/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
 		"curated_id": "leWEQLaOz4qAnd48VQ4GO66fldUm116t0rt2jmQ123ITk6JmJFMpZx1FRBCO5QqiGhbk95Ouns1wMe6yPx116h9UWyeQ117117",
 		"item_date": "2017-04-14 00:00:00",
 		"title": "Amazon Athena adds support for Querying Encrypted Data",
