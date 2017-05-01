@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "NeO76aYxxVWrU2Nv7nO1BpV6bz276X5OPQhsXqvixHrA4htn123KF7ABphC1qgY116JPJbrtM4lGisWVoiGD8Td6uA117117",
+		"item_date": "2017-04-27 08:59:23",
+		"title": "Cassandra Connector for LoopBack Has Arrived",
+		"url": "https://strongloop.com/strongblog/cassandra-connector-has-arrived/",
+		"domain": "strongloop.com",
+		"image": ""
+	},
+	{
+		"curated_id": "iSfrQlhbz0AjeMUl116UG54ccTjVqk3bBVQZPwf1231YecutnfQD6ZtWMzc4wz82aaM116h0iuWfeXRC3LG5Lwjil8hg117117",
+		"item_date": "2017-04-25 14:07:06",
+		"title": "Tweet Push your data from Mixpanel to MS SQL Server httpstcoYr9X7MPXtD ETL datawarehouse analytics httpstcokFufZ0OXC7",
+		"url": "https://twitter.com/APIrise/statuses/856977893783728129",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
 		"curated_id": "IlJz6UZo9bRccIV0XVMLGXuTQ9hF116b6iUtKMt4F56kr9bteE5GYov9yQ1c0MbEbc74dJjKU1161Asv116ffJ123TaUFQ117117",
 		"item_date": "2017-04-19 00:00:00",
 		"title": "Amazon DynamoDB Accelerator DAX  InMemory Caching for ReadIntensive Workloads",
