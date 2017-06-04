@@ -1,193 +1,304 @@
-- slug: bluefrisby
-  name: bluefrisby
-  description: An API testing tool using API Blueprint and Frisby.js
-  url: 'https://github.com/localmed/bluefrisby/'
+- slug: dropwizard
+  name: Dropwizard
+  description: A damn simple library for building production-ready RESTful web services.
+  url: 'https://github.com/dropwizard/dropwizard'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,API Blueprint,Frisby.js,General'
-- slug: entropy
-  name: Entropy
-  description: An entropy and failure injection management API for Docker platforms.
-  url: 'https://github.com/buildertools/entropy'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: 'https://github.com/buildertools/'
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Containers,Testing,Performance,General'
-- slug: dredd
-  name: dredd
-  description: API Blueprint testing tool
-  url: 'https://github.com/apiaryio/dredd/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/dredd-head.png
-  tags: 'API Blueprint,Testing,General'
-- slug: blazemeterjmeterplugin
-  name: blazemeter-jmeter-plugin
-  description: blazemeter-jmeter-plugin
-  url: 'https://github.com/Blazemeter/blazemeter-jmeter-plugin'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,General'
-- slug: cucumber4apiblueprint
-  name: cucumber-4-api-blueprint
+  tags: 'Database,Framework,Java,Deployment'
+- slug: microrest.php
+  name: microrest.php
   description: >-
-    Cucumber predefined step definitions for RESTful API testing using API
-    Blueprint by Apiary
-  url: 'https://github.com/stekycz/cucumber-4-api-blueprint/'
+    A micro web application providing a REST API on top of any relational
+    database, using Silex and Doctrine DBAL
+  url: 'https://github.com/marmelab/microrest.php'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,Cucumber,API Blueprint,General'
-- slug: cucumber-api-steps
-  name: Cucumber API Steps
-  description: Cucumber steps to easily test REST-based XML and JSON APIs
-  url: 'https://github.com/jayzes/cucumber-api-steps'
+  tags: 'Database,Deployment'
+- slug: arrestmysql
+  name: Arrest-MySQL
+  description: A plug-n-play RESTful API for your MySQL database.
+  url: 'https://github.com/gilbitron/Arrest-MySQL'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,General'
-- slug: hippie
-  name: Hippie
-  description: End-to-end API testing made easy
-  url: 'https://github.com/vesln/hippie'
+  tags: 'Database,Deployment'
+- slug: cayley
+  name: cayley
+  description: An open-source graph database
+  url: 'https://github.com/cayleygraph/cayley'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,General'
-- slug: httpexpect
-  name: HTTPExpect
-  description: End-to-end HTTP and REST API testing for Go.
-  url: 'https://github.com/gavv/httpexpect'
+  tags: 'Database,Graph'
+- slug: couchdbapiblueprint
+  name: Couch DB API Blueprint
+  description: apiaryio API Blueprint of Apache CouchDBs API
+  url: 'https://github.com/BigBlueHat/couchdb-api-blueprint/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,General'
-- slug: dnstest
-  name: dnstest
-  description: Erlang app for testing authoritative DNS servers for compliance.
-  url: 'https://github.com/dnsimple/dnstest'
+  tags: 'Database,API Blueprint,CouchDB,Definitions'
+- slug: laravelrestfulapistarter
+  name: laravel-restful-api-starter
+  description: Build a RESTful API with Laravel and MongoDB
+  url: 'https://github.com/merlosy/laravel-restful-api-starter'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'DNS,Testing,General'
-- slug: frisby.js
-  name: Frisby.js
+  tags: 'Database,Deployment,MongoDB'
+- slug: corona
+  name: Corona
+  description: Community REST API for MarkLogic
+  url: 'https://github.com/marklogic/Corona'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Database,Deployment'
+- slug: arangodbdcos
+  name: arangodb-dcos
+  description: DCOS CLI for ArangoDB
+  url: 'https://github.com/arangodb/arangodb-dcos'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Command Line Interface,Database'
+- slug: arangodbdocker
+  name: arangodb-docker
+  description: Docker container for ArangoDB
+  url: 'https://github.com/arangodb/arangodb-docker'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Containers,Database'
+- slug: dockerneo4j
+  name: docker-neo4j
+  description: Docker Images for the Neo4j Graph Database
+  url: 'https://github.com/neo4j/docker-neo4j'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Containers,Database,GraphQL'
+- slug: dockermysqltmpfs
+  name: docker-mysql-tmpfs
+  description: Docker mysql on tmpfs
+  url: 'https://github.com/3scale/docker-mysql-tmpfs'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Deployment,Database,Containers,MySQL'
+- slug: databeam
+  name: DataBeam
+  description: Generic RESTful Interface for databases
+  url: 'https://github.com/GSA/DataBeam'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Database,Deployment'
+- slug: her
+  name: her
   description: >-
-    Frisby is a REST API testing framework built on node.js and Jasmine that
-    makes&nbsp;testing API endpoints easy, fast, and fun.
-  url: 'http://frisbyjs.com/'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/frisby-js.png
-  tags: 'Testing,JavaScript,General'
-- slug: requestbin
-  name: requestbin
-  description: Inspect HTTP requests. Debug webhooks. Originally created by @progrium.
-  url: 'https://github.com/Runscope/requestbin'
+    Her is an ORM (Object Relational Mapper) that maps REST resources to Ruby
+    objects. It is designed to build applications that are powered by a RESTful
+    API instead of a database.
+  url: 'https://github.com/remiprev/her'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,Webhooks,General'
-- slug: loadui
-  name: LoadUI
+  tags: 'Database,Deployment'
+- slug: dumptruck
+  name: dumptruck
+  description: Painlessly move data in and out of a SQLite database.
+  url: 'https://github.com/scraperwiki/dumptruck'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Database,Scraping'
+- slug: ramses
+  name: ramses
   description: >-
-    LoadUI is a Open Source Load Testing solution that is free and
-    cross-platform. With a visual, drag-and-drop interface, it allows you to
-    create, configure and redistribute your Load Tests interactively and in
-    real-time. In a single test environment, LoadUI provides complete test
-    coverage and supports all the standard protocols and technologies. And
-    it&rsquo;s so powerful, it generates scalable, high-volume and real-world
-    load from any number of local and remote computers. Meet LoadUI, the future
-    of Load Testing.
-  url: 'http://www.loadui.org/About-loadUI/what-is-loadui.html'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tools/loadui-logo.png
-  tags: 'Load Testing,Application Testing,General'
-- slug: chakram
-  name: chakram
-  description: REST API test framework. BDD and exploits promises
-  url: 'https://github.com/dareid/chakram'
+    RAML + Elasticsearch / Postgres / Mongodb / Your Data Store™ + Pyramid =
+    RESTful API
+  url: 'https://github.com/ramses-tech/ramses'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,General'
-- slug: blazemetergem
-  name: blazemeter-gem
-  description: Ruby GEM for BlazeMeter API
-  url: 'https://github.com/Blazemeter/blazemeter-gem'
+  tags: 'Database,Deployment,MongoDB,Search'
+- slug: postgrest
+  name: postgrest
+  description: REST API for any Postgres database
+  url: 'https://github.com/begriffs/postgrest/'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'SDK,Testing,General'
-- slug: apivore
-  name: apivore
-  description: >-
-    Tests your rails API against its Swagger description of end-points, models,
-    and query parameters.
-  url: 'https://github.com/westfieldlabs/apivore/'
+  tags: 'Database,Connector,Deployment'
+- slug: restgomysql
+  name: restgomysql
+  description: REST APIs with Go and MySql
+  url: 'https://github.com/motyar/restgomysql'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'Testing,Swagger,OAI,General'
-- slug: dreddrack
-  name: dredd-rack
-  description: The Dredd API blueprint testing tool for your Rack applications.
-  url: 'https://github.com/gonzalo-bulnes/dredd-rack/'
+  tags: 'Database,Go,Deployment'
+- slug: restheart
+  name: restheart
+  description: 'RESTHeart, the automatic REST API Server for MongoDB'
+  url: 'https://github.com/SoftInstigate/restheart'
   short_url: ''
   twitter: ''
   blog: ''
   blog_rss: ''
   github: ''
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  tags: 'API Blueprint,Testing,General'
+  tags: 'Database,Deployment,MongoDB'
+- slug: prest
+  name: prest
+  description: Serve a RESTful API from any PostgreSQL database
+  url: 'https://github.com/nuveo/prest'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Database,Deployment'
+- slug: nodeapi
+  name: NodeAPI
+  description: Simple RESTful API implementation on Node.js + MongoDB.
+  url: 'https://github.com/ealeksandrov/NodeAPI'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Database,MongoDB,Deployment,Node.js'
+- slug: dockerredis
+  name: docker-redis
+  description: Simplest Redis in docker (with persistence)
+  url: 'https://github.com/3scale/docker-redis'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Deployment,Database,Containers'
+- slug: phpcrudapi
+  name: php-crud-api
+  description: Single file PHP script that adds a REST API to a SQL database
+  url: 'https://github.com/mevdschee/php-crud-api'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Database,Deployment,PHP'
+- slug: easymongo
+  name: easymongo
+  description: The easiest MongoDB API
+  url: 'https://github.com/meritt/easymongo'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Database,Deployment,MongoDB'
+- slug: mongo
+  name: mongo
+  description: The Mongo Database
+  url: 'https://github.com/mongodb/mongo'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Database
+- slug: noms
+  name: noms
+  description: 'The versioned, forkable, syncable database'
+  url: 'https://github.com/attic-labs/noms'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Database
+- slug: atlasdb
+  name: atlasdb
+  description: Transactional Distributed Database Layer
+  url: 'https://github.com/palantir/atlasdb'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: Database
+- slug: dbtoapi
+  name: db-to-api
+  description: 'Turns a Database into a Secure, RESTful API'
+  url: 'https://github.com/project-open-data/db-to-api'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Database,Deployment'
