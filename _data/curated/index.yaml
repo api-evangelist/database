@@ -1,8 +1,2013 @@
 ---
-- curated_id: b1ae861d2d88ca390f93ca03310dc864
-  item_date: "2012-04-21 12:49:06"
-  title: Why Startups Need an API
-  url: https://tune.com/blog/startups-need-api/
-  domain: tune.com
+- curated_id: 57aad8ea8852d566eeb9e9e41085386c
+  item_date: "2012-05-08 10:20:08"
+  title: Will Data Monopolies Paralyze the Internet?
+  url: http://www.forbes.com/sites/jonbruner/2012/04/12/will-data-monopolies-paralyze-the-internet/
+  domain: www.forbes.com
+  image: ""
+- curated_id: 79aaa77a9e10e25cf7d73a153c881d04
+  item_date: "2012-05-09 11:33:10"
+  title: '42 Environment APIs: AMEE, Brighter Planet and Carma'
+  url: http://www.programmableweb.com/news/42-environment-apis-amee-brighter-planet-and-carma/2012/05/09
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 14630b3059020ccb309f774894a460cb
+  item_date: "2012-12-19 00:00:00"
+  title: 'SoftLayer API: Streamline. Simplify.'
+  url: http://blog.softlayer.com/2012/softlayer-api-streamline-simplify/
+  domain: blog.softlayer.com
+  image: ""
+- curated_id: b8b92a548e5ad13b2a2ff9ab974b2bd6
+  item_date: "2013-04-17 00:00:00"
+  title: Amazon RDS for Oracle Now Supports Transparent Data Encryption and Native
+    Network Encryption
+  url: https://aws.amazon.com/about-aws/whats-new/2013/04/18/amazon-rds-oracle-encryption/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: eb3fd728530d1e464a6ff0f797ae123b
+  item_date: "2013-04-18 00:00:00"
+  title: Google AdMob SDK v6.4.1 Released for Android and iOS
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/1795379504575136104/v=2
+  domain: www.blogger.com
+  image: ""
+- curated_id: d2e1184cfd46d4b04b0bef8344dfd556
+  item_date: "2013-05-01 00:00:00"
+  title: Force.com Performance Profiling Using the Developer Console
+  url: https://developer.salesforce.com/blogs/engineering/2013/05/force-com-performance-profiling-using-the-developer-console.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 43d3fc62ad879d427a23b7429ea6024b
+  item_date: "2013-05-06 00:00:00"
+  title: Which Platforms Should I Develop My App For? An Overview
+  url: http://blog.appto.us/2013/05/which-platforms-should-i-develop-my-app-for.html
+  domain: blog.appto.us
+  image: ""
+- curated_id: 463234958b9764f41578980362918f96
+  item_date: "2013-05-08 00:00:00"
+  title: 'Extreme Salesforce Data: Distributed Application Partitioning with Force.com
+    Canvas and Heroku'
+  url: https://developer.salesforce.com/blogs/engineering/2013/05/extreme-salesforce-data-distributed-application-partitioning-with-force-com-canvas-and-heroku.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: ba5918eb7b955666d4a48bd61b0aed48
+  item_date: "2013-05-10 00:00:00"
+  title: Simplest code to export a datatable into .csv format
+  url: http://www.codeproject.com/Tips/591034/Simplest-code-to-export-a-datatable-into-csv-forma
+  domain: www.codeproject.com
+  image: ""
+- curated_id: ca29bd860190789fcd93cd52673c806f
+  item_date: "2013-05-15 00:00:00"
+  title: Salesforce Platform ELEVATE Workshop is Coming to Washington DC
+  url: https://developer.salesforce.com/blogs/developer-relations/2013/05/salesforce-platform-elevate-workshops-is-coming-to-washington-dc-2.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: f979e0168caf54fc732bfd83c7379579
+  item_date: "2013-05-15 00:00:00"
+  title: Google?s growing cloud just got a NoSQL database
+  url: https://gigaom.com/2013/05/15/googles-growing-cloud-just-got-a-nosql-database/
+  domain: gigaom.com
+  image: ""
+- curated_id: 884856c7633dceee58775d8bfe808bae
+  item_date: "2013-05-22 00:00:00"
+  title: Who needs databases?
+  url: http://nosql.mypopescu.com/post/51117599171/who-needs-databases
+  domain: nosql.mypopescu.com
+  image: ""
+- curated_id: 60a5bdeb28191fc8e8af74db47f5b7bc
+  item_date: "2013-05-23 22:42:03"
+  title: 'Playing a different tune: Portland?s Orchestrate lands a $3 million seed
+    round'
+  url: http://siliconflorist.com/2013/05/21/playing-tune-portlands-orchestrate-lands-3-million-seed/
+  domain: siliconflorist.com
+  image: ""
+- curated_id: 7eb7255229678d66454f8ae9e57a0075
+  item_date: "2013-05-31 00:00:00"
+  title: 28.io and JSONiq
+  url: http://nosql.mypopescu.com/post/51831997161/28io-and-jsoniq#_=_
+  domain: nosql.mypopescu.com
+  image: ""
+- curated_id: 7a38fea56a62fa9ccf6024e4e46abd91
+  item_date: "2013-06-19 00:00:00"
+  title: New Data Import Wizard ? Now in Pilot
+  url: https://developer.salesforce.com/blogs/tech-pubs/2013/06/new-data-import-wizard-%e2%80%94-now-in-pilot.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: b33e0498a950b695ed29fa1003da3375
+  item_date: "2013-07-05 14:28:37"
+  title: 'TempoDB : Open Data and the Age of Accountability'
+  url: https://blog.tempoiq.com/post/39934815623/open-data-and-the-age-of-accountability
+  domain: blog.tempoiq.com
+  image: ""
+- curated_id: 4f99e68200a5d293fb5af76fa895a1be
+  item_date: "2013-08-07 00:00:00"
+  title: How We Use Heroku Postgres Dataclips to Drive Our Business
+  url: https://blog.heroku.com/how-we-use-heroku-postgres-dataclips
+  domain: blog.heroku.com
+  image: ""
+- curated_id: ed6f55378dfea77de87bd735f42fa099
+  item_date: "2013-08-21 00:00:00"
+  title: TaffyDB ? A lightweight JSON-based database for your app
+  url: http://www.appcelerator.com/blog/2013/08/taffydb-a-lightweight-json-based-database-for-your-app/
+  domain: www.appcelerator.com
+  image: ""
+- curated_id: 209ca39fe21d1eb912da894ef925f77f
+  item_date: "2013-09-16 00:00:00"
+  title: No-Hassle Javascript Database
+  url: http://blog.loggr.net/post/61404850710/no-hassle-javascript-database#_=_
+  domain: blog.loggr.net
+  image: ""
+- curated_id: cf99b61d2915919925ecf5546f76980f
+  item_date: "2013-10-01 00:00:00"
+  title: API Versions and the Salesforce Metadata API
+  url: https://developer.salesforce.com/blogs/developer-relations/2013/10/api-versions-and-the-salesforce-metadata-api.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 47e2044b49273a9f755f7d821a19994a
+  item_date: "2013-10-24 00:00:00"
+  title: SlashDB Now Available through Amazon Web Services Marketplace
+  url: http://www.slashdb.com/2013/10/24/slashdb-now-available-aws-marketplace/
+  domain: www.slashdb.com
+  image: ""
+- curated_id: 0db618de315fa4f32ff1904dbaebb4ec
+  item_date: "2013-10-28 00:00:00"
+  title: AdWords API v201302 Sunset - 2 weeks remaining
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/6843712868948802600/v=2
+  domain: www.blogger.com
+  image: ""
+- curated_id: 580371b984c17a27fa05f88098d1f62d
+  item_date: "2013-10-28 00:00:00"
+  title: New AdSense Data in the Core Reporting API
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/8952878859455671258/v=2
+  domain: www.blogger.com
+  image: ""
+- curated_id: 02743c4aa045a0417423c7eb822b3132
+  item_date: "2013-10-30 00:00:00"
+  title: Stretch Your Apps with Flexible Salesforce API Limits ? Now in Pilot
+  url: https://developer.salesforce.com/blogs/tech-pubs/2013/10/stretch-your-apps-with-flexible-salesforce-api-limits-now-in-pilot.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: dbdfbcd37ca704ea42974445abdd2c83
+  item_date: "2013-10-31 00:00:00"
+  title: Upgrade to the new Google Mobile Ads SDK for Android
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/1646446311565016863/v=2
+  domain: www.blogger.com
+  image: ""
+- curated_id: e945b077614080cb5ea0bb80045cd9d0
+  item_date: "2013-11-04 00:00:00"
+  title: Connect your SQL database app to the web with Zazler
+  url: http://blog.mashape.com/connect-your-sql-database-app-to-the-web-with-zazler/
+  domain: blog.mashape.com
+  image: ""
+- curated_id: 0476d14d2cdf1f418b4bca8c8fb9a34f
+  item_date: "2013-11-07 00:00:00"
+  title: 'Getting to know AWQL: It?s like SQL for AdWords'
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/7384247851924100780
+  domain: www.blogger.com
+  image: ""
+- curated_id: 3e72dfd038ac80750d4a354f425e3a55
+  item_date: "2013-11-12 00:00:00"
+  title: Uploading Photos to Chatter Files with HTML5
+  url: https://developer.salesforce.com/blogs/developer-relations/2013/11/uploading-photos-to-chatter-files-with-html5.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: e431fd4cd862e813a966413963fc5f2e
+  item_date: "2013-12-10 00:00:00"
+  title: AdSense Management API v1.4 released
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/8750135728037955356
+  domain: www.blogger.com
+  image: ""
+- curated_id: 1aa9be7151e95a0632ad4c2d676e6e71
+  item_date: "2013-12-13 00:00:00"
+  title: Getting Started on Salesforce1 Platform with an ?Hour of Code?
+  url: https://developer.salesforce.com/blogs/developer-relations/2013/12/getting-started-with-salesforce1-platform.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: bd054abf78e68ecc35f7f0b2d2a7d42a
+  item_date: "2013-12-17 00:00:00"
+  title: Developer Discussion Boards Freeze
+  url: https://developer.salesforce.com/blogs/developer-relations/2013/12/developer-discussion-boards-freeze.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: c3b3af4420a56c2fec18724be5740603
+  item_date: "2014-01-09 00:00:00"
+  title: Ads client libraries are now on GitHub!
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/1099761305347670662
+  domain: www.blogger.com
+  image: ""
+- curated_id: cca5d67676c2825522d83b82ccf6e020
+  item_date: "2014-01-27 00:00:00"
+  title: The Extended Salesforce Community on IRC and Stack Exchange
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/01/the-extended-salesforce-community-on-irc-and-stack-exchange.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 28194f7dc1fc15fefd8bf22ed8df895e
+  item_date: "2014-01-30 00:00:00"
+  title: Build Charts with Historical Data and the Analytics API
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/01/build-charts-with-history-tracking-data.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: e8ba477bc4169d2df6d696801749ee28
+  item_date: "2014-01-31 00:00:00"
+  title: 'Communities Containers: Options for Building Salesforce Communities'
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/01/communities-containers-options-for-building-salesforce-communities.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: ed33221992b675e1fa70c46d4aad8d0d
+  item_date: "2014-02-28 00:00:00"
+  title: Pushing the Limits with Streaming API in Spring ?14
+  url: https://developer.salesforce.com/blogs/tech-pubs/2014/02/pushing-the-limits-with-streaming-api-in-spring-14.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: ac459261bdd3b7cd41482c3214ffcd40
+  item_date: "2014-03-03 00:00:00"
+  title: Announcing v201403 of the DFP API
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/4335505667928575709
+  domain: www.blogger.com
+  image: ""
+- curated_id: a71da1f5d4f294e36e2e3f47bb33ec2e
+  item_date: "2014-03-04 00:00:00"
+  title: Building a Native iOS Photo Sharing App On Salesforce1 mBaaS
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/03/building-a-native-ios-photo-sharing-app-on-salesforce1-mbaas.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: ca148ed0e4939972459a17ecb03f2233
+  item_date: "2014-05-26 11:05:56"
+  title: ""
+  url: https://zapier.com/zapbook/updates/330/knack-integrations/
+  domain: zapier.com
+  image: ""
+- curated_id: 7c738ddac32ef8c6b791f4e42c9a6b66
+  item_date: "2014-05-29 00:00:00"
+  title: 'Why I?m Joining Orchestrate: Vision and Team'
+  url: https://orchestrate.io/blog/2014/05/29/why-im-joining-orchestrate-vision-and-team/
+  domain: orchestrate.io
+  image: ""
+- curated_id: 35bd308e1ccc7a28bd66e59fd7ec5a19
+  item_date: "2014-05-29 00:00:00"
+  title: Legacy AdMob Sunset and Legacy SDK Deprecation Reminder
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/8254169381649273717
+  domain: www.blogger.com
+  image: ""
+- curated_id: e768c45797c47bf217f612438f7a0108
+  item_date: "2014-05-30 00:00:00"
+  title: Changes to the IMA SDK for iOS
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/5031968498788541624
+  domain: www.blogger.com
+  image: ""
+- curated_id: d31ea933cae00d8cc40f6b528d48287f
+  item_date: "2014-06-04 00:00:00"
+  title: Updated DoubleClick Ad Exchange Buyer REST API examples to get you started
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/8837317805942116479
+  domain: www.blogger.com
+  image: ""
+- curated_id: 43f51e726f0927e60008886f0b23898a
+  item_date: "2014-06-06 00:00:00"
+  title: The new, improved Content API for Shopping
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/8415895516499954486
+  domain: www.blogger.com
+  image: ""
+- curated_id: cd4eba3613bfe8929d5cf9b24534d9cd
+  item_date: "2014-06-10 00:00:00"
+  title: An Update to Orchestrate User Authentication
+  url: https://orchestrate.io/blog/2014/06/10/userauth/
+  domain: orchestrate.io
+  image: ""
+- curated_id: f713ac7e95a4eecda682738097d45007
+  item_date: "2014-06-11 00:00:00"
+  title: Wearables and the Salesforce Wear Developer Pack ? Lessons Learned
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/06/wearables-salesforce-wear-developer-pack.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 1d2101b613ae88dedc43e0d3d3740eed
+  item_date: "2014-06-13 00:00:00"
+  title: 'Internet Of Things in 10 Minutes: Hands-On with The Device Cloud'
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/06/internet-of-things-in-10-minutes.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 98b9d2a8d99331ff4259667e219947b2
+  item_date: "2014-06-13 00:00:00"
+  title: How to Test Code that Uses HTTP APIs using Node.js, Mocha, and Nock
+  url: https://www.ctl.io/developers/blog/post/http-apis-test-code
+  domain: www.ctl.io
+  image: ""
+- curated_id: 8b28944a38f76c38038c30a14ecb38d4
+  item_date: "2014-06-18 00:00:00"
+  title: Replicating CouchDB to Orchestrate
+  url: https://www.ctl.io/developers/blog/post/replicating-couchdb-to-orchestrate
+  domain: www.ctl.io
+  image: ""
+- curated_id: 47446353d824298e1cc579a39538c29c
+  item_date: "2014-06-20 00:00:00"
+  title: cURL vs HTTPie on the Command Line for HTTP APIs
+  url: https://www.ctl.io/developers/blog/post/curl-vs-httpie-http-apis
+  domain: www.ctl.io
+  image: ""
+- curated_id: 8c013e4446fe28db3d78c37d1ad94812
+  item_date: "2014-06-24 00:00:00"
+  title: Introducing the Orchestrate Ruby Gem
+  url: https://www.ctl.io/developers/blog/post/introducing-the-orchestrate-ruby-gem
+  domain: www.ctl.io
+  image: ""
+- curated_id: 2860027a64363eb2e79875d857779bdf
+  item_date: "2014-06-27 19:28:58"
+  title: 'Server Generated Keys: Unique IDs for Distributed Databases - The Orchestrate
+    Blog'
+  url: https://www.ctl.io/developers/blog/post/server-generated-keys-unique-ids-for-distributed-databases
+  domain: www.ctl.io
+  image: ""
+- curated_id: 8d0ded5ab9164c15e38bf6ae28112083
+  item_date: "2014-06-30 00:00:00"
+  title: Tooling and Analytics APIs?What They Are and When to Use Them
+  url: https://developer.salesforce.com/blogs/tech-pubs/2014/06/tooling-analytics-apis-use.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 3d7e50c39d7ed8cf6aa86e16b239dd86
+  item_date: "2014-07-15 00:00:00"
+  title: Changes to Ads API .NET client library
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/2421484645093757924
+  domain: www.blogger.com
+  image: ""
+- curated_id: 28ef4d7813a3ea6f64691e1f6cdb2bb8
+  item_date: "2014-07-15 00:00:00"
+  title: '4 Easy Ways to Visualize Excel Data on Bing Maps '
+  url: https://blogs.msdn.microsoft.com/bingdevcenter/2014/07/15/4-easy-ways-to-visualize-excel-data-on-bing-maps/
+  domain: blogs.msdn.microsoft.com
+  image: ""
+- curated_id: 1d6a71b910f67daab0bf30d887986c66
+  item_date: "2014-07-17 00:00:00"
+  title: Using Orchestrate?s Graph Search with the Enron Emails
+  url: https://www.ctl.io/developers/blog/post/using-orchestrates-graph-search-with-the-enron-emails
+  domain: www.ctl.io
+  image: ""
+- curated_id: a1b88ecdaf4fcd0c852b3e4d6c6db0a8
+  item_date: "2014-07-18 00:00:00"
+  title: Generating the Snippet Status Report with Ad Exchange Buyer REST API
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/1041832551769036194
+  domain: www.blogger.com
+  image: ""
+- curated_id: bd119c87ddd5627341fb09c7eaca2ee4
+  item_date: "2014-07-18 00:00:00"
+  title: How We Use Open Source at Salesforce.com ? Part 1
+  url: https://developer.salesforce.com/blogs/engineering/2014/07/open-source-at-salesforce-com.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 1193b64d7dcc037b20a8dfef3771d4f0
+  item_date: "2014-07-18 00:00:00"
+  title: An Introduction to Open Source at Salesforce.com
+  url: https://developer.salesforce.com/blogs/engineering/2014/07/introduction-open-source-salesforce-com.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: cb0415c4c7876748ceb342bbb979f552
+  item_date: "2014-07-20 00:00:00"
+  title: Two-Factor Authentication in Unfuddle
+  url: https://unfuddle.com/blog/2014/07/two-factor-authentication/
+  domain: unfuddle.com
+  image: ""
+- curated_id: 3744e38386729ae5f256ac37e9b52157
+  item_date: "2014-07-22 00:00:00"
+  title: 'CouchDB and MongoDB: Let our query APIs combine!'
+  url: https://cloudant.com/blog/couchdb-and-mongodb-let-our-query-apis-combine/
+  domain: cloudant.com
+  image: ""
+- curated_id: f539ace7a9d0e97e3b62a52579a3f695
+  item_date: "2014-07-22 00:00:00"
+  title: 'FoundationDB and DataRPM Join Forces '
+  url: http://blog.foundationdb.com/foundationdb-and-datarpm-join-forces
+  domain: blog.foundationdb.com
+  image: ""
+- curated_id: f72aaa04c9d9ecf28385d589aa5c1243
+  item_date: "2014-07-22 00:00:00"
+  title: How To Deliver A Winning  Pitch At Hackathons
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/07/deliver-winning-pitch-hackathons.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 26d1ac62415f8d3015662514f102b465
+  item_date: "2014-07-22 00:00:00"
+  title: How We Use Open Source at Salesforce.com ? Part 1
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/07/use-open-source-salesforce-com-part-1.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: c5af4032f9e42fb1a904269030111df1
+  item_date: "2014-07-23 00:00:00"
+  title: Querying MongoDB collections via the Azure Mobile Service node.js backend
+  url: https://azure.microsoft.com/en-us/blog/2014/07/23/querying-mongodb-collections-via-the-azure-mobile-service-node-js-backend/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: f7671bbeda0d8ece8730365f571ba20c
+  item_date: "2014-07-23 00:00:00"
+  title: A Junior Programmer?s Guide to Orchestrate?s Database API
+  url: https://www.ctl.io/developers/blog/post/a-junior-programmers-guide-to-orchestrates-database-api
+  domain: www.ctl.io
+  image: ""
+- curated_id: 1a96333c62f3133dac5aad97978f06d3
+  item_date: "2014-07-23 00:00:00"
+  title: 'Open Source at Salesforce.com ? Part 2: How We Contribute'
+  url: https://developer.salesforce.com/blogs/engineering/2014/07/contribute-open-source-salesforce-com.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 99055e55b6bc6316c1df40d598d7b006
+  item_date: "2014-07-23 00:00:00"
+  title: AdWords API - Upgrading to account-level location extensions
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/5090902228403039678
+  domain: www.blogger.com
+  image: ""
+- curated_id: fe89b93661a18ed585a209b73426218c
+  item_date: "2014-07-23 00:00:00"
+  title: 'Google Media Framework: Making online video simple'
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/3765880848734629253
+  domain: www.blogger.com
+  image: ""
+- curated_id: 3cabd3180023eb8d4da71be994f876ff
+  item_date: "2014-07-24 00:00:00"
+  title: Replicating MongoDB into Orchestrate
+  url: https://www.ctl.io/developers/blog/post/replicating-mongodb-into-orchestrate
+  domain: www.ctl.io
+  image: ""
+- curated_id: d0e56935791cf695068ac1ea702b1c8d
+  item_date: "2014-07-25 00:00:00"
+  title: Building an Anonymous Forum with Orchestrate Events
+  url: https://orchestrate.io/blog/2014/07/25/building-an-anonymous-forum-with-orchestrate-events/
+  domain: orchestrate.io
+  image: ""
+- curated_id: 839362209e4ccab08c6d464a70fb6164
+  item_date: "2014-07-25 00:00:00"
+  title: Bing Maps REST and SOAP Services Imagery Styling Improvements Now Live!
+  url: https://blogs.msdn.microsoft.com/bingdevcenter/2014/07/25/bing-maps-rest-and-soap-services-imagery-styling-improvements-now-live/
+  domain: blogs.msdn.microsoft.com
+  image: ""
+- curated_id: 3ae6d499794c2e8e6bb8f0d775e7da8d
+  item_date: "2014-07-29 00:00:00"
+  title: Salesforce.com?s New Open Source Releases ? Part 3
+  url: https://developer.salesforce.com/blogs/engineering/2014/07/salesforce-com-new-open-source-releases.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 8a2ff39a1d25accbcf634ea159bcf062
+  item_date: "2014-07-29 00:00:00"
+  title: 'AdWords API Workshops: Feedback in Action!'
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/8091141255331698954
+  domain: www.blogger.com
+  image: ""
+- curated_id: 123aa903d63618aca3d8bc0111a84795
+  item_date: "2014-07-30 00:00:00"
+  title: Structuring time-oriented data in FoundationDB
+  url: http://blog.foundationdb.com/designing-a-schema-for-time-series-data-using-fdb
+  domain: blog.foundationdb.com
+  image: ""
+- curated_id: 324cd797d1465ef5d9c9f2f91add03bc
+  item_date: "2014-07-31 00:00:00"
+  title: Building a Single Page App with AngularJS and the Salesforce REST API
+  url: https://developer.salesforce.com/blogs/developer-relations/2014/07/building-single-page-app-angularjs-salesforce-rest-api.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: bf69e31013e5c982ddb63d5a8e30c2b8
+  item_date: "2014-07-31 00:00:00"
+  title: A Power Tool for Devops ? The MongoHQ CLI
+  url: https://www.compose.com/articles/a-power-tool-for-devops-the-mongohq-cli/
+  domain: www.compose.com
+  image: ""
+- curated_id: 59839bb96aca2803615437b84ece429b
+  item_date: "2014-08-01 00:00:00"
+  title: Salesforce Partner Brings Mission Critical Information to Your Fingertips
+  url: https://developer.salesforce.com/blogs/isv/2014/08/draft-mcim-fulcrum.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: ea7c2af8111018635df79592ed174349
+  item_date: "2014-08-05 00:00:00"
+  title: 'Developer Spotlight: Archie Cobbss Reliable, Scalable ORM'
+  url: http://blog.foundationdb.com/developer-spotlight-archie-cobbss-reliable-scalable-orm
+  domain: blog.foundationdb.com
+  image: ""
+- curated_id: 38c4130b5b4d72e453b1cc203eeba9bc
+  item_date: "2014-08-07 00:00:00"
+  title: Elasticsearch at Compose ? How it fits
+  url: https://www.compose.com/articles/elasticsearch-at-compose-how-it-fits/
+  domain: www.compose.com
+  image: ""
+- curated_id: 4077cba75108e254f9003c399a8da174
+  item_date: "2014-08-08 00:00:00"
+  title: Building the One True Database
+  url: https://www.ctl.io/developers/blog/post/building-the-one-true-database
+  domain: www.ctl.io
+  image: ""
+- curated_id: dcd03e14271d4115adf868561faf6059
+  item_date: "2014-08-12 00:00:00"
+  title: The New Heroku Postgres Database Experience
+  url: https://blog.heroku.com/archives/2014/8/12/the_new_database_experience_with_heroku_postgres
+  domain: blog.heroku.com
+  image: ""
+- curated_id: c3f0cb6fb4824542c397932687a8c50f
+  item_date: "2014-08-12 00:00:00"
+  title: Legacy Ads Python Client Library to sunset on January 5th, 2015
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/353616053780143715
+  domain: www.blogger.com
+  image: ""
+- curated_id: 0e54a476e8fdb19fc3d72b57ada04d2e
+  item_date: "2014-08-12 00:00:00"
+  title: CourtListener and Juriscraper Now Support All State Courts of Last Resort!
+  url: http://freelawproject.org/2014/08/12/courtlistener-and-juriscraper-now-support-all-state-courts-of-last-resort/
+  domain: freelawproject.org
+  image: ""
+- curated_id: facc2e56e38b56ef5fcc091f7d9852da
+  item_date: "2014-08-13 00:00:00"
+  title: Mapping SQL data to our Key-Value Store
+  url: http://blog.foundationdb.com/mapping-sql-layer-data-to-key-value-store
+  domain: blog.foundationdb.com
+  image: ""
+- curated_id: 5c283b3081f920d1d6d00c7268f7b5bf
+  item_date: "2014-08-14 00:00:00"
+  title: Build Enterprise Mobile Apps with MBaaS and a Cross-platform Data Store
+  url: https://www.ctl.io/developers/blog/post/build-enterprise-mobile-apps-with-mbaas-and-a-cross-platform-data-store
+  domain: www.ctl.io
+  image: ""
+- curated_id: 73b1080d776ec5235531d1bc50471cc8
+  item_date: "2014-08-18 00:00:00"
+  title: Bing Developer Assistant for Visual Studio focuses on improving productivity
+    within the experience
+  url: https://blogs.msdn.microsoft.com/bingdevcenter/2014/08/18/bing-developer-assistant-for-visual-studio-focuses-on-improving-productivity-within-the-experience/
+  domain: blogs.msdn.microsoft.com
+  image: ""
+- curated_id: 705f566ace53aabcb34029dcc2e374e0
+  item_date: "2014-08-20 00:00:00"
+  title: Building my first application with the Key-Value store
+  url: http://blog.foundationdb.com/building-a-first-application-with-the-key-value-store
+  domain: blog.foundationdb.com
+  image: ""
+- curated_id: 4028f7626f3446cc122eed8ab9fc4a2d
+  item_date: "2014-08-20 00:00:00"
+  title: 'AdWords API: Changes to how we report mobile click-to-call data'
+  url: https://www.blogger.com/feeds/7815614485808579332/posts/default/252959647039953373
+  domain: www.blogger.com
+  image: ""
+- curated_id: 50818429e2b5c8aac5b8a8b8a93e5627
+  item_date: "2014-08-28 00:00:00"
+  title: Keeping Elasticsearch secure ? the Compose network
+  url: https://www.compose.com/articles/keeping-elasticsearch-secure-the-compose-network/
+  domain: www.compose.com
+  image: ""
+- curated_id: 3ed692fae3c411fbc8e9db8ee82f1e52
+  item_date: "2014-09-23 00:00:00"
+  title: Combining Datasets From Different Services ? A Beginner?s Guide
+  url: https://datahero.com/blog/2014/09/23/visualizing-data-across-saas-platforms/
+  domain: datahero.com
+  image: ""
+- curated_id: d08cf621bf7dd0811c96b9ea833801ea
+  item_date: "2014-09-24 00:00:00"
+  title: Cloudant Add-On Now Available in Microsoft Azure Store
+  url: https://cloudant.com/blog/cloudant-add-on-now-available-in-microsoft-azure-store/
+  domain: cloudant.com
+  image: ""
+- curated_id: b19957149662b9991545f890122988d5
+  item_date: "2014-09-29 09:05:03"
+  title: MySQL on GitHub | MySQL Release Engineering
+  url: http://mysqlrelease.com/2014/09/mysql-on-github/
+  domain: mysqlrelease.com
+  image: ""
+- curated_id: bb13e158087a9e7d409fa69536c54e81
+  item_date: "2014-09-30 00:00:00"
+  title: SAP on Microsoft Azure ? announcing new certifications including Oracle Database
+  url: https://azure.microsoft.com/en-us/blog/2014/09/30/sap-on-microsoft-azure-announcing-new-certifications-including-oracle-database/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 712beaf35f7ef873c0467bc6db0fea37
+  item_date: "2014-10-02 00:00:00"
+  title: Introducing Elastic Scale preview for Azure SQL Database
+  url: https://azure.microsoft.com/en-us/blog/2014/10/02/introducing-elastic-scale-preview-for-azure-sql-database/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: e7260b03b521d8714025d66985aa3b62
+  item_date: "2014-12-22 00:00:00"
+  title: Client tooling updates for Azure SQL Database
+  url: https://azure.microsoft.com/en-us/blog/2014/12/22/client-tooling-updates-for-azure-sql-database/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 9001904a67571e1907216da0b85774b0
+  item_date: "2015-01-22 00:00:00"
+  title: Appbase Launches Real-Time, Events-Based Database API
+  url: http://www.programmableweb.com/news/appbase-launches-real-time-events-based-database-api/2015/01/22
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: aa295504dfb428cbaf45b68d02fe9587
+  item_date: "2015-01-27 00:00:00"
+  title: Add a REST API to Your IBM DB2 Database in Four Easy Steps
+  url: http://blog.dreamfactory.com/rest-api-for-db2
+  domain: blog.dreamfactory.com
+  image: ""
+- curated_id: 82a7216b7a2edc7514bfee2fda571d4d
+  item_date: "2015-01-27 00:00:00"
+  title: Amazon DynamoDB Update ? Online Indexing  Reserved Capacity Improvements
+  url: https://aws.amazon.com/blogs/aws/amazon-dynamodb-update-online-indexing-reserved-capacity-improvements/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 1fba7563b82949020ebaff44057b7a33
+  item_date: "2015-02-20 00:00:00"
+  title: The Druid real-time database moves to an Apache license
+  url: https://gigaom.com/2015/02/20/the-druid-real-time-database-moves-to-an-apache-license/
+  domain: gigaom.com
+  image: ""
+- curated_id: dd6d9077572c97bab09d45bc82d03cce
+  item_date: "2015-02-24 00:00:00"
+  title: Publish Industry Data to Force.com Apps with Data Services on Heroku
+  url: https://developer.salesforce.com/blogs/isv/2015/02/publish-industry-data-force-com-apps-data-services-heroku.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 20c8f5e68d465a2568e42275df9e74bd
+  item_date: "2015-02-25 00:00:00"
+  title: Simple Data Integration with Heroku Connect
+  url: https://developer.salesforce.com/blogs/developer-relations/2015/02/simple-data-integration-heroku-connect.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: e2c85acd841f5322b142fefb80a1823d
+  item_date: "2015-02-26 00:00:00"
+  title: Custom ODBC/JDBC Drivers and Query Visualization for Amazon Redshift
+  url: https://aws.amazon.com/blogs/aws/custom-odbcjdbc-drivers-and-query-visualization-for-amazon-redshift/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: b5d512b2f834ba8f6061e62b04483cdc
+  item_date: "2015-03-05 00:00:00"
+  title: Orchestrate is Now Live in the CenturyLink Cloud Blueprints Ecosystem
+  url: https://orchestrate.io/blog/2015/03/05/centurylinkcloud/
+  domain: orchestrate.io
+  image: ""
+- curated_id: ebc194a9429309c64507ebc7e7583d08
+  item_date: "2015-03-09 00:00:00"
+  title: FoundationDB Integrates with CenturyLink Cloud
+  url: http://blog.foundationdb.com/foundationdb-integrates-with-centurylink-cloud
+  domain: blog.foundationdb.com
+  image: ""
+- curated_id: 685f3e8baea6342c598461b28baa64e0
+  item_date: "2015-03-11 00:00:00"
+  title: Employee directory for Windows Phone (Database Abstractions)
+  url: https://codecanyon.net/item/employee-directory-for-windows-phone/10683657
+  domain: codecanyon.net
+  image: ""
+- curated_id: eafc2f39e588192f8710dfca07ac1d03
+  item_date: "2015-03-24 18:29:20"
+  title: Ontotext Achieves 62 Percent Year-Over-Year Revenue Growth in the USA as
+    Demand for Semantic Solutions Rises
+  url: http://api.report/2015/03/24/ontotext-achieves-62-percent-yearoveryear-revenue-growth-in-the-usa-as-demand-for-semantic-solutions-rises/
+  domain: api.report
+  image: ""
+- curated_id: 6a6ec18ae65813f8f02a0618586f5c9d
+  item_date: "2015-03-25 00:00:00"
+  title: Moving a database container with Docker Swarm and Flocker
+  url: https://clusterhq.com/blog/migration-database-container-docker-swarm/
+  domain: clusterhq.com
+  image: ""
+- curated_id: 8483af976696f3728c359ce41269f428
+  item_date: "2015-03-30 00:00:00"
+  title: Azure Data Factory Update ? New Data Stores
+  url: http://azure.microsoft.com/blog/2015/03/30/azure-data-factory-update-new-data-stores/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: a65598179931d979528dc106e2869193
+  item_date: "2015-04-02 00:00:00"
+  title: A Middleware Design for Multiple Embedded
+  url: http://docslide.net/documents/a-middleware-design-for-multiple-embedded.html
+  domain: docslide.net
+  image: ""
+- curated_id: f53aad22d7605f13f45e53f82413347f
+  item_date: "2015-04-02 00:00:00"
+  title: Announcing the availability of the latest version of Splunk DB Connect!
+  url: http://blogs.splunk.com/2015/04/02/splunk-db-connect-new/
+  domain: blogs.splunk.com
+  image: ""
+- curated_id: 6fcef0cd921a41256a37622aebcea00c
+  item_date: "2015-04-02 00:00:00"
+  title: Amazon RDS Update ? Oracle Database 12c Now Available
+  url: https://aws.amazon.com/blogs/aws/amazon-rds-update-oracle-database-12c-now-available/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: c9df1b947a8a1e3d8eb400e56682bb49
+  item_date: "2015-04-02 00:00:00"
+  title: Search Time Series Data for Advanced Connected Device Applications
+  url: https://www.ctl.io/developers/blog/post/time-series-search
+  domain: www.ctl.io
+  image: ""
+- curated_id: 6c6c59e0ada744e3d3f2bf1346224a39
+  item_date: "2015-04-06 00:00:00"
+  title: Accessing a REST Based Database Backend From an Android App
+  url: http://www.codeproject.com/Articles/893054/Accessing-a-REST-Based-Database-Backend-From-an-An
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 6e9da3c027a0dac6cb36edab35af8a16
+  item_date: "2015-04-07 00:00:00"
+  title: Orchestrate Events API Now Features Search for Time Series Data
+  url: http://www.programmableweb.com/news/orchestrate-events-api-now-features-search-time-series-data/brief/2015/04/07
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 1829b112bd9bebee1aae6085d4f6abf0
+  item_date: "2015-04-08 00:00:00"
+  title: Microsoft makes its Azure DocumentDB cloud NoSQL database available to all
+  url: http://venturebeat.com/2015/04/08/microsoft-makes-its-azure-documentdb-cloud-nosql-database-available-to-all/
+  domain: venturebeat.com
+  image: ""
+- curated_id: dcbab35466d303da47ee22bcc50bb72a
+  item_date: "2015-04-11 00:00:00"
+  title: How to Convert an SQL Server Data into JSON Object
+  url: http://www.codeproject.com/Tips/773903/How-to-Convert-an-SQL-Server-Data-into-JSON-Object
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 00edad8544f8bee69af8ed527fe71ed2
+  item_date: "2015-04-14 00:00:00"
+  title: MongoDB on the AWS Cloud ? New Quick Start Reference Deployment
+  url: https://aws.amazon.com/blogs/aws/mongodb-on-the-aws-cloud-new-quick-start-reference-deployment/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: d49725fbb90f9dd2c41f7c7893b671e3
+  item_date: "2015-04-14 00:00:00"
+  title: Easily Import Data to DocumentDB
+  url: http://azure.microsoft.com/blog/2015/04/14/easily-import-data-to-documentdb/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: e2a11958e64a75a0491f5733c49bedf2
+  item_date: "2015-04-15 00:00:00"
+  title: 'Feature 95: Updating data objects using API'
+  url: https://backendless.com/feature-95-updating-data-objects-using-api/
+  domain: backendless.com
+  image: ""
+- curated_id: cb917ec0cb8d0662f8f29a1e38df6703
+  item_date: "2015-04-20 00:00:00"
+  title: CenturyLink is acquiring cloud-database startup Orchestrate
+  url: http://venturebeat.com/2015/04/20/centurylink-is-acquiring-cloud-database-startup-orchestrate/
+  domain: venturebeat.com
+  image: ""
+- curated_id: 9ef483819b4a9232444879fa8db77ca8
+  item_date: "2015-04-20 00:00:00"
+  title: 'OpenShift 3 Beta Demo Part 2: Deploying MySQL Using a Docker Image'
+  url: https://blog.openshift.com/openshift-3-beta-demo-part-2/
+  domain: blog.openshift.com
+  image: ""
+- curated_id: d9e62ef33f2420baaa3a3c4573882ba2
+  item_date: "2015-04-24 00:00:00"
+  title: The Simplest Federated Database That Could Possibly Work
+  url: http://hapgood.us/2015/04/24/the-simplest-federated-database-that-could-work/
+  domain: hapgood.us
+  image: ""
+- curated_id: d74fc5e325df78caa335d48b9a1e1c5b
+  item_date: "2015-04-30 00:00:00"
+  title: Full-Text Search is now available for preview in Azure SQL Database
+  url: http://azure.microsoft.com/blog/2015/04/30/full-text-search-is-now-available-for-preview-in-azure-sql-database/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 7f6c6aa3d3b44cc499a02ac168959cd4
+  item_date: "2015-05-05 00:00:00"
+  title: New DocumentDB Import Options
+  url: http://azure.microsoft.com/blog/2015/05/05/new-documentdb-import-options/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 73cec1ffc439c3e9c5e9f3f837dddc87
+  item_date: "2015-05-06 00:00:00"
+  title: 'Announcing Google Cloud Bigtable: The same database that powers Google Search,
+    Gmail and Analytics is now available on Google Cloud Platform '
+  url: http://googlecloudplatform.blogspot.com/2015/05/introducing-Google-Cloud-Bigtable.html
+  domain: googlecloudplatform.blogspot.com
+  image: ""
+- curated_id: 65837e4cd24fcbe8c8c5985a3b1db572
+  item_date: "2015-05-06 00:00:00"
+  title: Google introduces Cloud Bigtable managed NoSQL database to process data at
+    scale
+  url: http://venturebeat.com/2015/05/06/google-introduces-cloud-bigtable-managed-nosql-database-to-process-data-at-scale/
+  domain: venturebeat.com
+  image: ""
+- curated_id: c94fae9c5ee9d845fe2be6a6609570fc
+  item_date: "2015-05-07 00:00:00"
+  title: Another look at MySQL at Twitter and incubating Mysos
+  url: https://blog.twitter.com/2015/another-look-at-mysql-at-twitter-and-incubating-mysos
+  domain: blog.twitter.com
+  image: ""
+- curated_id: 046aaa54674ca93c4b3966b557cd8a78
+  item_date: "2015-05-07 00:00:00"
+  title: Distributed SQL database Crate now available as Click-to-Deploy for Google
+    Compute Engine
+  url: http://googlecloudplatform.blogspot.com/2015/05/Distributed-SQL-database-Crate-now-available-as-Click-to-Deploy-for-Google-Compute-Engine.html
+  domain: googlecloudplatform.blogspot.com
+  image: ""
+- curated_id: 182240ba18bfb8cda3c0a6aff8ef4e1f
+  item_date: "2015-05-12 00:00:00"
+  title: Getting Started with the Node.js LoopBack Connector for ArangoDB
+  url: https://strongloop.com/strongblog/getting-started-with-node-js-loopback-connector-for-arangodb/
+  domain: strongloop.com
+  image: ""
+- curated_id: c517eb68e46243cdaf261c1c2ccf426b
+  item_date: "2015-05-12 00:00:00"
+  title: Heroku Redis Now Available in Public Beta
+  url: https://blog.heroku.com/archives/2015/5/12/heroku-redis-now-available-in-public-beta
+  domain: blog.heroku.com
+  image: ""
+- curated_id: 2343fd86cbb2ecbd4b1b49a7ddcb5a67
+  item_date: "2015-05-18 00:00:00"
+  title: Using dashDB or DB2 with Apache OpenOffice (or LibreOffice)
+  url: http://blog.4loeser.net/2015/05/using-dashdb-or-db2-with-apache.html
+  domain: blog.4loeser.net
+  image: ""
+- curated_id: 558611b987c763e705ea87c3bd461efb
+  item_date: "2015-05-19 00:00:00"
+  title: Introducing the Lightning.anyDB Connector ? Data Democracy Fueled by Salesforce
+    Lightning Connect
+  url: https://developer.salesforce.com/blogs/developer-relations/2015/05/introducing-lightning-anydb-connector-data-democracy-fueled-salesforce-lightning-connect.html
+  domain: developer.salesforce.com
+  image: ""
+- curated_id: 75f968043ef2d3cf84239186c00c7408
+  item_date: "2015-05-20 00:00:00"
+  title: Building a realtime API with RethinkDB
+  url: http://blog.fanout.io/2015/05/20/building-a-realtime-api-with-rethinkdb/
+  domain: blog.fanout.io
+  image: ""
+- curated_id: 15ca2b97f1d0157b5f8766a78fae04fa
+  item_date: "2015-05-21 00:00:00"
+  title: 'Gluecon live: Web APIs to glue all devices, and SQL data APIs'
+  url: http://restlet.com/blog/2015/05/21/gluecon-live-web-apis-to-glue-all-devices-and-sql-data-apis/
+  domain: restlet.com
+  image: ""
+- curated_id: 95108295876670aa8467f1e682800ac5
+  item_date: "2015-05-23 00:00:00"
+  title: 'Article: High Tech, High Sec.: Security Concerns in Graph Databases'
+  url: http://www.infoq.com/articles/high-tech-high-sec-security-concerns-in-graph-databases
+  domain: www.infoq.com
+  image: ""
+- curated_id: 80e660e835aec2e2491d5d43af3a03c5
+  item_date: "2015-05-26 00:00:00"
+  title: Import Sample Data to Azure DocumentDB
+  url: http://azure.microsoft.com/blog/2015/05/26/import-sample-data-to-azure-documentdb/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 7c67d9954b4e63e60af12f273e3fe8f4
+  item_date: "2015-05-28 00:00:00"
+  title: SQL Server to add JSON Support
+  url: http://www.infoq.com/news/2015/05/SQL-Server-JSON
+  domain: www.infoq.com
+  image: ""
+- curated_id: db10977bf7bd8ddf5778a728602535e1
+  item_date: "2015-06-02 00:00:00"
+  title: Importing Data to DocumentDB Just Got Faster and Easier
+  url: http://azure.microsoft.com/blog/2015/06/02/importing-data-to-documentdb-just-got-faster-and-easier/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 79c6e78dae8dda0b18a90d4bf52f2ca2
+  item_date: "2015-06-08 00:00:00"
+  title: 'Query Store: A flight data recorder for your database'
+  url: https://azure.microsoft.com/blog/2015/06/08/query-store-a-flight-data-recorder-for-your-database/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 9981190926101c5195dec7919f11fc8b
+  item_date: "2015-06-14 00:00:00"
+  title: IBM doubles down on Apache Spark with cloud service, open-source code, and
+    tech center
+  url: http://venturebeat.com/2015/06/14/ibm-spark/
+  domain: venturebeat.com
+  image: ""
+- curated_id: df89f978acf3d90c2dd76651ce3bddd6
+  item_date: "2015-06-15 00:00:00"
+  title: 'Azure Data Factory Updates: Copy data from MySQL, DB2, Sybase, PostgreSQL
+    and Teradata'
+  url: http://azure.microsoft.com/blog/2015/06/15/azure-data-factory-updates-copy-data-from-mysql-db2-sybase-postgresql-and-teradata/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 073375abbc7f7efd949bd7f72135bc09
+  item_date: "2015-06-15 18:41:34"
+  title: New ? Simplified Reserved Instance Options for Amazon RDS
+  url: https://aws.amazon.com/blogs/aws/new-simplified-reserved-instance-options-for-amazon-rds/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 56e8127e32b8a82300c9d79a418e2211
+  item_date: "2015-06-16 00:00:00"
+  title: JSON for SQL Server. Part 1
+  url: http://www.codeproject.com/Articles/1000953/JSON-for-SQL-Server-Part
+  domain: www.codeproject.com
+  image: ""
+- curated_id: e8f1b5350db3968d427cc358b69f686a
+  item_date: "2015-06-16 00:00:00"
+  title: Now Available ? SQL Server Enterprise Edition AMI for EC2
+  url: https://aws.amazon.com/blogs/aws/now-available-sql-server-enterprise-edition-ami-for-ec2/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 830639bed1a771d120fbde53a00fd633
+  item_date: "2015-06-16 00:00:00"
+  title: 'SQL Server 2016: Always Encrypted'
+  url: https://www.infoq.com/news/2015/06/SQL-Server-Always-Encrypted
+  domain: www.infoq.com
+  image: ""
+- curated_id: 030d246faacde20aa7a3b83b1da9ba82
+  item_date: "2015-06-24 00:00:00"
+  title: Azure SQL Data Warehouse is available for limited public preview
+  url: http://azure.microsoft.com/blog/2015/06/24/azure-sql-data-warehouse-is-available-for-limited-public-preview/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 136113074fb631907477a0280ae32d8b
+  item_date: "2015-06-24 00:00:00"
+  title: Updated Azure SQL Database Elastic Database Pool Minimum Size
+  url: http://azure.microsoft.com/blog/2015/06/24/updated-azure-sql-database-elastic-database-pool-minimum-size/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 326633bcbb41987bce60857842281667
+  item_date: "2015-06-25 00:00:00"
+  title: Heroku Redis GA and Introducing Heroku Data Links
+  url: https://blog.heroku.com/archives/2015/6/25/heroku-redis-ga-and-introducing-heroku-data-links
+  domain: blog.heroku.com
+  image: ""
+- curated_id: 50b583c5be4efff4e903182390df8ed1
+  item_date: "2015-06-25 00:00:00"
+  title: SlashDB ver. 0.8 Debuts on Microsoft Azure
+  url: http://www.slashdb.com/2015/06/25/slashdb-08-debuts-on-microsoft-azure/
+  domain: www.slashdb.com
+  image: ""
+- curated_id: 9f459b28ebfa45d6b05cbd12ab04d64e
+  item_date: "2015-06-29 12:11:43"
+  title: SlashDB Can Turn Any Data Source Into A Website  |  TechCrunch
+  url: http://techcrunch.com/2015/06/29/slashdb-can-turn-any-data-source-into-a-website/
+  domain: techcrunch.com
+  image: ""
+- curated_id: 632768306b9b90f88cf424d9529ea1ec
+  item_date: "2015-06-30 00:00:00"
+  title: Azure SQL DB Previews Elastic Database Query
+  url: http://azure.microsoft.com/blog/2015/06/30/azure-sql-db-previews-elastic-database-query/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: bdd0e728a9048605e0f75793350713f0
+  item_date: "2015-07-09 00:00:00"
+  title: Amazon Glacier Introduces Vault Lock
+  url: https://blogs.aws.amazon.com/security/post/Tx2LB5TJVHZB4DU/Amazon-Glacier-Introduces-Vault-Lock
+  domain: blogs.aws.amazon.com
+  image: ""
+- curated_id: 7f7f8e9671b1f6164382d2747ab5abd2
+  item_date: "2015-08-11 00:00:00"
+  title: SQL Server export to CSV
+  url: http://www.codeproject.com/Tips/1017732/SQL-Server-export-to-CSV
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 733bb058698da60899ba5b0c092e35f2
+  item_date: "2015-08-20 00:00:00"
+  title: 'Azure DocumentDB: JavaScript as Modern Day T-SQL'
+  url: https://azure.microsoft.com/en-us/blog/2015/08/20/azure-documentdb-javascript-as-modern-day-t-sql/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 30a52c1eab929605c098f4b9ff628203
+  item_date: "2015-08-26 00:00:00"
+  title: ""
+  url: http://www.slashdb.com/2015/08/26/graph-facade-api-over-relational-data/
+  domain: www.slashdb.com
+  image: ""
+- curated_id: 0d63bb194eed4ee0cd36a9be9728d36f
+  item_date: "2015-09-09 00:00:00"
+  title: Elastic database client library now open sourced
+  url: https://azure.microsoft.com/en-us/blog/elastic-database-client-library-is-now-open-sourced/
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: e9ffb971b1fb3c2a1dabe1aece10865f
+  item_date: "2015-10-21 00:00:00"
+  title: Speed with Ease ? NoSQL on the Google Cloud Platform
+  url: http://googlecloudplatform.blogspot.com/2015/10/speed-with-Ease-NoSQL-on-the-Google-Cloud-Platform.html
+  domain: googlecloudplatform.blogspot.com
+  image: ""
+- curated_id: 530234c968f38ddd67741f7615d75f58
+  item_date: "2015-11-06 00:00:00"
+  title: DreamFactory 2.0 Bundled With MongoDB
+  url: http://blog.dreamfactory.com/dreamfactory-2.0-bundled-with-mongodb
+  domain: blog.dreamfactory.com
+  image: ""
+- curated_id: c596f178b83ccb25adf84d8822d2521b
+  item_date: "2015-12-07 00:00:00"
+  title: New ? Encryption at Rest for Amazon Aurora
+  url: https://aws.amazon.com/blogs/aws/new-encryption-at-rest-for-amazon-aurora/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 04cde54288ca2129fd3d9b5e8a8eea7b
+  item_date: "2015-12-09 00:00:00"
+  title: Combining Multiple Data Sources In One API With DreamFactory
+  url: http://blog.dreamfactory.com/combining-multiple-data-sources-in-a-single-restapi-call-with-dreamfactory-2.0
+  domain: blog.dreamfactory.com
+  image: ""
+- curated_id: 0c71d8d5699210f5f8f49584f0602547
+  item_date: "2015-12-09 00:00:00"
+  title: Configure Couchbase Docker Container Using REST API - DZone Database
+  url: https://dzone.com/articles/configure-couchbase-docker-container-using-rest-ap
+  domain: dzone.com
+  image: ""
+- curated_id: 838ef3a9152248dae857ac11d401b2e6
+  item_date: "2015-12-10 00:00:00"
+  title: Google Cloud Platform upgrades MySQL database service
+  url: http://www.zdnet.com/article/google-cloud-platform-upgrades-mysql-database-service/#ftag=RSSbaffb68
+  domain: www.zdnet.com
+  image: ""
+- curated_id: 78bd559f4109581b061b4260d337f55a
+  item_date: "2015-12-16 00:00:00"
+  title: DreamFactory 2.0 Support For SQLite
+  url: http://blog.dreamfactory.com/dreamfactory-2.0-support-for-sqlite
+  domain: blog.dreamfactory.com
+  image: ""
+- curated_id: 1b323e66d3cfddb3373bbff40d13d9ac
+  item_date: "2015-12-18 00:00:00"
+  title: New ? Enhanced Monitoring for Amazon RDS (MySQL 5.6, MariaDB, and Aurora)
+  url: https://aws.amazon.com/blogs/aws/new-enhanced-monitoring-for-amazon-rds-mysql-5-6-mariadb-and-aurora/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: bc40716235b1707d0c3f20a935ca1183
+  item_date: "2016-01-13 00:00:00"
+  title: Old Databases, New Opportunity for Cloud-Focused Service Providers in 2016
+  url: http://blog.bittitan.com/2016/01/14/old-databases-new-opportunity-for-cloud-focused-service-providers-in-2016/
+  domain: blog.bittitan.com
+  image: ""
+- curated_id: 252fb2e691ec15903e93ff416fa9154f
+  item_date: "2016-01-13 06:58:00"
+  title: 'RESTful Service-Design: How to  overcome the CRUD-nature of the REST-style'
+  url: http://itblogs.stephanbauer.me/restful-service-design-how-to-overcome-the-crud-nature-of-the-rest-style/
+  domain: itblogs.stephanbauer.me
+  image: ""
+- curated_id: 942bc111896e9515670db015282e8a65
+  item_date: "2016-01-14 00:00:00"
+  title: 'Migrating to DynamoDB, Part 1: Lessons in Schema Design'
+  url: http://blog.runscope.com/posts/migrating-to-dynamodb-part-1-lessons-in-schema-design
+  domain: blog.runscope.com
+  image: ""
+- curated_id: b509f27154eb2818167cfc315a2b0b14
+  item_date: "2016-01-14 00:00:00"
+  title: RESTful WEB API for CRUD operations in MongoDB
+  url: http://www.codeproject.com/Articles/1071823/RESTful-WEB-API-for-CRUD-operations-in-MongoDB
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 4c7b352c5275803486354ec5def1a915
+  item_date: "2016-01-16 00:00:00"
+  title: MongoDB/NoSQL Injection - Security
+  url: https://dzone.com/articles/mongodb-nosql-injection-security
+  domain: dzone.com
+  image: ""
+- curated_id: e11f08c1fa675dcadc4e609c4a8a8ef9
+  item_date: "2016-01-17 00:00:00"
+  title: 'JSON Gene in SQL: How SQL Extensions are Helping SQL Adapt to Flexibility
+    of JSON'
+  url: https://dzone.com/articles/JSON-Gene-in-SQL-How-SQL-extensions-are-helping-SQL-adapt-to-flexibility-of-JSON
+  domain: dzone.com
+  image: ""
+- curated_id: a80e1f95abdfcf6957305ac5b532b511
+  item_date: "2016-01-20 00:00:00"
+  title: Introduction to Web SQL
+  url: https://dzone.com/articles/introduction-to-web-sql
+  domain: dzone.com
+  image: ""
+- curated_id: 472fc2225f2a5360d239ca3f755c6c50
+  item_date: "2016-01-20 00:00:00"
+  title: How to import data into MS SQL server from CSV and XML
+  url: http://www.codeproject.com/Articles/1073184/How-to-import-data-into-MS-SQL-server-from-CSV-and
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 9a93f0f4be3a757ebb59852c1647a1c7
+  item_date: "2016-01-20 00:00:00"
+  title: The Frustrating Fallacy of All in One Location Data Storage
+  url: http://www.slashdb.com/2016/01/20/the-fallacy-of-all-in-one-location-storage/
+  domain: www.slashdb.com
+  image: ""
+- curated_id: 4250a4e0a494970ac48d94a5a9699cde
+  item_date: "2016-01-25 00:00:00"
+  title: Database CRUD Generator - Material Designed (Database Abstractions)
+  url: http://codecanyon.net/item/database-crud-generator-material-designed/14617925
+  domain: codecanyon.net
+  image: ""
+- curated_id: 4b5f6cdc11c76206b4145f92dd427306
+  item_date: "2016-01-25 00:00:00"
+  title: Read XML Files and Insert into Database Table
+  url: http://www.codeproject.com/Tips/871778/Read-XML-Files-and-Insert-into-Database-Table
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 179275448e55edd9f9508708f986cad7
+  item_date: "2016-01-25 00:00:00"
+  title: CenturyLink Brings Relational Database Service to Cloud Platform
+  url: http://www.thewhir.com/web-hosting-news/centurylink-brings-relational-database-service-to-cloud-platform
+  domain: www.thewhir.com
+  image: ""
+- curated_id: 15cbcecb88169bd75d0a8da917835a17
+  item_date: "2016-01-26 00:00:00"
+  title: Reporting JSON Data With Couchbase and PowerBI
+  url: https://dzone.com/articles/reporting-json-data-with-couchbase-and-powerbi
+  domain: dzone.com
+  image: ""
+- curated_id: 4205691c9aa0325feb1a6cbc7316b26a
+  item_date: "2016-01-28 00:00:00"
+  title: The Challenges and Pitfalls of Database Deployment Automation
+  url: https://dzone.com/articles/the-challenges-and-pitfalls-of-database-deployment
+  domain: dzone.com
+  image: ""
+- curated_id: a30787180ff74622ef29cf38e5e48d62
+  item_date: "2016-02-16 00:00:00"
+  title: Amazon EMR Update ? Support for EBS Volumes, and M4  C4 Instance Types
+  url: https://aws.amazon.com/blogs/aws/amazon-emr-update-support-for-ebs-volumes-and-m4-c4-instance-types/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: b613d936813dd0cb424be0949e281b79
+  item_date: "2016-02-16 14:04:10"
+  title: How to think about databases
+  url: http://nolanlawson.com/2016/02/08/how-to-think-about-databases/
+  domain: nolanlawson.com
+  image: ""
+- curated_id: bdce95ecd331ab39de9fda71799c08be
+  item_date: "2016-02-17 00:00:00"
+  title: 'Migrating to Amazon Aurora: The View from the Other Side'
+  url: https://aws.amazon.com/blogs/aws/migrating-to-amazon-aurora-the-view-from-the-other-side/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: f6dd4f90693fee675a205446485de66e
+  item_date: "2016-02-18 00:00:00"
+  title: Using GraphQL with the NoSQL Database ArangoDB
+  url: https://www.arangodb.com/2016/02/using-graphql-nosql-database-arangodb/
+  domain: www.arangodb.com
+  image: ""
+- curated_id: 2c7e62f9a43d8b023d452289f477618c
+  item_date: "2016-02-22 00:00:00"
+  title: Amazon RDS Update ? Support for MySQL 5.7
+  url: https://aws.amazon.com/blogs/aws/amazon-rds-update-support-for-mysql-5-7/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 84f981c05df6d624bb08f22629ec533d
+  item_date: "2016-02-23 00:00:00"
+  title: 10 Most Popular Amazon AWS Storage and Database Services
+  url: http://www.thegeekstuff.com/2016/02/aws-storage-and-db/
+  domain: www.thegeekstuff.com
+  image: ""
+- curated_id: db881a592de52625bc7d3d4156ec6345
+  item_date: "2016-02-25 00:00:00"
+  title: mLab Cloud MongoDB Deployment For API Plug
+  url: https://apiplug.com/blog/mlab-cloud-mongodb-deployment-for-api-plug/
+  domain: apiplug.com
+  image: ""
+- curated_id: 1b529105f051ebdbf3958f6bec06eca8
+  item_date: "2016-02-28 00:00:00"
+  title: 'Article: Unified Data Modeling for Relational and NoSQL Databases'
+  url: http://www.infoq.com/articles/unified-data-modeling-for-relational-and-nosql-databases
+  domain: www.infoq.com
+  image: ""
+- curated_id: 0438ededcda51e42278c1b63652b93fa
+  item_date: "2016-02-29 00:00:00"
+  title: AWS Import/Export Snowball Update ? Export Now Available
+  url: https://aws.amazon.com/blogs/aws/aws-importexport-snowball-update-export-now-available/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: fcff5d4be37ee1a46a27c2d736f7768d
+  item_date: "2016-03-01 00:00:00"
+  title: Relational vs. Graph Data Modeling
+  url: https://dzone.com/articles/relational-vs-graph-data-modeling
+  domain: dzone.com
+  image: ""
+- curated_id: 5dc82408a214d19ac23eee6474a0bddf
+  item_date: "2016-03-06 00:00:00"
+  title: Communicating With Couchbase via a Dockerfile Script and Docker
+  url: https://dzone.com/articles/communicating-with-couchbase-via-a-dockerfile-scri
+  domain: dzone.com
+  image: ""
+- curated_id: 4537d6d88ef0c90eda2dec09af885706
+  item_date: "2016-03-07 00:00:00"
+  title: API Gateways ? Gateways to the Future
+  url: http://www.slashdb.com/2016/03/07/api-gateways-gateways-to-the-future/
+  domain: www.slashdb.com
+  image: ""
+- curated_id: 0a2db131c466dc5a7f1ae5a2ec7b3c0a
+  item_date: "2016-03-08 00:00:00"
+  title: Elsevier Offers Drug Database API as Cloud-Hosted Solution
+  url: http://www.programmableweb.com/news/elsevier-offers-drug-database-api-cloud-hosted-solution/announcement/2016/03/08
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 2dc4566d3a6169b6273f48dc7d9a3c6f
+  item_date: "2016-03-09 00:00:00"
+  title: Using Enhanced RDS Monitoring with Datadog
+  url: https://aws.amazon.com/blogs/aws/using-enhanced-rds-monitoring-with-datadog/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: bf37b9c6ce36b483242adaa17165ab09
+  item_date: "2016-03-09 00:00:00"
+  title: 'At-Rest Encryption in MongoDB 3.2: Features and Performance'
+  url: https://dzone.com/articles/at-rest-encryption-in-mongodb-32-features-and-perf
+  domain: dzone.com
+  image: ""
+- curated_id: 1aac0e5bf2c21fca12dccd811fc808d4
+  item_date: "2016-03-10 00:00:00"
+  title: 'RDBMS  Graphs: SQL vs. Cypher Query Languages'
+  url: https://dzone.com/articles/rdbms-graphs-sql-vs-cypher-query-languages
+  domain: dzone.com
+  image: ""
+- curated_id: 3bf60fd8a03a77263307bf0c44551df9
+  item_date: "2016-03-10 13:48:55"
+  title: 'GitHub - GSA/DataBeam: Generic RESTful Interface for databases'
+  url: https://github.com/GSA/DataBeam
+  domain: github.com
+  image: ""
+- curated_id: 40dbed54f4c10f55e58bab476743d65c
+  item_date: "2016-03-10 13:48:55"
+  title: 'GitHub - project-open-data/db-to-api: Turns a Database into a Secure, RESTful
+    API'
+  url: https://github.com/project-open-data/db-to-api
+  domain: github.com
+  image: ""
+- curated_id: ae1651dd707857cae371926a334b75d8
+  item_date: "2016-03-12 00:00:00"
+  title: RESTful APIs vs GraphQL APIs by Example
+  url: https://www.reddit.com/r/programming/comments/4a1idd/restful_apis_vs_graphql_apis_by_example/t1_d0xh872
+  domain: www.reddit.com
+  image: ""
+- curated_id: 4b2d86a4d1f4cc5e85e061136656af79
+  item_date: "2016-03-13 00:00:00"
+  title: Yahoo Opens Largest Database to the Public
+  url: https://dzone.com/articles/yahoo-open-largest-database-to-the-public
+  domain: dzone.com
+  image: ""
+- curated_id: 1bc67d61a614ac24d2c8a1b9677b744d
+  item_date: "2016-03-14 00:00:00"
+  title: The Future of Data and Databases
+  url: https://dzone.com/articles/the-future-of-data-and-databases
+  domain: dzone.com
+  image: ""
+- curated_id: 29a92a70505e04fda1353bd181c0157f
+  item_date: "2016-03-15 00:00:00"
+  title: 'Power and Simplicity: Introducing the New Query Wizard'
+  url: https://www.brandwatch.com/2016/03/power-and-simplicity-introducing-the-new-query-wizard/
+  domain: www.brandwatch.com
+  image: ""
+- curated_id: 6b2d4529868921272f1f181d247160fc
+  item_date: "2016-03-16 00:00:00"
+  title: Additional Failover Control for Amazon Aurora
+  url: https://aws.amazon.com/blogs/aws/additional-failover-control-for-amazon-aurora/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: ae3de63af796f3aaac507f8ca58648a6
+  item_date: "2016-03-16 00:00:00"
+  title: How Three Fundamental Data Structures Impact Storage and Retrieval
+  url: https://dzone.com/articles/how-three-fundamental-data-structures-impact-stora
+  domain: dzone.com
+  image: ""
+- curated_id: 787a40614a66953f8543676a5912682f
+  item_date: "2016-03-16 00:00:00"
+  title: Why Graph Databases Outperform RDBMS on Connected Data
+  url: https://dzone.com/articles/why-are-native-graph-databases-more-efficient-than
+  domain: dzone.com
+  image: ""
+- curated_id: 2e451a2659e3183ef770559748f33987
+  item_date: "2016-03-20 00:00:00"
+  title: 'Securing MongoDB Part 3: Database Auditing and Encryption'
+  url: https://dzone.com/articles/securing-mongodb-part-3-database-auditing-and-encr
+  domain: dzone.com
+  image: ""
+- curated_id: 85451b02044268c40f893f91f68b7231
+  item_date: "2016-03-23 00:00:00"
+  title: Amazon RDS for SQL Server ? Support for Windows Authentication
+  url: https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-windows-authentication/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: f04208b97b6537ac8aa4687962cdf424
+  item_date: "2016-03-26 00:00:00"
+  title: Microservices, Legacy Applications, and the Relational Database
+  url: https://dzone.com/articles/microservices-legacy-applications-and-the-relation
+  domain: dzone.com
+  image: ""
+- curated_id: f104f20a42a236f1879c445c0c3710a2
+  item_date: "2016-03-26 00:00:00"
+  title: AWS Launches Relational Database Migration Service
+  url: http://www.infoq.com/news/2016/03/aws-database-migration-service
+  domain: www.infoq.com
+  image: ""
+- curated_id: 31327840eba5aa30a78fbf79881ebfa2
+  item_date: "2016-03-28 00:00:00"
+  title: Picking the Right Caching Tier for Your Database
+  url: https://dzone.com/articles/in-progress-picking-the-right-caching-tier-for-you
+  domain: dzone.com
+  image: ""
+- curated_id: 6982905160808f190adc7e11f6b3c2a7
+  item_date: "2016-04-03 00:00:00"
+  title: How to Remove Duplicates in Large Datasets
+  url: http://www.codeproject.com/Articles/1089874/How-to-Remove-Duplicates-in-Large-Datasets
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 3e76d5febb235a8de6110585820e3c94
+  item_date: "2016-04-06 00:00:00"
+  title: Exposing datastores through a Web API
+  url: http://restlet.com/blog/2016/04/06/exposing-datastores-through-a-web-api/
+  domain: restlet.com
+  image: ""
+- curated_id: 4764dbfbee0570eb242f0d52a8869a38
+  item_date: "2016-04-06 00:00:00"
+  title: 'OmniDB: A Web Tool for Database Management and Conversion'
+  url: http://www.codeproject.com/Tips/1078827/OmniDB-A-Web-Tool-for-Database-Management-and-Conv
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 77675c58c96353b320017956752c32ae
+  item_date: "2016-04-08 00:00:00"
+  title: Google Cloud Datastore API Rebuilt for Better Performance and Access
+  url: http://www.programmableweb.com/news/google-cloud-datastore-api-rebuilt-better-performance-and-access/brief/2016/04/08
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 1c6f29a07ad9c3ab59a8d8d31b89e364
+  item_date: "2016-04-09 10:23:09"
+  title: SQL Joins Visualizer
+  url: http://sql-joins.leopard.in.ua/
+  domain: sql-joins.leopard.in.ua
+  image: ""
+- curated_id: 2dc93e4b22f310e523cfe32c62cdfd4b
+  item_date: "2016-04-18 00:00:00"
+  title: Clusterpoint Adds JOINs to its Database Platform
+  url: https://dzone.com/articles/clusterpoint-adds-joins-to-its-database-platform
+  domain: dzone.com
+  image: ""
+- curated_id: ad021df4938deb8ddb06cf44a88ab746
+  item_date: "2016-04-19 00:00:00"
+  title: Amazon Kinesis Update ? Amazon Elasticsearch Service Integration,  Shard-Level
+    Metrics, Time-Based Iterators
+  url: https://aws.amazon.com/blogs/aws/amazon-kinesis-update-amazon-elasticsearch-service-integration-shard-level-metrics-time-based-iterators/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: c985b14085364052e80d820d855c99e5
+  item_date: "2016-04-19 00:00:00"
+  title: Is Amazon CTO?s Call for Simplified Solutions a Shout-Out to SlashDB?
+  url: http://www.slashdb.com/2016/04/19/amazon-ctos-a-shout-out-to-slashdb/
+  domain: www.slashdb.com
+  image: ""
+- curated_id: 04362a0c7745f14ae2fcbb07f813ac23
+  item_date: "2016-04-21 00:00:00"
+  title: Amazon EMR Update ? Apache HBase 1.2 Is Now Available
+  url: https://aws.amazon.com/blogs/aws/amazon-emr-update-apache-hbase-1-2-is-now-available/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 79b5ac9f49a0b3b7b24494e14e1c86f8
+  item_date: "2016-04-22 00:00:00"
+  title: Here Is How to Secure a Cloud Database
+  url: https://maxkatz.org/2016/04/22/here-is-how-to-secure-a-cloud-database/
+  domain: maxkatz.org
+  image: ""
+- curated_id: 8f3fe9710f721ab58e0086bcac1f79bc
+  item_date: "2016-04-26 00:00:00"
+  title: Announcing Heroku Kafka Early Access
+  url: https://blog.heroku.com/announcing-heroku-kafka-early-access
+  domain: blog.heroku.com
+  image: ""
+- curated_id: 788ba9a4ad0b260cada1e4f56b754dab
+  item_date: "2016-04-26 00:00:00"
+  title: MySQL Document Store Developments
+  url: https://dzone.com/articles/mysql-document-store-developments
+  domain: dzone.com
+  image: ""
+- curated_id: 8210b5624eced40c3d79430b43fa0c47
+  item_date: "2016-04-26 00:00:00"
+  title: 'Screencast: Expose MySQL data through a web API with APISpark'
+  url: http://restlet.com/blog/2016/04/26/screencast-expose-mysql-data-through-a-web-api-with-apispark/
+  domain: restlet.com
+  image: ""
+- curated_id: e6a5d352b694cf23dec1cdb98a3342b7
+  item_date: "2016-05-02 00:00:00"
+  title: 'From Relational to Graph: A Developers Guide'
+  url: https://dzone.com/refcardz/from-relational-to-graph-a-developers-guide
+  domain: dzone.com
+  image: ""
+- curated_id: d7539372297e7952465a1e7852dd7ad0
+  item_date: "2016-05-03 00:00:00"
+  title: Postgres 9.5 General Availability
+  url: https://blog.heroku.com/archives/2016/5/3/postgres-95-general-availability
+  domain: blog.heroku.com
+  image: ""
+- curated_id: 2a20ed8093ecff066238587c9d405c13
+  item_date: "2016-05-12 00:00:00"
+  title: How CPU Governor Performance Affects MySQL
+  url: https://dzone.com/articles/how-cpu-governor-performance-affects-mysql
+  domain: dzone.com
+  image: ""
+- curated_id: f0afa22890ba4ae815a8de82208b9b66
+  item_date: "2016-05-12 00:00:00"
+  title: Feature Flagging to Mitigate Risk in Database Migration
+  url: https://dzone.com/articles/feature-flagging-to-mitigate-risk-in-database-migr
+  domain: dzone.com
+  image: ""
+- curated_id: 41e911729db2dbff81b3f0ab996583de
+  item_date: "2016-05-14 00:00:00"
+  title: Reindex ? GraphQL backend as a service
+  url: https://www.reindex.io
+  domain: www.reindex.io
+  image: ""
+- curated_id: 46aec7b5c1a66e118cfbbd4a4ca61974
+  item_date: "2016-05-19 00:00:00"
+  title: 10 Top Things to Monitor in Amazon RDS
+  url: https://dzone.com/articles/10-top-things-to-monitor-in-amazon-rds
+  domain: dzone.com
+  image: ""
+- curated_id: cf862f1a1c5bd69b455195b8f7c031ea
+  item_date: "2016-05-22 00:00:00"
+  title: A Flexible and Scalable Architecture for Real-Time ANT+ Sensor Data Acquisition
+    and NoSQL Storage
+  url: http://www.hindawi.com/journals/ijdsn/2016/3651591/
+  domain: www.hindawi.com
+  image: ""
+- curated_id: f62df0d443993c1e31d93137e00bb25e
+  item_date: "2016-05-26 00:00:00"
+  title: SlashDB and Data Analysis
+  url: http://www.slashdb.com/2016/05/26/slashdb-and-data-analysis/
+  domain: www.slashdb.com
+  image: ""
+- curated_id: 2d04ff72f24628f46c953b4302cc0583
+  item_date: "2016-05-31 00:00:00"
+  title: SQL Query to Convert XML to a Table
+  url: https://dzone.com/articles/sql-query-to-convert-xml-to-table
+  domain: dzone.com
+  image: ""
+- curated_id: c37ebe4a8196bf56808972b32d398909
+  item_date: "2016-05-31 00:00:00"
+  title: AWS Aurora Benchmarking
+  url: https://dzone.com/articles/aws-aurora-benchmarking-part-2
+  domain: dzone.com
+  image: ""
+- curated_id: 263a18636a8e3ab87a0d15ce27ee69f1
+  item_date: "2016-06-01 00:00:00"
+  title: New ? Cross-Region Read Replicas for Amazon Aurora
+  url: https://aws.amazon.com/blogs/aws/new-cross-region-read-replicas-for-amazon-aurora/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 4196cf0984e0914320df65a58fc53356
+  item_date: "2016-06-07 00:00:00"
+  title: Elastic Query in Azure SQL Database and Views
+  url: https://dzone.com/articles/elastic-query-in-azure-sql-database-and-views
+  domain: dzone.com
+  image: ""
+- curated_id: 29c0b4afc3012285823aeea5808e2375
+  item_date: "2016-06-10 00:00:00"
+  title: SIOS Technology Extends Machine Learning Analytics to SQL Server
+  url: http://www.itbusinessedge.com/blogs/it-unmasked/sios-technology-extends-machine-learning-analytics-to-sql-server.html
+  domain: www.itbusinessedge.com
+  image: ""
+- curated_id: 9fbcc5c74394a6ccd561f9b6ba46a090
+  item_date: "2016-06-15 00:00:00"
+  title: RocksDB From Docker Containers
+  url: https://dzone.com/articles/rocksdb-from-docker-containers
+  domain: dzone.com
+  image: ""
+- curated_id: 2d3afc6570041007f4d15ca90162a48b
+  item_date: "2016-06-16 00:00:00"
+  title: 'Introducing the Google Sheets API v4: Transferring data from a SQL database
+    to a Sheet'
+  url: https://developers.googleblog.com/2016/06/introducing-google-sheets-api-v4.html
+  domain: developers.googleblog.com
+  image: ""
+- curated_id: 72fad6782370747867d535a83f60b15d
+  item_date: "2016-06-21 00:00:00"
+  title: A better way to bootstrap MongoDB on Google Cloud Platform
+  url: https://cloudplatform.googleblog.com/2016/06/a-better-way-to-bootstrap-MongoDB-on-Google-Cloud-Platform.html
+  domain: cloudplatform.googleblog.com
+  image: ""
+- curated_id: 7af08a89eae4d1e92441293d09ce9a00
+  item_date: "2016-06-21 00:00:00"
+  title: Scaphold ? GraphQL-as-a-service.
+  url: https://scaphold.io/
+  domain: scaphold.io
+  image: ""
+- curated_id: fef2b92f7a9f3193a5d267321195bb2c
+  item_date: "2016-06-24 00:00:00"
+  title: Docker Automatic MySQL Slave Propagation
+  url: https://dzone.com/articles/docker-automatic-mysql-slave-propagation
+  domain: dzone.com
+  image: ""
+- curated_id: 6c92d551d9484d49928109ecf649e247
+  item_date: "2016-06-30 00:00:00"
+  title: 'The Guts n Glory of Database Internals: Managing Concurrency'
+  url: https://dzone.com/articles/the-guts-n-glory-of-database-internals-managing-co
+  domain: dzone.com
+  image: ""
+- curated_id: 425167f642a54f7dcd833d46c4c5bcb3
+  item_date: "2016-07-06 00:00:00"
+  title: DBmaestro releases expanded and improved Open API
+  url: http://sdtimes.com/dbmaestro-releases-expanded-improved-open-api/
+  domain: sdtimes.com
+  image: ""
+- curated_id: 2d3474318c1f35ed66a8ffcc858566a2
+  item_date: "2016-07-07 00:00:00"
+  title: DBmaestro Releases Expanded Open API to Support Continuous Integration
+  url: http://www.dbta.com/Editorial/News-Flashes/DBmaestro-Releases-Expanded-Open-API-to-Support-Continuous-Integration-112223.aspx
+  domain: www.dbta.com
+  image: ""
+- curated_id: 36b73fd4dd2936a9e6e046c9705561b9
+  item_date: "2016-07-07 00:00:00"
+  title: 'MongoDB Tips and Tricks: Collection-Level Access Control'
+  url: https://dzone.com/articles/mongodb-tips-and-tricks-collection-level-access-co
+  domain: dzone.com
+  image: ""
+- curated_id: 58cf24df587534cc07cee04a0bc3631a
+  item_date: "2016-07-08 00:00:00"
+  title: Have you met the Realtime Database?
+  url: http://firebase.googleblog.com/2016/07/have-you-met-realtime-database.html
+  domain: firebase.googleblog.com
+  image: ""
+- curated_id: a5aee0da090aefbaec8cc2f05b7cffc3
+  item_date: "2016-07-10 00:00:00"
+  title: 'Serverless: Invalidating a DynamoDB Cache'
+  url: https://dzone.com/articles/serverless-invalidating-a-dynamodb-cache
+  domain: dzone.com
+  image: ""
+- curated_id: a6279a307bb6b47814475ebdc45c207a
+  item_date: "2016-07-11 00:00:00"
+  title: Couchbase PHP SDK 2.2.0 ? Example With Full Text Search
+  url: https://dzone.com/articles/php-sdk-220-example-with-full-text-search
+  domain: dzone.com
+  image: ""
+- curated_id: 6e984a46d1e097eec1a4de7a22ebbfa4
+  item_date: "2016-07-12 00:00:00"
+  title: Couchbase Docker Container on Amazon ECS
+  url: https://dzone.com/articles/couchbase-docker-container-on-amazon-ecs
+  domain: dzone.com
+  image: ""
+- curated_id: 3feabaf8d58fcc5a8b0fd441e490cb74
+  item_date: "2016-07-14 15:01:12"
+  title: 'Tweet: Restore an unencrypted Aurora snapshot to create an encrypted Aurora
+    DB cluster: https://t.co/HpceNsogAX https://t.co/A2I9nQ2K0Q'
+  url: https://twitter.com/awscloud/statuses/753710968442454017
+  domain: twitter.com
+  image: ""
+- curated_id: d4d396929f63b590e13f11bd47fb0a18
+  item_date: "2016-07-18 00:00:00"
+  title: Kueri.me ? A complete Platform for integrating Natural Language to SQL
+  url: http://kueri.me/
+  domain: kueri.me
+  image: ""
+- curated_id: bc80fa0a468c28cceb0949aecbbe3365
+  item_date: "2016-07-18 00:00:00"
+  title: DBmaestro Releases Expanded and Improved Open API
+  url: http://chevyfleischman-weiss.sys-con.com/node/3867239
+  domain: chevyfleischman-weiss.sys-con.com
+  image: ""
+- curated_id: a4366b21c6705e8e839d970da646126a
+  item_date: "2016-07-18 00:00:00"
+  title: Serverless Big Data Pipeline on AWS
+  url: https://dzone.com/articles/serverless-big-data-pipeline-on-aws
+  domain: dzone.com
+  image: ""
+- curated_id: f99766a0329049135bb4958a8216226a
+  item_date: "2016-07-19 00:00:00"
+  title: beREST API framework (Database Abstractions)
+  url: https://codecanyon.net/item/berest-build-your-own-restful-api/17089495
+  domain: codecanyon.net
+  image: ""
+- curated_id: 807527374590de77fc957a342875e60a
+  item_date: "2016-07-19 00:00:00"
+  title: Get Started with SQL Server Containers
+  url: https://dzone.com/articles/get-started-with-sql-server-containers
+  domain: dzone.com
+  image: ""
+- curated_id: 1916a4577037d4160a01970e54ceb2dc
+  item_date: "2016-07-20 00:00:00"
+  title: Amazon Aurora Update ? Create Cluster from MySQL Backup
+  url: https://aws.amazon.com/blogs/aws/amazon-aurora-update-create-cluster-from-mysql-backup/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 687e74e4bec0d3564b22524c2aa18bce
+  item_date: "2016-07-21 00:00:00"
+  title: RethinkDB Joinery
+  url: https://www.compose.com/articles/rethinkdb-joinery/
+  domain: www.compose.com
+  image: ""
+- curated_id: dab26f0ae6ea202d0746b8e28dd04e6d
+  item_date: "2016-07-25 00:00:00"
+  title: Automatically build APIs from your Oracle database using DreamFactory
+  url: http://blog.dreamfactory.com/automatically-build-apis-from-your-oracle-database-using-dreamfactory
+  domain: blog.dreamfactory.com
+  image: ""
+- curated_id: 7fea1d2c392a102fb2d073bbdcde98b7
+  item_date: "2016-07-25 00:00:00"
+  title: Create Couchbase Docker Images on the Fly With TestContainers
+  url: https://dzone.com/articles/create-couchbase-docker-images-on-the-fly-with-tes
+  domain: dzone.com
+  image: ""
+- curated_id: 86da75392be130aaa434565544e6b5f3
+  item_date: "2016-07-27 00:00:00"
+  title: Amazon RDS for SQL Server Support for Native Backup/Restore to Amazon S3
+  url: https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-native-backuprestore-to-amazon-s3/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 93cfdbc11b782de2d13f57c575eb2744
+  item_date: "2016-07-27 00:00:00"
+  title: Fauxton, the new CouchDB Dashboard
+  url: https://blog.couchdb.org/2016/07/27/fauxton-the-new-couchdb-dashboard/
+  domain: blog.couchdb.org
+  image: ""
+- curated_id: 54c1f95394caedaf32c764dd966d257c
+  item_date: "2016-08-01 12:39:00"
+  title: 'Tweet: Introducing gh-ost: our online schema migration tool for MySQL by
+    @ShlomiNoach https://t.co/BbpelcRkrq https://t.co/yRK3v8vhc1'
+  url: https://twitter.com/github/statuses/760198164741709824
+  domain: twitter.com
+  image: ""
+- curated_id: 083d858fdcf2d4fee15051abab83fa6c
+  item_date: "2016-08-02 00:00:00"
+  title: Attic Labs raises $8.1M and launches its new decentralized database
+  url: https://techcrunch.com/2016/08/02/attic-labs-noms-noms/
+  domain: techcrunch.com
+  image: ""
+- curated_id: 09dd46832b54da2c4bc70ce9357e8fbf
+  item_date: "2016-08-03 00:00:00"
+  title: 'Metrics Maven: Making Data Pretty in PostgreSQL'
+  url: https://www.compose.com/articles/metrics-maven-making-data-pretty-in-postgresql/
+  domain: www.compose.com
+  image: ""
+- curated_id: 4c938390b85ce88f83eb6d3d9c428387
+  item_date: "2016-08-03 00:00:00"
+  title: Building immutable entities into Google Cloud Datastore
+  url: https://cloudplatform.googleblog.com/2016/08/building-immutable-entities-into-Google-Cloud-Datastore.html
+  domain: cloudplatform.googleblog.com
+  image: ""
+- curated_id: 7383bfa180de5ccd3e4006ad7fd5c4d9
+  item_date: "2016-08-04 00:00:00"
+  title: Relational vs. NoSQL Databases for API Traffic
+  url: https://dzone.com/articles/relational-vs-nosql-databases-for-api-traffic-1
+  domain: dzone.com
+  image: ""
+- curated_id: 58488a69bcb96b79782128b3d2d06c39
+  item_date: "2016-08-05 00:00:00"
+  title: SQL Server Containers and Clones
+  url: https://dzone.com/articles/sql-server-containers-and-clones
+  domain: dzone.com
+  image: ""
+- curated_id: 0decbf67677efdfe1e3ddada658bbd19
+  item_date: "2016-08-06 00:00:00"
+  title: New Release of dbbench Streamlines Database Workload Testing
+  url: https://dzone.com/articles/new-release-of-dbbench-streamlines-database-worklo
+  domain: dzone.com
+  image: ""
+- curated_id: b39b71ce2783f03726c1a295f149845e
+  item_date: "2016-08-08 00:00:00"
+  title: AWS Adds Native SQL Server Backups to Database-as-a-Service
+  url: https://www.infoq.com/news/2016/08/aws-native-sql-backup
+  domain: www.infoq.com
+  image: ""
+- curated_id: 7a27dac9dc3ba060979a37f6f4615b8c
+  item_date: "2016-08-09 00:00:00"
+  title: 'Compose View: Say hello to the Database Advocate'
+  url: https://www.compose.com/articles/compose-view-say-hello-to-the-database-advocate/
+  domain: www.compose.com
+  image: ""
+- curated_id: 0d8805b442c8ae3a0a7b3cdc81597d75
+  item_date: "2016-08-10 00:00:00"
+  title: 'Feature: Compaction'
+  url: https://blog.couchdb.org/2016/08/10/feature-compaction/
+  domain: blog.couchdb.org
+  image: ""
+- curated_id: 68cd1f53bf26785c950ba91a673fe006
+  item_date: "2016-08-10 00:00:00"
+  title: Log API for Memory Databases
+  url: http://blog.datomic.com/2016/08/log-api-for-memory-databases.html
+  domain: blog.datomic.com
+  image: ""
+- curated_id: d06cb675a6be5289a6ae6ac7505b35d0
+  item_date: "2016-08-11 00:00:00"
+  title: Amazon Kinesis Analytics ?  Process Streaming Data in Real Time with SQL
+  url: https://aws.amazon.com/blogs/aws/amazon-kinesis-analytics-process-streaming-data-in-real-time-with-sql/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 79990bacfafea70994d43ca9e959e503
+  item_date: "2016-08-11 00:00:00"
+  title: Azure SQL Database For Your First Database
+  url: https://dzone.com/articles/azure-sql-database-for-your-first-database
+  domain: dzone.com
+  image: ""
+- curated_id: 8b897b03fcfcc7e6f9ee1e05d37577f7
+  item_date: "2016-08-11 06:52:00"
+  title: 'Tweet: Some great material to get started with GraphQL: https://t.co/v73ZpgZfVh'
+  url: https://twitter.com/reindexio/statuses/763734718022049792
+  domain: twitter.com
+  image: ""
+- curated_id: 296470c34063c16a78211b9eb0863673
+  item_date: "2016-08-12 00:00:00"
+  title: Postgres vs. MongoDB for Storing JSON Data
+  url: https://dzone.com/articles/postgres-vs-mongodb-for-storing-json-data
+  domain: dzone.com
+  image: ""
+- curated_id: 037e1fc8d2a4c21ec374cd6fd25db4c8
+  item_date: "2016-08-16 00:00:00"
+  title: Google says its databases are enterprise ready
+  url: http://www.pcworld.com/article/3108419/google-says-its-databases-are-enterprise-ready.html#tk.rss_all
+  domain: www.pcworld.com
+  image: ""
+- curated_id: af3414e69ce37b6c629da253a9068adb
+  item_date: "2016-08-16 00:00:00"
+  title: Advancing enterprise database workloads on Google Cloud Platform
+  url: https://cloudplatform.googleblog.com/2016/08/why-Google-Cloud-Platform-is-ready-for-your-enterprise-database-workloads.html
+  domain: cloudplatform.googleblog.com
+  image: ""
+- curated_id: c7a8a1ee6e4a12b237f1fc8af69ed689
+  item_date: "2016-08-17 00:00:00"
+  title: Eight Benefits of DBaaS
+  url: http://www.dbmaestro.com/2016/08/eight-benefits-of-dbaas/
+  domain: www.dbmaestro.com
+  image: ""
+- curated_id: 112e79ec6cc49a28f281f4e216762220
+  item_date: "2016-08-17 00:00:00"
+  title: Google Cloud Datastore serves over 15 trillion queries per month and is ready
+    for more
+  url: https://cloudplatform.googleblog.com/2016/08/google-cloud-datastore-serves-over-15.html
+  domain: cloudplatform.googleblog.com
+  image: ""
+- curated_id: 0a8a61e56e509036637dc99829cfb4ae
+  item_date: "2016-08-18 00:00:00"
+  title: New Import for Compose MongoDB
+  url: https://www.compose.com/articles/new-import-for-compose-mongodb/
+  domain: www.compose.com
+  image: ""
+- curated_id: 6270abc96c8558c1b3f14e9e53a493ff
+  item_date: "2016-08-19 00:00:00"
+  title: 'Database Building 101: The Cost of Graph Storage'
+  url: https://dzone.com/articles/database-building-101-the-cost-of-graph-storage
+  domain: dzone.com
+  image: ""
+- curated_id: 9825addadbda0116b0a90c89d81a45ba
+  item_date: "2016-08-19 00:00:00"
+  title: Barriers to Database Deployment Automation and How to Overcome Them
+  url: https://dzone.com/articles/barriers-to-database-deployment-automation-and-how
+  domain: dzone.com
+  image: ""
+- curated_id: 5161a8be0b898dfda0feaafd8b4b7c63
+  item_date: "2016-08-22 22:30:56"
+  title: Context aware MySQL pools via HAProxy
+  url: http://githubengineering.com/context-aware-mysql-pools-via-haproxy/
+  domain: githubengineering.com
+  image: ""
+- curated_id: 764a01cc148d748bf11f55f0bcb66c11
+  item_date: "2016-08-23 00:00:00"
+  title: 'Top Most Overlooked MySQL Performance Optimizations: Part I'
+  url: https://dzone.com/articles/top-most-overlooked-mysql-performance-optimization
+  domain: dzone.com
+  image: ""
+- curated_id: 70ec650a3346356e2debb2bd770f5cde
+  item_date: "2016-08-23 00:00:00"
+  title: SQL Server is the New Hunting Ground in the Cloud
+  url: https://www.infoq.com/news/2016/08/sql-server-google-cloud
+  domain: www.infoq.com
+  image: ""
+- curated_id: a38e73227615d717b06536c8e6cafe58
+  item_date: "2016-08-24 00:00:00"
+  title: 'Database Building 101: High-Level Graph Operations'
+  url: https://dzone.com/articles/high-level-graph-operations
+  domain: dzone.com
+  image: ""
+- curated_id: 2a58e6dcc1db78ad9408e5c430b3a40e
+  item_date: "2016-08-24 00:00:00"
+  title: 'GeoFile: Spatial Reference Systems and Databases'
+  url: https://www.compose.com/articles/geofile-spatial-reference-systems-2/
+  domain: www.compose.com
+  image: ""
+- curated_id: e2e88bbe510731998fc956b8c76d328e
+  item_date: "2016-08-24 00:00:00"
+  title: 'Top Most Overlooked MySQL Performance Optimizations: Part II'
+  url: https://dzone.com/articles/top-most-overlooked-mysql-performance-optimization-1
+  domain: dzone.com
+  image: ""
+- curated_id: 74687ac874a3bea85767c760bfca651f
+  item_date: "2016-08-26 00:00:00"
+  title: Database Migration in Continuous Integration Processes
+  url: https://dzone.com/articles/flyway-db-migration-in-continuous-integration-proc
+  domain: dzone.com
+  image: ""
+- curated_id: 5e867c5777c19b88031c44e46d15ffd8
+  item_date: "2016-08-26 00:00:00"
+  title: Visualizing Your Data With MongoDB Compass
+  url: https://dzone.com/articles/visualizing-your-data-with-mongodb-compass
+  domain: dzone.com
+  image: ""
+- curated_id: 7cbab15515b38f3a60127a85a9d7fe3a
+  item_date: "2016-08-29 00:00:00"
+  title: Efficiently Transforming JDBC Query Results to JSON
+  url: https://gkbrown.org/2016/08/26/efficiently-transforming-jdbc-query-results-to-json/
+  domain: gkbrown.org
+  image: ""
+- curated_id: 8464a9332e525a67cd66523ab725d70f
+  item_date: "2016-08-29 00:00:00"
+  title: '#Data as a Service: REST #APIs Transforming the Cloud era'
+  url: https://apilama.com/2016/08/29/data-as-a-service-rest-apis-transforming-the-cloud-era/
+  domain: apilama.com
+  image: ""
+- curated_id: d23e6efa48ae155ceae845a40ee666b9
+  item_date: "2016-08-29 00:00:00"
+  title: Remote Config With Firebase
+  url: https://dzone.com/articles/remote-config-with-firebase
+  domain: dzone.com
+  image: ""
+- curated_id: 6b55f7d3c49402e98b143fec621056b7
+  item_date: "2016-08-30 17:35:00"
+  title: 'Tutorial: Using Entity Framework Core as an In-Memory Database for ASP.NET
+    Core'
+  url: https://stormpath.com/blog/tutorial-entity-framework-core-in-memory-database-asp-net-core
+  domain: stormpath.com
+  image: ""
+- curated_id: 0a1a6a906b623ee7a7af5fdca40ade4c
+  item_date: "2016-08-31 00:00:00"
+  title: Establish a Secure SSL Connection to PostgreSQL DB Server
+  url: https://dzone.com/articles/establish-a-secure-ssl-connection-to-postgresql-db
+  domain: dzone.com
+  image: ""
+- curated_id: 12d5a3d4163e3fb6a611588f06288813
+  item_date: "2016-09-01 00:00:00"
+  title: 'JDBC Tutorial: Extracting Database Metadata via JDBC Driver'
+  url: https://www.progress.com/blogs/jdbc-tutorial-extracting-database-metadata-via-jdbc-driver
+  domain: www.progress.com
+  image: ""
+- curated_id: d6df0e8f1d3911b1fdaa8868a17b4b7d
+  item_date: "2016-09-01 23:34:07"
+  title: 'GraphQL: The next generation of API design'
+  url: https://medium.com/apollo-stack/graphql-the-next-generation-of-api-design-f24b1689756a#.ojfedkr0t
+  domain: medium.com
+  image: ""
+- curated_id: e7e3401b3f954a361a85cda6a890e880
+  item_date: "2016-09-01 23:34:21"
+  title: All you need to know about GraphQL.js 0.7
+  url: https://medium.com/apollo-stack/all-you-need-to-know-about-graphql-js-0-7-921e75dd7fd1#.91sdbfowq
+  domain: medium.com
+  image: ""
+- curated_id: 14b25f843d89a53e1854544f694f37f5
+  item_date: "2016-09-01 23:34:34"
+  title: GraphQL Concepts Visualized ? Building Apollo
+  url: https://medium.com/apollo-stack/the-concepts-of-graphql-bc68bd819be3#.86qs97vk8
+  domain: medium.com
+  image: ""
+- curated_id: 34462d895bf181b2f9a4d0ab057f3e00
+  item_date: "2016-09-02 00:00:00"
+  title: Discovering Database Metadata with the JDBC Metadata API
+  url: https://www.tutcity.com/java/jdbc-metadata-api.119746.html
+  domain: www.tutcity.com
+  image: ""
+- curated_id: abb0c9de76c44107605aea44f860c762
+  item_date: "2016-09-06 00:00:00"
+  title: SQL (and NoSQL) for JSON
+  url: https://dzone.com/articles/sql-and-nosql-for-json
+  domain: dzone.com
+  image: ""
+- curated_id: ab1a490c232db5c5f2e9c8ec47945459
+  item_date: "2016-09-07 15:01:38"
+  title: 'Tweet: How to steal any developer#039;s local database https://t.co/uJSIznIkYx
+    by @bvdbijl'
+  url: https://twitter.com/datawireio/statuses/773642408462540800
+  domain: twitter.com
+  image: ""
+- curated_id: 9e3d801c83c31ae264e6550834be9629
+  item_date: "2016-09-08 00:00:00"
+  title: New Reader Endpoint for Amazon Aurora ? Load Balancing  Higher Availability
+  url: https://aws.amazon.com/blogs/aws/new-reader-endpoint-for-amazon-aurora-load-balancing-higher-availability/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 45948522e31ae776a30cb6a4f59e822c
+  item_date: "2016-09-08 00:00:00"
+  title: 'Pirate Metrics: Better Acquisition With Firebase'
+  url: https://firebase.googleblog.com/2016/09/pirate-metrics-better-acquisition-with-firebase.html
+  domain: firebase.googleblog.com
+  image: ""
+- curated_id: 07658a3e89ccfa2493eb5915caf964ba
+  item_date: "2016-09-13 00:00:00"
+  title: MongoDB Compass launches with Mapbox
+  url: https://www.mapbox.com/blog/mongodb/
+  domain: www.mapbox.com
+  image: ""
+- curated_id: f554c6b8aef4a87d196b86793d33b7d5
+  item_date: "2016-09-13 06:48:03"
+  title: Zero-day vulnerability found within MySQL database application
+  url: http://www.zdnet.com/article/zero-day-vulnerability-found-within-mysql-database-application/#ftag=RSSbaffb68
+  domain: www.zdnet.com
+  image: ""
+- curated_id: 9ab4cc87f8e2b7cb3b19b37a3d1d0e4c
+  item_date: "2016-09-18 00:00:00"
+  title: Audit and Log Database DML Changes in PostgreSQL With Cyan Audit
+  url: https://dzone.com/articles/audit-log-database-changes-in-postgresql
+  domain: dzone.com
+  image: ""
+- curated_id: 7cbde288f600ea31eef8f6816bce2917
+  item_date: "2016-09-20 00:00:00"
+  title: ""
+  url: https://blogs.apache.org/foundation/entry/the_apache_software_foundation_announces99
+  domain: blogs.apache.org
+  image: ""
+- curated_id: 84c04728cc754d96822a0d5fd06febe0
+  item_date: "2016-09-20 00:00:00"
+  title: Build Custom Drivers With New ODBC and JDBC SDK v8.1 Release
+  url: https://dzone.com/articles/build-custom-drivers-with-new-odbc-and-jdbc-sdj-v8
+  domain: dzone.com
+  image: ""
+- curated_id: 2ecde53ecff6de472cc6c3300bb349f5
+  item_date: "2016-09-21 00:00:00"
+  title: Inside CockroachDB?s Survivability Model
+  url: https://dzone.com/articles/inside-cockroachdbs-survivability-model
+  domain: dzone.com
+  image: ""
+- curated_id: a00c793e8810c04d01781edeb54c1c5a
+  item_date: "2016-09-21 09:55:12"
+  title: Evolution to RESTful with NoSQL Documents
+  url: https://medium.com/m/global-identity
+  domain: medium.com
+  image: ""
+- curated_id: 0af5668762b0369f952c04c2bec8f0e7
+  item_date: "2016-09-28 00:00:00"
+  title: Monitor Azure Redis Cache with Datadog
+  url: https://www.datadoghq.com/blog/monitor-azure-redis-cache-datadog/
+  domain: www.datadoghq.com
+  image: ""
+- curated_id: c541e81f75938fe9d7d1cfd29163d6d1
+  item_date: "2016-09-29 00:00:00"
+  title: 'Introducing the Google Sheets API v4: Transferring data from a SQL database
+    to a Sheet'
+  url: https://gsuite-developers.googleblog.com/2016/06/introducing-google-sheets-api-v4.html
+  domain: gsuite-developers.googleblog.com
+  image: ""
+- curated_id: b2dc68203eaf3fc1f8be2428b40af9d7
+  item_date: "2016-10-06 00:00:00"
+  title: Group Security in the Firebase Database
+  url: https://firebase.googleblog.com/2016/10/group-security-in-firebase-database.html
+  domain: firebase.googleblog.com
+  image: ""
+- curated_id: df94ebae13af7418231317d7caa98f4c
+  item_date: "2016-10-08 00:00:00"
+  title: Sync SQLite on Android App to MySQL DB using REST API
+  url: https://www.freelancer.com/projects/Mobile-Phone/Sync-SQLite-Android-App-MySQL/
+  domain: www.freelancer.com
+  image: ""
+- curated_id: 06748a252e2326caa7abdc419b32d1b0
+  item_date: "2016-10-10 00:00:00"
+  title: Using Couchbase to Store Non-JSON Data
+  url: https://dzone.com/articles/using-couchbase-to-store-non-json-data
+  domain: dzone.com
+  image: ""
+- curated_id: 3a9ed3497bd23651beff33f4db98383f
+  item_date: "2016-10-13 00:00:00"
+  title: Connecting to Compose for MySQL
+  url: https://www.compose.com/articles/connecting-to-compose-for-mysql/
+  domain: www.compose.com
+  image: ""
+- curated_id: ff691cda84f106015b553ec8e2d998f6
+  item_date: "2016-10-13 00:00:00"
+  title: Seeq Releases R15 Adds SQL Server Integration, Historian Support, and Ease
+    of Use Features
+  url: http://www.remotemagazine.com/main/news/seeq-releases-r15-adds-sql-server-integration-historian-support-and-ease-of-use-features/
+  domain: www.remotemagazine.com
+  image: ""
+- curated_id: 95a97c14d3cca08ff58435e4efe59605
+  item_date: "2016-10-17 00:00:00"
+  title: DreamFactory 2.3.1 includes Logstash and Redshift
+  url: http://blog.dreamfactory.com/dreamfactory-2.3.1-release
+  domain: blog.dreamfactory.com
+  image: ""
+- curated_id: 815946726d8b02d218e13655cc09075a
+  item_date: "2016-10-17 00:00:00"
+  title: How We Do Databases
+  url: https://flynn.io/blog/how-we-do-databases
+  domain: flynn.io
+  image: ""
+- curated_id: 8d6a3f0bc761cbb06989230bcbc25e0c
+  item_date: "2016-10-17 00:00:00"
+  title: Introducing an Apache Spark Datasource for OrientDB
+  url: https://dzone.com/articles/apache-spark-datasource-for-orientdb
+  domain: dzone.com
+  image: ""
+- curated_id: 73de1e3b81a580af0e17493061c8eee9
+  item_date: "2016-10-17 00:00:00"
+  title: MySQL 5.7 Performance Tuning Immediately After Installation
+  url: https://dzone.com/articles/mysql-57-performance-tuning-immediately-after-inst
+  domain: dzone.com
+  image: ""
+- curated_id: 5cdbb53ac867fd8b128d7501bed64bce
+  item_date: "2016-10-18 00:00:00"
+  title: Amazon Aurora Update ? Call Lambda Functions From Stored Procedures; Load
+    Data From S3
+  url: https://aws.amazon.com/blogs/aws/amazon-aurora-update-call-lambda-functions-from-stored-procedures-load-data-from-s3/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 056810ffff5a2a1b60f96233f2cd2b94
+  item_date: "2016-10-19 00:00:00"
+  title: Do you know why Compose proxies database connections?
+  url: https://www.compose.com/articles/do-you-know-why-compose-proxies-database-connections/
+  domain: www.compose.com
+  image: ""
+- curated_id: 24290cb8ea9b1bac490e85d9fc49e379
+  item_date: "2016-10-19 00:00:00"
+  title: Always Encrypted feature in SQL Server 2016
+  url: http://www.codeproject.com/Articles/1142885/Always-Encrypted-feature-in-SQL-Server
+  domain: www.codeproject.com
+  image: ""
+- curated_id: e3310482f39f035d5eea9b78fd23f519
+  item_date: "2016-10-20 00:00:00"
+  title: The Importance of Securing Your Database (and the Cost of Failure)
+  url: https://dzone.com/articles/lack-of-database-security-has-exposed-the-personal
+  domain: dzone.com
+  image: ""
+- curated_id: c54c768b7d11f94d1a539148639a2b4a
+  item_date: "2016-10-20 00:00:00"
+  title: Build your own Movie Database with SQL Server
+  url: http://www.codeproject.com/Tips/1143973/Build-your-own-Movie-Database-with-SQL-Server
+  domain: www.codeproject.com
+  image: ""
+- curated_id: 2a9ce7b9a5f9613e4c1aebc402b46efd
+  item_date: "2016-10-31 00:00:00"
+  title: Persisting Couchbase Data Across Container Restarts
+  url: https://dzone.com/articles/persisting-couchbase-data-across-container-restart
+  domain: dzone.com
+  image: ""
+- curated_id: a2f98783f4b3207259553c6114151a00
+  item_date: "2016-11-03 00:00:00"
+  title: Heisenberg Cloud Spots Exposed Database Services, Misconfigurations
+  url: http://www.darkreading.com/cloud/heisenberg-cloud-spots-exposed-database-services-misconfigurations/d/d-id/1327396
+  domain: www.darkreading.com
+  image: ""
+- curated_id: 1a7d1493433e6a5858c5087e0751eaed
+  item_date: "2016-11-03 00:00:00"
+  title: ArangoDB 3.1 ? A Solid Ground to Scale part II
+  url: https://www.arangodb.com/2016/11/arangodb-3-1-solid-ground-scale-part-ii/
+  domain: www.arangodb.com
+  image: ""
+- curated_id: dfbd8dc4aa415ebf591780d709e8be76
+  item_date: "2016-11-04 00:00:00"
+  title: Make data-driven decisions with the Asana API and Asana2sql
+  url: https://blog.asana.com/2016/11/make-data-driven-decisions-with-the-asana-api-and-asana2sql/
+  domain: blog.asana.com
   image: ""
 ...
