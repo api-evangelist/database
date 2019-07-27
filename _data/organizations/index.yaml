@@ -1,1 +1,1223 @@
-[]
+- id: "18960"
+  name: Airtable
+  summary: Airtable works like a spreadsheet but gives you the power of a database
+    to organize anything. Sign up for free.
+  details: Airtable works like a spreadsheet but gives you the power of a database
+    to organize anything. Sign up for free.
+  website: https://airtable.com/
+  twitter: https://twitter.com/airtable
+  github: https://github.com/Airtable
+  blog: http://blog.airtable.com/
+  blogrss: http://blog.airtable.com/rss
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18960-airtable.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18960-airtable.jpg
+  tags: API Provider,Databases,internet,Mobile,Profiles,SaaS,Stack Network,Technology
+  apis: []
+- id: "20104"
+  name: Apollo
+  summary: Apollo is an incrementally-adoptable data stack that manages the flow of
+    data between clients and backends. Based on GraphQL, it gives you a principled,
+    unified, and scalable API for developing modern apps on top of services.
+  details: Apollo is an incrementally-adoptable data stack that manages the flow of
+    data between clients and backends. Based on GraphQL, it gives you a principled,
+    unified, and scalable API for developing modern apps on top of services.
+  website: https://www.apollographql.com/
+  twitter: https://twitter.com/apollographql
+  github: https://github.com/apollostack
+  blog: https://medium.com/apollo-stack/
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apollo-stack.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apollo-stack.png
+  tags: API Service Provider,Data,Databases,GraphQL,Profiles,Stack Network
+  apis: []
+- id: "18684"
+  name: ArangoDB
+  summary: ArangoDB is an easy to use mostly memory, high performance, open source
+    NoSQL database with a unique combination of features like graph & geo algorithms.
+  details: ArangoDB is an easy to use mostly memory, high performance, open source
+    NoSQL database with a unique combination of features like graph & geo algorithms.
+  website: https://www.arangodb.com/
+  twitter: https://twitter.com/arangodb
+  github: https://github.com/arangodb
+  blog: https://www.arangodb.com/blog/
+  blogrss: https://www.arangodb.com/feed/
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18684-arangodb.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18684-arangodb.jpg
+  tags: API Service Provider,Databases,Enterprise,NoSQL,Profiles,SaaS,Technology
+  apis: []
+- id: "23242"
+  name: AWS Database Migration Service
+  summary: 'AWS Database Migration Service helps you migrate databases to AWS easily
+    and securely. The source database remains fully operational during the migration,
+    minimizing downtime to applications that rely on the database. The AWS Database
+    Migration Service can migrate your data to and from most widely used commercial
+    and open-source databases. The service supports homogenous migrations such as
+    Oracle '
+  details: AWS Database Migration Service helps you migrate databases to AWS easily
+    and securely. The source database remains fully operational during the migration,
+    minimizing downtime to applications that rely on the database. The AWS Database
+    Migration Service can migrate your data to and from most widely used commercial
+    and open-source databases. The service supports homogenous migrations such as
+    Oracle to Oracle, as well as heterogeneous migrations between different database
+    platforms, such as Oracle to Amazon Aurora or Microsoft SQL Server to MySQL. It
+    also allows you to stream data to Amazon Redshift from any of the supported sources
+    including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE and SQL Server,
+    enabling consolidation and easy analysis of data in the petabyte-scale data warehouse.
+    AWS Database Migration Service can also be used for continuous data replication
+    with high-availability.
+  website: https://aws.amazon.com/dms/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Databases,Migrations,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13563"
+    name: AWS Database Migration Service API
+    slug: aws-database-migration-service-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23239"
+  name: AWS DynamoDB
+  summary: Amazon DynamoDB is a fast and flexible NoSQL database service for all applications
+    that need consistent, single-digit millisecond latency at any scale. It is a fully
+    managed cloud database and supports both document and key-value store models.
+    Its flexible data model and reliable performance make it a great fit for mobile,
+    web, gaming, ad tech, IoT, and many other applications. Start today by down
+  details: Amazon DynamoDB is a fast and flexible NoSQL database service for all applications
+    that need consistent, single-digit millisecond latency at any scale. It is a fully
+    managed cloud database and supports both document and key-value store models.
+    Its flexible data model and reliable performance make it a great fit for mobile,
+    web, gaming, ad tech, IoT, and many other applications. Start today by downloading
+    the local version of DynamoDB, then read our Getting Started Guide.
+  website: https://aws.amazon.com/dynamodb/
+  twitter: ""
+  github: ""
+  blog: https://aws.amazon.com/dynamodb/developer-resources/#BlogPosts
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Databases,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13560"
+    name: Amazon DynamoDB API
+    slug: amazon-dynamodb-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23267"
+  name: AWS Elastic MapReduce
+  summary: |-
+    Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. You can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.
+    Amazon EMR securely and
+  details: |-
+    Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. You can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.
+    Amazon EMR securely and reliably handles a broad set of big data use cases, including log analysis, web indexing, data transformations (ETL), machine learning, financial analysis, scientific simulation, and bioinformatics.
+  website: https://aws.amazon.com/emr/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Data,Databases,MapReduce,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13588"
+    name: AWS Elastic MapReduce API
+    slug: aws-elastic-mapreduce-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23270"
+  name: AWS Kinesis
+  summary: Amazon Kinesis Firehose is the easiest way to load streaming data into
+    AWS. It can capture, transform, and load streaming data into Amazon Kinesis Analytics,
+    Amazon S3, Amazon Redshift, and Amazon Elasticsearch Service, enabling near real-time
+    analytics with existing business intelligence tools and dashboards you are already
+    using today.
+  details: Amazon Kinesis Firehose is the easiest way to load streaming data into
+    AWS. It can capture, transform, and load streaming data into Amazon Kinesis Analytics,
+    Amazon S3, Amazon Redshift, and Amazon Elasticsearch Service, enabling near real-time
+    analytics with existing business intelligence tools and dashboards you are already
+    using today.
+  website: https://aws.amazon.com/kinesis/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Data,Databases,Profiles,Real
+    Time,Relative Data,SDIO Competition,Service API,Stack Network,Streaming
+  apis:
+  - api_id: "13593"
+    name: AWS Kinesis Firehose API
+    slug: aws-kinesis-firehose-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23271"
+  name: AWS Kinesis Analytics
+  summary: "Amazon Kinesis Analytics is the easiest way to process streaming data
+    in real time with standard SQL without having to learn new programming languages
+    or processing frameworks. Amazon Kinesis Analytics enables you to create and run
+    SQL queries on streaming data so that you can gain actionable insights and respond
+    to your business and customer needs promptly.\nAmazon Kinesis Analytics takes
+    care of "
+  details: |-
+    Amazon Kinesis Analytics is the easiest way to process streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Amazon Kinesis Analytics enables you to create and run SQL queries on streaming data so that you can gain actionable insights and respond to your business and customer needs promptly.
+    Amazon Kinesis Analytics takes care of everything required to run your queries continuously and scales automatically to match the volume and throughput rate of your incoming data. With Amazon Kinesis Analytics, you only pay for the resources your queries consume. There is no minimum fee or setup cost.
+  website: https://aws.amazon.com/kinesis/analytics/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png
+  tags: Amazon Web Services,Analysis,API Provider,API Service Provider,API Service
+    Provider,Databases,Logging,Profiles,Relative Data,Service API,Stack Network
+  apis:
+  - api_id: "13594"
+    name: AWS Kinesis Analytics API
+    slug: aws-kinesis-analytics-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23238"
+  name: AWS RDS
+  summary: Amazon Relational Database Service (Amazon RDS) makes it easy to set up,
+    operate, and scale arelational databasein the cloud. It provides cost-efficient
+    and resizable capacity while managing time-consuming database administration tasks,
+    freeing you up to focus on your applications and business. Amazon RDS provides
+    you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,
+  details: Amazon Relational Database Service (Amazon RDS) makes it easy to set up,
+    operate, and scale arelational databasein the cloud. It provides cost-efficient
+    and resizable capacity while managing time-consuming database administration tasks,
+    freeing you up to focus on your applications and business. Amazon RDS provides
+    you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
+    andMicrosoft SQL Server.
+  website: https://aws.amazon.com/rds/
+  twitter: ""
+  github: ""
+  blog: https://aws.amazon.com/blogs/database/
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Databases,Profiles,Relative
+    Data,Service API,Stack,Stack Network
+  apis:
+  - api_id: "13559"
+    name: Amazon RDS API
+    slug: amazon-rds-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23241"
+  name: AWS Redshift
+  summary: 'Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat
+    makes it simple and cost-effective to analyze all your data using your existing
+    business intelligence tools. Start small for $0.25 per hour with no commitments
+    and scale to petabytes for $1,000 per terabyte per year, less than a tenth the
+    cost of traditional solutions. Customers typically see 3x compression, reducing
+    their '
+  details: Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat
+    makes it simple and cost-effective to analyze all your data using your existing
+    business intelligence tools. Start small for $0.25 per hour with no commitments
+    and scale to petabytes for $1,000 per terabyte per year, less than a tenth the
+    cost of traditional solutions. Customers typically see 3x compression, reducing
+    their costs to $333 per uncompressed terabyte per year.
+  website: https://aws.amazon.com/redshift/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Data,Data
+    Warehouse,Databases,Profiles,Relative Data,Service API,Stack Network
+  apis:
+  - api_id: "13562"
+    name: Amazon Redshift API
+    slug: amazon-redshift-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23243"
+  name: AWS Server Migration Service
+  summary: AWS Server Migration Service (SMS) is an agentless service which makes
+    it easier and faster for you to migrate thousands of on-premises workloads to
+    AWS. AWS SMS allows you to automate, schedule, and track incremental replications
+    of live server volumes, making it easier for you to coordinate large-scale server
+    migrations.
+  details: AWS Server Migration Service (SMS) is an agentless service which makes
+    it easier and faster for you to migrate thousands of on-premises workloads to
+    AWS. AWS SMS allows you to automate, schedule, and track incremental replications
+    of live server volumes, making it easier for you to coordinate large-scale server
+    migrations.
+  website: https://aws.amazon.com/server-migration-service/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Databases,Migrations,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13564"
+    name: AWS Server Migration Service API
+    slug: aws-server-migration-service-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23237"
+  name: AWS Snowball
+  summary: Snowball is a petabyte-scale data transport solution that uses secure appliances
+    totransfer large amounts of datainto and out of theAWS cloud. Using Snowball addresses
+    common challenges with large-scale data transfers including high network costs,
+    long transfer times, and security concerns. Transferring data with Snowball is
+    simple, fast, secure, and can be as little as one-fifth the cost of high-
+  details: |-
+    Snowball is a petabyte-scale data transport solution that uses secure appliances totransfer large amounts of datainto and out of theAWS cloud. Using Snowball addresses common challenges with large-scale data transfers including high network costs, long transfer times, and security concerns. Transferring data with Snowball is simple, fast, secure, and can be as little as one-fifth the cost of high-speed Internet.
+    With Snowball, you don&rsquo;t need to write any code or purchase any hardware to transfer your data. Simply create a job in the AWS Management Console and a Snowball appliance will be automatically shipped to you*. Once it arrives, attach the appliance to your local network, download and run the Snowball client to establish a connection, and then use the client to select the file directories that you want to transfer to the appliance. The client will then encrypt and transfer the files to the appliance at high speed. Once the transfer is complete and the appliance is ready to be returned, the E Ink shipping label will automatically update and you can track the job status viaAmazon Simple Notification Service (SNS), text messages, or directly in the Console.
+    Snowball uses multiple layers of security designed to protect your data including tamper-resistant enclosures, 256-bit encryption, and an industry-standard Trusted Platform Module (TPM) designed to ensure both security and full chain-of-custody of your data. Once the data transfer job has been processed and verified, AWS performs a software erasure of the Snowball appliance.
+  website: https://aws.amazon.com/snowball/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Data,Databases,Profiles,Relative
+    Data,Security,Service API,Stack Network
+  apis:
+  - api_id: "13461"
+    name: AWS Snowball API
+    slug: aws-snowball-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23236"
+  name: AWS Storage Gateway Service
+  summary: The AWS Storage Gateway service seamlessly enables hybrid storage between
+    on-premises storage environments andthe AWS Cloud. It combines a multi-protocol
+    storage appliance with highly efficient network connectivity toAmazon cloud storageservices,
+    delivering local performance with virtually unlimited scale. Customers use it
+    in remote offices and datacenters for hybrid cloud workloads, backup and re
+  details: "The AWS Storage Gateway service seamlessly enables hybrid storage between
+    on-premises storage environments andthe AWS Cloud. It combines a multi-protocol
+    storage appliance with highly efficient network connectivity toAmazon cloud storageservices,
+    delivering local performance with virtually unlimited scale. Customers use it
+    in remote offices and datacenters for hybrid cloud workloads, backup and restore,
+    archive, disaster recovery, and tiered storage.\nThe Storage Gateway virtual appliance
+    connects seamlessly to your local infrastructure as a file server, as a volume,
+    or as a virtual tape library (VTL). This seamless connection makes it simple for
+    organizations to augment existing on-premises storage investments with the high
+    scalability, extreme durability and low cost of cloud storage. "
+  website: https://aws.amazon.com/storagegateway/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  tags: Amazon Web Services,API Provider,API Service Provider,API Service Provider,Data,Databases,Deployments,Gateway,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13460"
+    name: AWS Storage Gateway Service API
+    slug: aws-storage-gateway-service-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "1093"
+  name: Compose
+  summary: Build Your Best with MongoDB and Elasticsearch. Compose is a fully-managed
+    platform used by developers to deploy, host and scale databases. Compose deployments
+    scale seamlessly as your data grows. Spend more time on your data model, less
+    time capacity planning. This is how everyone should run databases. Backups, replication,
+    complete monitoring. Three essentials of a production database deployment
+  details: Build Your Best with MongoDB and Elasticsearch. Compose is a fully-managed
+    platform used by developers to deploy, host and scale databases. Compose deployments
+    scale seamlessly as your data grows. Spend more time on your data model, less
+    time capacity planning. This is how everyone should run databases. Backups, replication,
+    complete monitoring. Three essentials of a production database deployment. Spend
+    your time building apps, let us worry about production operations.
+  website: https://www.compose.io
+  twitter: https://twitter.com/composeio
+  github: https://github.com/compose
+  blog: https://blog.compose.io/
+  blogrss: https://blog.compose.io/feed/
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/compose-ibm-logo-300.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/compose-ibm-logo-300.png
+  tags: API Provider,Databases,Profiles,Stack Network
+  apis: []
+- id: "19926"
+  name: Crate.io
+  summary: An open source real-time SQL database with integrated search that is simple
+    to scale. It is ideal for storing and analyzing IoT and machine data in real time.
+  details: An open source real-time SQL database with integrated search that is simple
+    to scale. It is ideal for storing and analyzing IoT and machine data in real time.
+  website: https://crate.io/
+  twitter: https://twitter.com/CrateIO
+  github: https://github.com/crate
+  blog: https://crate.io/blog
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19926-crate.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19926-crate.jpg
+  tags: API Service Provider,Databases,Enterprise,internet,Profiles,SaaS,Stack Network,Technology
+  apis: []
+- id: "28202"
+  name: Datical
+  summary: The database release velocity gap is slowing application release. Get started
+    today & release applications faster with Daticals database release automation
+    tools!
+  details: The database release velocity gap is slowing application release. Get started
+    today & release applications faster with Daticals database release automation
+    tools!
+  website: https://www.datical.com
+  twitter: https://twitter.com/Datical
+  github: ~
+  blog: ~
+  blogrss: ~
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28202-www-datical-com.jpg
+  logo_width: ~
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28202-www-datical-com.jpg
+  tags: API Service Provider,Databases,Enterprise,Profiles,SaaS,Technology
+  apis: []
+- id: "19924"
+  name: DBmaestro
+  summary: We provide Database Enforced Change Management solution that enables you
+    full control over database development processes and enhance database DevOps performance.
+  details: We provide Database Enforced Change Management solution that enables you
+    full control over database development processes and enhance database DevOps performance.
+  website: http://www.dbmaestro.com/
+  twitter: https://twitter.com/DBmaestro
+  github: https://github.com/DBMaestroDev
+  blog: http://www.dbmaestro.com/blog/
+  blogrss: http://www.dbmaestro.com/subscribe/
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19924-dbmaestro.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19924-dbmaestro.jpg
+  tags: API Service Provider,Databases,Enterprise,Profiles,SaaS,Stack Network,Technology
+  apis: []
+- id: "6565"
+  name: DreamFactory
+  summary: DreamFactory Software is a private, venture-backed company based in Campbell,
+    California, with an additional development center in Atlanta, Georgia. We were
+    founded in 2005 and funded in 2006 by New Enterprise Associates. Today, DreamFactory
+    publishes the DreamFactory Services Platform, an open source REST API platform
+    for mobile application developers.
+  details: DreamFactory Software is a private, venture-backed company based in Campbell,
+    California, with an additional development center in Atlanta, Georgia. We were
+    founded in 2005 and funded in 2006 by New Enterprise Associates. Today, DreamFactory
+    publishes the DreamFactory Services Platform, an open source REST API platform
+    for mobile application developers.
+  website: http://www.dreamfactory.com/
+  twitter: https://twitter.com/dfsoftwareinc
+  github: https://github.com/dreamfactorysoftware
+  blog: http://blog.dreamfactory.com/
+  blogrss: http://blog.dreamfactory.com/rss.xml
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dreamfactory.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dreamfactory.png
+  tags: Databases,Deployments,Hosting,Management,Stack Network
+  apis:
+  - api_id: "11511"
+    name: DreamFactory App API
+    slug: dreamfactory-app-api
+    website: https://www.dreamfactory.com/developers/live_API
+    openapi-spec: http://theapistack.com/data/dreamfactory/dreamfactory-app-api-swagger.json
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+  - api_id: "11512"
+    name: DreamFactory DB API
+    slug: dreamfactory-db-api
+    website: https://www.dreamfactory.com/developers/live_API
+    openapi-spec: http://theapistack.com/data/dreamfactory/dreamfactory-db-api-swagger.json
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+  - api_id: "11513"
+    name: DreamFactory Email API
+    slug: dreamfactory-email-api
+    website: https://www.dreamfactory.com/developers/live_API
+    openapi-spec: http://theapistack.com/data/dreamfactory/dreamfactory-email-api-swagger.json
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+  - api_id: "11514"
+    name: DreamFactory MongoDB API
+    slug: dreamfactory-mongodb-api
+    website: https://dsp-sandman1.cloud.dreamfactory.com/rest/api_docs/mongodb?app_name=admin
+    openapi-spec: http://theapistack.com/data/dreamfactory/dreamfactory-mongodb-api-swagger.json
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+  - api_id: "11515"
+    name: DreamFactory Rackspace Files API
+    slug: dreamfactory-rackspace-files-api
+    website: https://www.dreamfactory.com/developers/live_API
+    openapi-spec: http://theapistack.com/data/dreamfactory/dreamfactory-rackspace-files-api-swagger.json
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+  - api_id: "11509"
+    name: DreamFactory User API
+    slug: dreamfactory-user-api
+    website: https://www.dreamfactory.com/developers/live_API
+    openapi-spec: http://theapistack.com/data/dreamfactory/dreamfactory-user-api-swagger.json
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+  - api_id: "11516"
+    name: DreamFactory Windows Azure Storage API
+    slug: dreamfactory-windows-azure-storage-api
+    website: https://www.dreamfactory.com/developers/live_API
+    openapi-spec: http://theapistack.com/data/dreamfactory/dreamfactory-windows-azure-storage-api-swagger.json
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "766"
+  name: Dydra.com
+  summary: Cloud-hosted RDF & SPARQL database service by @datagraph. Request an invite
+    to the beta program at http://t.co/Sat0oPE8fu
+  details: Cloud-hosted RDF & SPARQL database service by @datagraph. Request an invite
+    to the beta program at http://t.co/Sat0oPE8fu
+  website: http://dydra.com
+  twitter: https://twitter.com/dydradata
+  github: https://github.com/dydra
+  blog: http://blog.dydra.com
+  blogrss: http://feeds.feedburner.com/dydra
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/766-dydra-com.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/766-dydra-com.jpg
+  tags: API Provider,Cloud,Databases,Databases,Freshbooks,Profiles,SaaS,Semantic,Stack
+    Network,Technology
+  apis:
+  - api_id: "3655"
+    name: Dydra
+    slug: dydra
+    website: http://docs.dydra.com/api/rest
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "593"
+  name: fluidinfo
+  summary: Fluidinfo is an online cloud data store based on an attribute-value centric
+    data model.
+  details: Fluidinfo is an online cloud data store based on an attribute-value centric
+    data model.
+  website: http://fluidinfo.com/
+  twitter: https://twitter.com/fluidinfo
+  github: https://github.com/fluidinfo
+  blog: http://blogs.fluidinfo.com/
+  blogrss: http://blogs.fluidinfo.com/fluidinfo/feed/
+  logo: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  logo_width: "150"
+  screenshot: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  tags: Databases,Deployments,SaaS,Stack Network,Technology
+  apis: []
+- id: "43"
+  name: Google
+  summary: Google LLC is an American multinational technology company that specializes
+    in Internet-related services and products, which include online advertising technologies,
+    search engine, cloud computing, software, and hardware.
+  details: Google LLC is an American multinational technology company that specializes
+    in Internet-related services and products, which include online advertising technologies,
+    search engine, cloud computing, software, and hardware.
+  website: https://firebase.google.com/
+  twitter: https://twitter.com/firebase
+  github: https://github.com/firebase
+  blog: https://firebase.googleblog.com/
+  blogrss: http://firebase.googleblog.com/feeds/posts/default?alt=rss
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/43-google.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/43-google.jpg
+  tags: API Provider,API Service Provider,Data,Databases,internet,Mobile,New,Profiles,Real
+    Time,Relative Data,SaaS,SDIO Competition,Service API,Technology
+  apis: []
+- id: "23334"
+  name: Google Biquery
+  summary: BigQuery is Googles fully managed, petabyte scale, low cost enterprise
+    data warehouse for analytics. BigQuery is serverless. There is no infrastructure
+    to manage and you dont need a database administrator, so you can focus on analyzing
+    data to find meaningful insights using familiar SQL. BigQuery is a powerful Big
+    Data analytics platform used by all types of organizations, from startups to Fortune
+  details: BigQuery is Googles fully managed, petabyte scale, low cost enterprise
+    data warehouse for analytics. BigQuery is serverless. There is no infrastructure
+    to manage and you dont need a database administrator, so you can focus on analyzing
+    data to find meaningful insights using familiar SQL. BigQuery is a powerful Big
+    Data analytics platform used by all types of organizations, from startups to Fortune
+    500 companies.
+  website: https://cloud.google.com/bigquery/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png
+  tags: API Provider,API Service Provider,Cloud,Data,Databases,Google APIs,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13657"
+    name: Google BigQuery API
+    slug: google-bigquery-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23353"
+  name: Google Cloud Dataproc
+  summary: Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache Pig,
+    and Apache Hive service, to easily process big datasets at low cost. Control your
+    costs by quickly creating managed clusters of any size and turning them off when
+    youre done. Cloud Dataproc integrates across Google Cloud Platform products, giving
+    you a powerful and complete data processing platform.
+  details: Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache Pig,
+    and Apache Hive service, to easily process big datasets at low cost. Control your
+    costs by quickly creating managed clusters of any size and turning them off when
+    youre done. Cloud Dataproc integrates across Google Cloud Platform products, giving
+    you a powerful and complete data processing platform.
+  website: https://cloud.google.com/dataproc/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dataproc.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dataproc.png
+  tags: API Provider,API Service Provider,Data,Databases,Deployments,Google APIs,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13678"
+    name: Google Cloud Dataproc API
+    slug: google-cloud-dataproc-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23354"
+  name: Google Cloud Datastore
+  summary: Cloud Datastore is a highly-scalable NoSQL database for your applications.
+    Cloud Datastore automatically handles sharding and replication, providing you
+    with a highly available and durable database that scales automatically to handle
+    your applications load. Cloud Datastore provides a myriad of capabilities such
+    as ACID transactions, SQL-like queries, indexes and much more.
+  details: Cloud Datastore is a highly-scalable NoSQL database for your applications.
+    Cloud Datastore automatically handles sharding and replication, providing you
+    with a highly available and durable database that scales automatically to handle
+    your applications load. Cloud Datastore provides a myriad of capabilities such
+    as ACID transactions, SQL-like queries, indexes and much more.
+  website: https://cloud.google.com/datastore/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nosql-tree.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nosql-tree.png
+  tags: API Provider,API Service Provider,Data,Databases,Deployments,Google APIs,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13679"
+    name: Google Cloud Datastore API
+    slug: google-cloud-datastore-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "23387"
+  name: Google Cloud Spanner
+  summary: 'Cloud Spanner is the first and only relational database service that is
+    both strongly consistent and horizontally scalable. With Cloud Spanner you enjoy
+    all the traditional benefits of a relational database: ACID transactions, relational
+    schemas (and schema changes without downtime), SQL queries, high performance,
+    and high availability. But unlike any other relational database service, Cloud
+    Spann'
+  details: 'Cloud Spanner is the first and only relational database service that is
+    both strongly consistent and horizontally scalable. With Cloud Spanner you enjoy
+    all the traditional benefits of a relational database: ACID transactions, relational
+    schemas (and schema changes without downtime), SQL queries, high performance,
+    and high availability. But unlike any other relational database service, Cloud
+    Spanner scales horizontally, to hundreds or thousands of servers, so it can handle
+    the highest of transactional workloads. With automatic scaling, synchronous data
+    replication, and node redundancy, Cloud Spanner delivers up to 99.999% (five 9s)
+    of availability for your mission critical applications. In fact, Google&rsquo;s
+    internal Spanner service has been handling millions of queries per second from
+    many Google services for years.'
+  website: https://cloud.google.com/spanner/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
+  tags: API Provider,API Service Provider,Databases,Google APIs,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13728"
+    name: Google Cloud Spanner API
+    slug: google-cloud-spanner-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: https://cloud.google.com/spanner/
+    sdk-io: ""
+- id: "23390"
+  name: Google Cloud SQL
+  summary: Cloud SQL is a fully-managed database service that makes it easy to set
+    up, maintain, manage, and administer your relational PostgreSQL BETA and MySQL
+    databases in the cloud. Cloud SQL offers high performance, scalability, and convenience.
+    Hosted on Google Cloud Platform, Cloud SQL provides a database infrastructure
+    for applications running anywhere.
+  details: Cloud SQL is a fully-managed database service that makes it easy to set
+    up, maintain, manage, and administer your relational PostgreSQL BETA and MySQL
+    databases in the cloud. Cloud SQL offers high performance, scalability, and convenience.
+    Hosted on Google Cloud Platform, Cloud SQL provides a database infrastructure
+    for applications running anywhere.
+  website: https://cloud.google.com/sql/
+  twitter: ~
+  github: ~
+  blog: ~
+  blogrss: ~
+  logo: ~
+  logo_width: ~
+  screenshot: ~
+  tags: API Provider,API Service Provider,Databases,Google APIs,Profiles,Relative
+    Data,Service API,Stack Network
+  apis:
+  - api_id: "13731"
+    name: Google Cloud SQL API
+    slug: google-cloud-sql-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: https://cloud.google.com/sql/
+    sdk-io: ""
+- id: "23360"
+  name: Google Fusion Tables
+  summary: Fusion Tables is an experimental data visualization web application to
+    gather, visualize, and share data tables.
+  details: Fusion Tables is an experimental data visualization web application to
+    gather, visualize, and share data tables.
+  website: https://developers.google.com/fusiontables/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fusion-tables.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fusion-tables.jpg
+  tags: API Provider,API Service Provider,Data,Databases,Embeddable,Google APIs,Profiles,Relative
+    Data,Service API,Spreadsheets,Stack Network,Visualizations
+  apis:
+  - api_id: "13690"
+    name: Google Fusion Tables API
+    slug: google-fusion-tables-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: https://developers.google.com/fusiontables/docs/v2/reference/
+    sdk-io: ""
+- id: "211"
+  name: Heroku
+  summary: Heroku is a platform as a service (PaaS) that enables developers to build,
+    run, and operate applications entirely in the cloud.
+  details: Heroku is a platform as a service (PaaS) that enables developers to build,
+    run, and operate applications entirely in the cloud.
+  website: https://www.heroku.com/
+  twitter: https://twitter.com/HerokuDevCenter
+  github: https://github.com/heroku
+  blog: https://blog.heroku.com/
+  blogrss: http://feeds2.feedburner.com/heroku
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  tags: API LIfeyclessss,API Provider,API Service Provider,Code,Command Line Interface,Compute,Databases,Developers,Federal
+    Government,Federal Government,Federal Government,Federal Government,Getting Started
+    Example,Issues,Issues Example,My API Stack,PaaS,Profiles,Relative Data,SaaS,Service
+    API,Stack Network,Technology,Webhook Implementations
+  apis:
+  - api_id: "861"
+    name: Heroku
+    slug: heroku
+    website: https://devcenter.heroku.com/categories/platform-api
+    openapi-spec: http://theapistack.com/data/heroku/heroku-swagger.json
+    api-blueprint: ""
+    postman: ""
+    documentation: https://devcenter.heroku.com/articles/platform-api-reference
+    sdk-io: ""
+- id: "20079"
+  name: hook.io
+  summary: Twitter account for hook.io open-source microservice hosting platform.    Tweet
+    here for Questions or Support.    File support issues @ https://t.co/jHGKd4iuop
+  details: Twitter account for hook.io open-source microservice hosting platform.    Tweet
+    here for Questions or Support.    File support issues @ https://t.co/jHGKd4iuop
+  website: http://hook.io/
+  twitter: https://twitter.com/hookdotio
+  github: https://github.com/bigcompany
+  blog: https://hook.io/blog
+  blogrss: https://hook.io/blog/feed
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20079-hook-io.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20079-hook-io.jpg
+  tags: API Service Provider,Databases,Deployments,Microservices,Profiles,Webhooks
+  apis: []
+- id: "1255"
+  name: IBM
+  summary: IBM is a global technology and innovation company headquartered in Armonk,
+    NY. It is the largest technology and consulting employer in the world, with more
+    than 400,000 employees serving clients in 170 countries. IBM offers a wide range
+    of technology and consulting services; a broad portfolio of middleware for collaboration,
+    predictive analytics, software development and systems management; and th
+  details: IBM is a global technology and innovation company headquartered in Armonk,
+    NY. It is the largest technology and consulting employer in the world, with more
+    than 400,000 employees serving clients in 170 countries. IBM offers a wide range
+    of technology and consulting services; a broad portfolio of middleware for collaboration,
+    predictive analytics, software development and systems management; and the worlds
+    most advanced servers and supercomputers. Utilizing its business consulting, technology
+    and R&amp;D expertise, IBM helps clients become smarter as the planet becomes
+    more digitally interconnected.
+  website: https://ibm.com
+  twitter: https://twitter.com/IBM
+  github: https://github.com/IBM
+  blog: http://www.ibm.com/blogs/think
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1255-cloudant.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1255-cloudant.jpg
+  tags: Databases,Enterprise,Profiles,SDIO Partner,Stack Network
+  apis:
+  - api_id: "6489"
+    name: Cloudant
+    slug: cloudant
+    website: https://cloudant.com/product/cloudant-features/restful-api/
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "20018"
+  name: MarkLogic
+  summary: MarkLogic provides enterprise solutions for your business by enabling operational
+    big data applications with NoSQL databases and data integration.
+  details: MarkLogic provides enterprise solutions for your business by enabling operational
+    big data applications with NoSQL databases and data integration.
+  website: http://www.marklogic.com/
+  twitter: https://twitter.com/marklogic
+  github: https://github.com/marklogic
+  blog: https://developer.marklogic.com/blog
+  blogrss: https://developer.marklogic.com/blog/atom.xml?feed=blog
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20018-marklogic.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20018-marklogic.jpg
+  tags: API Provider,API Service Provider,Databases,Enterprise,Profiles,SaaS,Technology
+  apis: []
+- id: "31"
+  name: Microsoft Azure
+  summary: Microsoft Azure is a cloud computing platform and infrastructure created
+    by Microsoft for building, deploying, and managing applications and services through
+    a global network of Microsoft-managed datacenters. It provides both PaaS and IaaS
+    services and supports many different programming languages, tools and frameworks,
+    including both Microsoft-specific and third-party software and systems
+  details: Microsoft Azure is a cloud computing platform and infrastructure created
+    by Microsoft for building, deploying, and managing applications and services through
+    a global network of Microsoft-managed datacenters. It provides both PaaS and IaaS
+    services and supports many different programming languages, tools and frameworks,
+    including both Microsoft-specific and third-party software and systems
+  website: https://azure.microsoft.com/en-us/
+  twitter: https://twitter.com/azure
+  github: https://github.com/Azure
+  blog: http://azure.microsoft.com/blog/
+  blogrss: http://azure.microsoft.com/blog/feed/
+  logo: https://avatars.githubusercontent.com/u/6844498?v=3
+  logo_width: "150"
+  screenshot: https://avatars.githubusercontent.com/u/6844498?v=3
+  tags: API Management Other,Bigcos,Cloud,Command Line Interface,Compute,Databases,Deployments,DNS,DNS
+    Cloud,Management,Portals,Profiles,Serverless,Service Level Agreement,Stack Network
+  apis:
+  - api_id: "13747"
+    name: Azure Autoscale API
+    slug: azure-autoscale-api
+    website: https://azure.microsoft.com/en-us/features/autoscale/
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+  - api_id: "13184"
+    name: DNS Management API
+    slug: dns-management-api
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: https://msdn.microsoft.com/en-us/library/mt130627.aspx
+    sdk-io: ""
+- id: "18635"
+  name: Neo4j
+  summary: 'Meet Neo4j: The graph database platform powering todays mission-critical
+    enterprise applications, including artificial intelligence, fraud detection and
+    recommendations.'
+  details: 'Meet Neo4j: The graph database platform powering todays mission-critical
+    enterprise applications, including artificial intelligence, fraud detection and
+    recommendations.'
+  website: http://neo4j.com/
+  twitter: https://twitter.com/neo4j
+  github: https://github.com/neo4j
+  blog: https://neo4j.com/blog/
+  blogrss: https://neo4j.com/feed/
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18635-neo4j.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18635-neo4j.jpg
+  tags: API Provider,API Service Provider,Databases,Enterprise,Profiles,SaaS,Stack
+    Network,Technology
+  apis: []
+- id: "19009"
+  name: OpsGen
+  summary: Theres a better way to build connectivity for high-value enterprise, mobile,
+    IoT, and startup applications. OpsGen can help you easily and rapidly create,
+    manage, and scale your API. Visit our website and find your way!
+  details: Theres a better way to build connectivity for high-value enterprise, mobile,
+    IoT, and startup applications. OpsGen can help you easily and rapidly create,
+    manage, and scale your API. Visit our website and find your way!
+  website: http://opsgen.com
+  twitter: https://twitter.com/OpsGenAPI
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19009-opsgen.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19009-opsgen.jpg
+  tags: Databases,Deployments,Enterprise,SaaS,Spreadsheets,Stack Network,Technology
+  apis: []
+- id: "2266"
+  name: Orchestrate
+  summary: Database-as-a-service for search, geo, graph, and events. Part of @centurylinkcld.
+    Follow @Orchestatus for service status.
+  details: Database-as-a-service for search, geo, graph, and events. Part of @centurylinkcld.
+    Follow @Orchestatus for service status.
+  website: http://orchestrate.io/
+  twitter: https://twitter.com/OrchestrateIO
+  github: https://github.com/orchestrate-io
+  blog: http://orchestrate.io/blog/
+  blogrss: http://feeds.feedburner.com/TheOrchestrateBlog?format=xml
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2266-orchestrate.jpg
+  logo_width: "160"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2266-orchestrate.jpg
+  tags: Aggregation,API LIfeyclessss,Databases,Deployments,Mobile,SaaS,Stack Network,Technology
+  apis:
+  - api_id: "9645"
+    name: Orchestrate.io
+    slug: orchestrateio
+    website: http://orchestrate.io/
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "20059"
+  name: Periscope Data
+  summary: Periscope Data brings all your data together in a single platform and delivers
+    SQL, Python, and R in one solution. Easily warehouse, analyze, visualize and share
+    data from across your business.
+  details: Periscope Data brings all your data together in a single platform and delivers
+    SQL, Python, and R in one solution. Easily warehouse, analyze, visualize and share
+    data from across your business.
+  website: https://www.periscopedata.com/
+  twitter: https://twitter.com/periscopedata
+  github: https://github.com/PeriscopeData
+  blog: https://www.periscopedata.com/blog
+  blogrss: https://www.periscopedata.com/blog/atom.xml
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20059-periscope-data.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20059-periscope-data.jpg
+  tags: Databases,Enterprise,SaaS,Technology,Visualizations
+  apis: []
+- id: "28159"
+  name: quasardb
+  summary: quasardb is a distributed time series database with support for server-side
+    aggregations. It scales horizontally and vertically for virtually unlimited capabilities,
+    making it a popular choice for low-latency and Big Data applications.
+  details: quasardb is a distributed time series database with support for server-side
+    aggregations. It scales horizontally and vertically for virtually unlimited capabilities,
+    making it a popular choice for low-latency and Big Data applications.
+  website: https://www.quasardb.net
+  twitter: https://twitter.com/quasardb
+  github: ~
+  blog: ~
+  blogrss: ~
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28159-www-quasardb-net.jpg
+  logo_width: ~
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28159-www-quasardb-net.jpg
+  tags: Databases,Enterprise,SaaS,Technology,Time Series
+  apis: []
+- id: "2077"
+  name: Ragic
+  summary: Design powerful Web databases for your business with simple Excel-like
+    interface. Business data management solution that just works.
+  details: Design powerful Web databases for your business with simple Excel-like
+    interface. Business data management solution that just works.
+  website: http://www.ragic.com/
+  twitter: https://twitter.com/Ragic
+  github: https://github.com/ragic
+  blog: http://www.ragic.com/intl/en/blog
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2077-ragic.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2077-ragic.jpg
+  tags: Data,Databases,Enterprise,Forms,internet,SaaS,Spreadsheets,Technology
+  apis: []
+- id: "19027"
+  name: Reindex
+  summary: Building apps and tools for GraphQL.
+  details: Building apps and tools for GraphQL.
+  website: https://www.reindex.io/
+  twitter: https://twitter.com/reindexio
+  github: https://github.com/reindexio
+  blog: https://www.reindex.io/blog/
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19027-reindex.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19027-reindex.jpg
+  tags: Databases,Graph Database,Mobile,SaaS,Single Page Application,Stack Network,Technology
+  apis: []
+- id: "175"
+  name: Salesforce
+  summary: Build more meaningful and lasting relationships and connect with your customers
+    across sales, customer service, marketing, communities, apps, analytics, and more
+    using our Customer Success Platform. Try for Free.
+  details: Build more meaningful and lasting relationships and connect with your customers
+    across sales, customer service, marketing, communities, apps, analytics, and more
+    using our Customer Success Platform. Try for Free.
+  website: https://developer.salesforce.com/
+  twitter: https://twitter.com/salesforcedevs
+  github: https://github.com/salesforce
+  blog: https://developer.salesforce.com/blogs/
+  blogrss: http://feeds.feedburner.com/SforceBlog
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesforce.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesforce.jpg
+  tags: BaaS,CRM,Customers,Databases,Enterprise,Freshbooks,Hosting,internet,Notifications,PaaS,Productivity,Relative
+    Data,SaaS,Sales,SDIO Partner,Service API,Spreadsheets,Stack,Stack Network,Technology,Wearables
+  apis:
+  - api_id: "13821"
+    name: SalesForce
+    slug: salesforce
+    website: ""
+    openapi-spec: ""
+    api-blueprint: ""
+    postman: ""
+    documentation: ""
+    sdk-io: ""
+- id: "19925"
+  name: Scaphold
+  summary: A real-time GraphQL backend as a service. Build web, mobile, & IOT apps
+    faster with React, Angular, Relay, and Apollo using our hosted data and integrations
+    platform. Beats Firebase & Parse.
+  details: A real-time GraphQL backend as a service. Build web, mobile, & IOT apps
+    faster with React, Angular, Relay, and Apollo using our hosted data and integrations
+    platform. Beats Firebase & Parse.
+  website: https://scaphold.io
+  twitter: https://twitter.com/scapholddotio
+  github: https://github.com/scaphold-io
+  blog: https://scaphold.io/#/blog/
+  blogrss: ""
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19925-scaphold.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19925-scaphold.jpg
+  tags: Databases,GraphQL,Mobile,SaaS,Stack Network,Technology
+  apis: []
+- id: "18944"
+  name: SecureDB
+  summary: 'SecureDB is the fastest way to encrypt and store the data in the cloud.
+    SecureDB comes built-in with the following modules: 1) Encrypted User Profiles
+    2) Encrypted Custom Data 3) Encrypted Files. Traditionally, implementing encryption
+    is a complicated, expensive and time consuming exercise. SecureDB makes implementing
+    strong encryption simple, fast and inexpensive.'
+  details: 'SecureDB is the fastest way to encrypt and store the data in the cloud.
+    SecureDB comes built-in with the following modules: 1) Encrypted User Profiles
+    2) Encrypted Custom Data 3) Encrypted Files. Traditionally, implementing encryption
+    is a complicated, expensive and time consuming exercise. SecureDB makes implementing
+    strong encryption simple, fast and inexpensive.'
+  website: https://securedb.co/
+  twitter: https://twitter.com/securedb
+  github: ""
+  blog: https://securedb.co/blog/
+  blogrss: https://securedb.co/feed/
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/securedb-logo.png
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/securedb-logo.png
+  tags: Databases,Stack Network
+  apis: []
+- id: "1361"
+  name: SlashDB
+  summary: SlashDB is an API service provider that focuses primarily on delivering
+    APIs (Application programming interface) from your database. Once it is installed
+    on any web server, it will connect your internal databases and construct a REST/HTTP
+    web service, ...
+  details: SlashDB is an API service provider that focuses primarily on delivering
+    APIs (Application programming interface) from your database. Once it is installed
+    on any web server, it will connect your internal databases and construct a REST/HTTP
+    web service, ...
+  website: http://www.slashdb.com/
+  twitter: http://twitter.com/slash_db
+  github: https://github.com/SlashDB
+  blog: ""
+  blogrss: http://www.slashdb.com/feed/
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1361-slashdb.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1361-slashdb.jpg
+  tags: Databases,Deployments,Enterprise,Management,SaaS,Stack Network,Technology
+  apis: []
+- id: "28183"
+  name: Snowflake Software
+  summary: Making Aviation Data Accessible and Easy to Use. The Laminar Data Platform
+    manages flight, weather and aeronautical data to unlock operational value.
+  details: Making Aviation Data Accessible and Easy to Use. The Laminar Data Platform
+    manages flight, weather and aeronautical data to unlock operational value.
+  website: https://snowflakesoftware.com
+  twitter: https://twitter.com/sflakesoftware
+  github: ~
+  blog: ~
+  blogrss: ~
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28183-snowflakesoftware-com.jpg
+  logo_width: ~
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28183-snowflakesoftware-com.jpg
+  tags: Databases,Enterprise,SaaS,Technology
+  apis: []
+- id: "28791"
+  name: Snowflake Software
+  summary: Making Aviation Data Accessible and Easy to Use. The Laminar Data Platform
+    manages flight, weather and aeronautical data to unlock operational value.
+  details: Making Aviation Data Accessible and Easy to Use. The Laminar Data Platform
+    manages flight, weather and aeronautical data to unlock operational value.
+  website: https://developer.laminardata.aero
+  twitter: https://twitter.com/sflakesoftware
+  github: ~
+  blog: ~
+  blogrss: ~
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28791-developer-laminardata-aero.jpg
+  logo_width: ~
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28791-developer-laminardata-aero.jpg
+  tags: Databases,Enterprise,SaaS,Technology
+  apis: []
+- id: "18741"
+  name: The Apache Software Foundation
+  summary: Home page of The Apache Software Foundation
+  details: Home page of The Apache Software Foundation
+  website: http://couchdb.apache.org/
+  twitter: https://twitter.com/CouchDB
+  github: ""
+  blog: http://blog.couchdb.org/
+  blogrss: http://blog.couchdb.org/feed/
+  logo: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18741-apache-couchdb.jpg
+  logo_width: "150"
+  screenshot: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18741-apache-couchdb.jpg
+  tags: Databases,Enterprise,SaaS,Stack Network,Technology
+  apis: []
+- id: "19917"
+  name: Visual Paradigm
+  summary: Visual Paradigm, a software design tool tailored for agile software projects.
+    It supports UML, BPMN, ERD, DFD, SysML. It also supports use cases, wireframeing,
+    code engineering, etc.
+  details: Visual Paradigm, a software design tool tailored for agile software projects.
+    It supports UML, BPMN, ERD, DFD, SysML. It also supports use cases, wireframeing,
+    code engineering, etc.
+  website: https://www.visual-paradigm.com/
+  twitter: https://twitter.com/visualparadigm
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  logo_width: "150"
+  screenshot: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  tags: Databases,Enterprise,SaaS,Stack Network,Technology
+  apis: []
+- id: "20031"
+  name: webD
+  summary: false
+  details: ""
+  website: http://webd.is/
+  twitter: ""
+  github: ""
+  blog: ""
+  blogrss: ""
+  logo: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  logo_width: "150"
+  screenshot: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  tags: Databases,internet,SaaS,Technology
+  apis: []
