@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Database - API Evangelist</title>
+  <meta name="description" content="An index and topic collection covering managed databases and database-as-a-service offerings exposing APIs. Database APIs enable developers to provision, configure, query, migrate, and scale relational, document, key-value, wide-column, vector, graph, time-series, and analytical data stores through ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://database.apievangelist.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:url" content="https://database.apievangelist.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Database">
+  <meta property="og:site_name" content="API Evangelist">
+  <meta property="og:description" content="An index and topic collection covering managed databases and database-as-a-service offerings exposing APIs. Database APIs enable developers to provision, configure, query, migrate, and scale relational, document, key-value, wide-column, vector, graph, time-series, and analytical data stores through ">
+  <meta property="og:image" content="https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Database">
+  <meta name="twitter:description" content="An index and topic collection covering managed databases and database-as-a-service offerings exposing APIs. Database APIs enable developers to provision, configure, query, migrate, and scale relational, document, key-value, wide-column, vector, graph, time-series, and analytical data stores through ">
+  <meta name="twitter:image" content="https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg">
+
+  <link rel="shortcut icon" href="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" type="image/png">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <!-- Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ae-green: #3d8b37;
+      --ae-dark: #1a1a2e;
+      --ae-light: #f8f9fa;
+      --ae-accent: #6c9e3a;
+    }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; color: #333; }
+    .navbar-ae { background-color: #fff; border-bottom: 1px solid #e9ecef; }
+    .navbar-ae .navbar-brand img { height: 40px; }
+    .navbar-ae .nav-link { color: #495057; font-size: 0.9rem; font-weight: 500; }
+    .navbar-ae .nav-link:hover, .navbar-ae .nav-link.active { color: var(--ae-green); }
+    .text-emphasis { color: var(--ae-green) !important; }
+    .hero { background: linear-gradient(135deg, #f7faf6 0%, #eaf3e6 100%); border-bottom: 1px solid #e9ecef; }
+    .hero h1 { font-size: 2rem; font-weight: 700; }
+    .section-title { font-size: 1.25rem; font-weight: 600; display:flex; align-items:center; }
+    .section-title .material-symbols-outlined { color: var(--ae-green); margin-right: 0.5rem; }
+    .post-item { border-bottom: 1px solid #f0f0f0; padding: 0.9rem 0; }
+    .post-item:last-child { border-bottom: none; }
+    .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; line-height: 1.35; }
+    .post-item h3 a:hover { color: var(--ae-green); }
+    .post-item .post-meta { font-size: 0.78rem; color: #6c757d; margin-top: 0.15rem; }
+    .post-tag { font-size: 0.78rem; color: var(--ae-green); text-decoration: none; }
+    .post-tag:hover { text-decoration: underline; }
+    .footer-ae { border-top: 1px solid #e9ecef; font-size: 0.85rem; color: #6c757d; }
+    .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+    .list-group-item { border-color: #f0f0f0; }
+    .list-group-item:hover { background-color: #f9fbf8; }
+    a { color: var(--ae-green); }
+  </style>
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+    <div class="container-fluid px-3 px-lg-4">
+      <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+        <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-center gap-1">
+          <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Naftiko Banner -->
+  <div class="alert alert-success border-0 rounded-0 mb-0 py-2" role="alert" style="text-align: center;">
+    <a href="https://naftiko.io" target="_blank" style="text-decoration: none; color: inherit; font-weight: 500;">Turn your existing data &amp; APIs into governed capabilities for AI &rarr;</a>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-2 text-center">
+          <img src="https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg" alt="Database" class="img-fluid" style="max-height: 110px;">
+        </div>
+        <div class="col-md-10">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+              <li class="breadcrumb-item"><a class="text-body-secondary" href="https://apievangelist.com">API Evangelist</a></li>
+              <li class="breadcrumb-item active">Database</li>
+            </ol>
+          </nav>
+          <h1 class="mb-2">Database</h1>
+          <p class="text-muted mb-3">An index and topic collection covering managed databases and database-as-a-service offerings exposing APIs. Database APIs enable developers to provision, configure, query, migrate, and scale relational, document, key-value, wide-column, vector, graph, time-series, and analytical data stores through programmatic interfaces rather than through manual server administration. This collection includes managed PostgreSQL platforms like Neon, Supabase, and Render; MySQL platforms like PlanetScale and Vitess; document databases like MongoDB Atlas and Couchbase; key-value and wide-column stores like DynamoDB, Cassandra, and Aerospike; serverless databases like Fauna, Convex, and Cloudflare D1; vector databases like Pinecone, Weaviate, Qdrant, and Milvus; graph databases like Neo4j and Stardog; time-series databases like InfluxDB, TimescaleDB, and QuestDB; and analytical data warehouses like Snowflake, BigQuery, Redshift, Databricks, ClickHouse, and Firebolt.</p>
+          <div><a href="https://apievangelist.com/categories/" class="post-tag me-2">#Database</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#DBaaS</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#Managed Database</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#SQL</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#NoSQL</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#Document Database</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#Graph Database</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#Vector Database</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#Time Series</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#Data Warehouse</a><a href="https://apievangelist.com/categories/" class="post-tag me-2">#Key-Value Store</a></div>
+          <div class="mt-3"><a href="https://apievangelist.com" target="_blank" rel="noopener" class="badge bg-light text-emphasis border me-2 mb-2 text-decoration-none"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">public</span> Portal</a><a href="https://github.com/api-evangelist" target="_blank" rel="noopener" class="badge bg-light text-emphasis border me-2 mb-2 text-decoration-none"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">open_in_new</span> GitHubOrganization</a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+
+    <!-- Network -->
+    <section class="mb-5">
+      <h2 class="section-title mb-3"><span class="material-symbols-outlined">hub</span>Network Properties</h2>
+      <p class="text-muted small">Each entry links to its <code>providers.apis.io</code> provider page.</p>
+      <div class="list-group">
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/aerospike/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Aerospike</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/aerospike" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/amazon-dynamodb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Amazon DynamoDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/amazon-dynamodb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/amazon-neptune/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Amazon Neptune</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/amazon-neptune" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/amazon-qldb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Amazon QLDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/amazon-qldb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/amazon-redshift/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Amazon Redshift</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/amazon-redshift" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/amazon-timestream/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Amazon Timestream</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/amazon-timestream" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/cassandra/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Apache Cassandra</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/cassandra" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/apache-couchdb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Apache CouchDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/apache-couchdb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/apache-druid/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Apache Druid</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/apache-druid" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/apache-hbase/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Apache HBase</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/apache-hbase" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/apache-pinot/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Apache Pinot</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/apache-pinot" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/appwrite/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Appwrite</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/appwrite" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/azure-cosmos-db/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Azure Cosmos DB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/azure-cosmos-db" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/clickhouse/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">ClickHouse</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/clickhouse" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/cockroachdb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">CockroachDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/cockroachdb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/convex/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Convex</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/convex" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/couchbase/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Couchbase</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/couchbase" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/databricks/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Databricks</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/databricks" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/dragonfly/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Dragonfly</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/dragonfly" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/duckdb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">DuckDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/duckdb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/elasticsearch/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Elasticsearch</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/elasticsearch" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/fauna/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Fauna</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/fauna" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/firebolt/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Firebolt</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/firebolt" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/google-bigquery/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Google BigQuery</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/google-bigquery" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/google-cloud-bigtable/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Google Cloud Bigtable</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/google-cloud-bigtable" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/google-cloud-firestore/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Google Cloud Firestore</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/google-cloud-firestore" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/google-cloud-spanner/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Google Cloud Spanner</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/google-cloud-spanner" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/google-cloud-sql/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Google Cloud SQL</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/google-cloud-sql" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/ibm-db2/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">IBM Db2</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/ibm-db2" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/influxdb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">InfluxDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/influxdb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/marqo/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Marqo</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/marqo" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/materialize/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Materialize</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/materialize" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/microsoft-azure-postgresql/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Microsoft Azure PostgreSQL</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/microsoft-azure-postgresql" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/microsoft-azure-sql-database/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Microsoft Azure SQL Database</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/microsoft-azure-sql-database" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/milvus/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Milvus</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/milvus" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/mongodb-atlas/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">MongoDB Atlas</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/mongodb-atlas" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/motherduck/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">MotherDuck</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/motherduck" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/neo4j/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Neo4j</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/neo4j" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/neon/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Neon</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/neon" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/oracle-database/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Oracle Database</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/oracle-database" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/pinecone/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Pinecone</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/pinecone" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/planetscale/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">PlanetScale</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/planetscale" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/postgresql/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">PostgreSQL</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/postgresql" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/prisma/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Prisma</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/prisma" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/qdrant/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Qdrant</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/qdrant" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/questdb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">QuestDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/questdb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/render/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Render</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/render" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/rethinkdb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">RethinkDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/rethinkdb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/sap-hana/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">SAP HANA</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/sap-hana" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/singlestore/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">SingleStore</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/singlestore" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/snowflake/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Snowflake</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/snowflake" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/stardog/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Stardog</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/stardog" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/supabase/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Supabase</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/supabase" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/tidb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">TiDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/tidb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/timescaledb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">TimescaleDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/timescaledb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/tinybird/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Tinybird</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/tinybird" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/upstash/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Upstash</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/upstash" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/vespa/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Vespa</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/vespa" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/vitess/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Vitess</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/vitess" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/weaviate/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Weaviate</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/weaviate" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/yugabytedb/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">YugabyteDB</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/yugabytedb" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a>
+        <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between" href="https://providers.apis.io/providers/zilliz/" target="_blank" rel="noopener">
+          <span class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2 text-emphasis">hub</span>
+            <span class="fw-semibold">Zilliz</span>
+          </span>
+          <span class="d-flex align-items-center gap-3">
+            <a class="small text-muted text-decoration-none" href="https://github.com/api-evangelist/zilliz" target="_blank" rel="noopener" onclick="event.stopPropagation();"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">code</span> repo</a>
+            <span class="badge bg-light text-emphasis border">providers.apis.io</span>
+          </span>
+        </a></div>
+    </section>
+
+    <!-- Features -->
+    <section class="mb-5">
+      <h2 class="section-title mb-3"><span class="material-symbols-outlined">extension</span>Common Features</h2>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>Programmatic Database Provisioning</h3>
+              <p class="text-muted small mb-0">Database APIs let teams create, configure, resize, and tear down database instances on demand without filing tickets or running infrastructure scripts, making databases first-class deployable resources.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>Branching and Forking</h3>
+              <p class="text-muted small mb-0">Modern serverless database platforms like Neon, PlanetScale, and Supabase expose branching APIs that let developers create isolated copies of a production database for development, testing, and pull request previews.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>HTTP and SQL-over-HTTP Query Interfaces</h3>
+              <p class="text-muted small mb-0">Databases like Neon, Supabase, PlanetScale, and Cloudflare D1 expose SQL execution through HTTPS endpoints, enabling stateless query access from serverless functions and edge runtimes without persistent TCP connections.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>Vector Search and Embeddings</h3>
+              <p class="text-muted small mb-0">Vector databases like Pinecone, Weaviate, Qdrant, and Milvus expose APIs for storing high-dimensional embeddings and running nearest-neighbor similarity search, powering retrieval-augmented generation and semantic search.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>Schema Migration and Versioning</h3>
+              <p class="text-muted small mb-0">Database platforms provide APIs for managing schema migrations, deploy requests, and zero-downtime schema changes, integrating database evolution into CI/CD pipelines.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>Analytical Query and Warehouse APIs</h3>
+              <p class="text-muted small mb-0">Cloud data warehouses like Snowflake, BigQuery, Redshift, Databricks, and ClickHouse expose REST and SQL APIs for executing analytical queries, managing warehouses, and orchestrating data pipelines at petabyte scale.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>Multi-Region Replication and Edge Reads</h3>
+              <p class="text-muted small mb-0">Distributed and serverless databases expose APIs for configuring read replicas, regional failover, and edge-local reads, reducing latency for globally distributed applications.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">extension</span>Backups, Snapshots, and Point-in-Time Recovery</h3>
+              <p class="text-muted small mb-0">Managed database APIs provide programmatic control over backups, snapshots, restore points, and point-in-time recovery, treating data protection as code rather than a manual operations process.</p>
+            </div>
+          </div>
+        </div></div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="mb-5">
+      <h2 class="section-title mb-3"><span class="material-symbols-outlined">task_alt</span>Use Cases</h2>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>Serverless Application Backends</h3>
+              <p class="text-muted small mb-0">Developers use serverless database APIs from Neon, Supabase, Fauna, Convex, and Cloudflare D1 to back serverless functions and edge applications without managing connection pools or persistent infrastructure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>Database-per-Tenant Provisioning</h3>
+              <p class="text-muted small mb-0">SaaS platforms use database provisioning APIs to spin up isolated database instances or branches per customer, providing strong tenant isolation and per-tenant backup, recovery, and scaling.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>Retrieval-Augmented Generation (RAG)</h3>
+              <p class="text-muted small mb-0">AI applications use vector database APIs from Pinecone, Weaviate, Qdrant, Milvus, and pgvector-backed services to index document embeddings and retrieve semantically relevant context for LLM prompts.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>Real-Time Analytics and Observability</h3>
+              <p class="text-muted small mb-0">Time-series and columnar APIs from ClickHouse, InfluxDB, TimescaleDB, QuestDB, and Tinybird power real-time dashboards, observability platforms, and user-facing analytics on high-volume event streams.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>Data Warehouse Integration and ELT</h3>
+              <p class="text-muted small mb-0">Analytics and data teams use APIs from Snowflake, BigQuery, Redshift, and Databricks to load data, run transformations, manage warehouses, and integrate with dbt, Fivetran, and orchestration tooling.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>Schema Migrations in CI/CD</h3>
+              <p class="text-muted small mb-0">Teams use deploy-request and migration APIs from PlanetScale, Neon, and Supabase to gate schema changes through pull requests, run them in branches, and apply them safely to production.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>Graph Workloads and Knowledge Graphs</h3>
+              <p class="text-muted small mb-0">Applications use graph database APIs from Neo4j, Stardog, and Amazon Neptune to model relationships, run path and traversal queries, and back knowledge graphs and recommendation engines.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">task_alt</span>Edge and Mobile Data Sync</h3>
+              <p class="text-muted small mb-0">Edge databases like Cloudflare D1, Convex, and Supabase expose APIs that synchronize state between edge runtimes, mobile clients, and central data stores with built-in conflict resolution.</p>
+            </div>
+          </div>
+        </div></div>
+    </section>
+
+    <!-- Integrations -->
+    <section class="mb-5">
+      <h2 class="section-title mb-3"><span class="material-symbols-outlined">integration_instructions</span>Integrations</h2>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>Neon</h3>
+              <p class="text-muted small mb-0">Serverless PostgreSQL platform with branching, scale-to-zero compute, and an HTTP query endpoint designed for serverless and edge runtimes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>Supabase</h3>
+              <p class="text-muted small mb-0">Open-source PostgreSQL platform with auto-generated REST and GraphQL APIs, realtime subscriptions, auth, storage, and edge functions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>PlanetScale</h3>
+              <p class="text-muted small mb-0">Serverless MySQL platform built on Vitess with non-blocking schema changes, deploy requests, and branching for safe production database evolution.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>MongoDB Atlas</h3>
+              <p class="text-muted small mb-0">Managed multi-cloud document database with Atlas Data API, Atlas Search, Atlas Vector Search, and a fully managed control plane API.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>Snowflake</h3>
+              <p class="text-muted small mb-0">Cloud data warehouse with SQL API, REST control plane, and Snowpipe for streaming data ingestion across AWS, Azure, and GCP.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>Pinecone</h3>
+              <p class="text-muted small mb-0">Managed vector database with REST and gRPC APIs for storing embeddings and running low-latency similarity search at scale.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>Databricks</h3>
+              <p class="text-muted small mb-0">Lakehouse platform with REST APIs for SQL warehouses, jobs, Unity Catalog, model serving, and Delta Lake table management.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h6 d-flex align-items-center mb-2"><span class="material-symbols-outlined me-2 text-emphasis">integration_instructions</span>Fauna</h3>
+              <p class="text-muted small mb-0">Distributed document-relational serverless database with a unified HTTP API, FQL query language, and ACID transactions across regions.</p>
+            </div>
+          </div>
+        </div></div>
+    </section>
+
+    <!-- Blog posts -->
+    <section class="mb-5">
+      <h2 class="section-title mb-3"><span class="material-symbols-outlined">article</span>Latest API Stories</h2>
+      <p class="text-muted small">Most recent 25 stories pulled from across the API Evangelist network blog feeds.</p>
+      <div>
+        
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://www.solo.io/blog/building-an-mcp-gateway-with-apigee-api-gateway" target="_blank" rel="noopener">Building an MCP Gateway with Apigee API Gateway | Solo.io</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-14</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/gloo" target="_blank" rel="noopener">gloo</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">www.solo.io</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://eodhd.com/financial-apis-blog/eodhd-mcp-server-update-75-tools-oauth-and-api-versioning" target="_blank" rel="noopener">EODHD MCP Server Update: 75 Tools, OAuth, and API Versioning</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-03-31</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/eodhd" target="_blank" rel="noopener">eodhd</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">eodhd.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://www.apollographql.com/blog/building-a-secure-ai-agent-api-stack-with-graphql-apollo-skills-and-mcp-server" target="_blank" rel="noopener">Building a Secure AI Agent API Stack with GraphQL, Apollo Skills, and MCP Server</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-03-05</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/apollo-federation" target="_blank" rel="noopener">apollo-federation</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">www.apollographql.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://www.apollographql.com/blog/connect-ai-agents-to-your-graphql-api-using-mcp-and-type-safe-tool-configuration" target="_blank" rel="noopener">Connect AI Agents to Your GraphQL API Using MCP and Type-Safe Tool Configuration</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-02-26</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/apollo-federation" target="_blank" rel="noopener">apollo-federation</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">www.apollographql.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://truto.one/blog/announcing-truto-docs-mcp-stop-ai-hallucinations-in-api-integrations/" target="_blank" rel="noopener">Announcing Truto Docs MCP: Stop AI Hallucinations in API Integrations</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-05</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/truto" target="_blank" rel="noopener">truto</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">truto.one</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://www.pulumi.com/blog/rest-api-docs-from-openapi/" target="_blank" rel="noopener">Pulumi Cloud REST API Docs, Now Generated from OpenAPI</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-04-20</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/pulumi" target="_blank" rel="noopener">pulumi</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">www.pulumi.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://www.apollographql.com/blog/introducing-authorization-for-apollo-mcp-server" target="_blank" rel="noopener">Introducing Authorization for Apollo MCP Server: Secure AI Access to Your GraphQL APIs</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2025-08-08</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/apollo-federation" target="_blank" rel="noopener">apollo-federation</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">www.apollographql.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://truto.one/blog/implementing-end-user-oauth-identity-passthrough-for-remote-mcp-servers/" target="_blank" rel="noopener">Implementing End-User OAuth Identity Passthrough for Remote MCP Servers</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-13</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/truto" target="_blank" rel="noopener">truto</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">truto.one</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://devblogs.microsoft.com/dotnet/api-versioning-in-dotnet-10-applications/" target="_blank" rel="noopener">Combining API versioning with OpenAPI in .NET 10 applications</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-04-28</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/c-sharp" target="_blank" rel="noopener">c-sharp</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">devblogs.microsoft.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Custom-authorization-for-API-for-GraphQL-in-Microsoft-Fabric/ba-p/5182352" target="_blank" rel="noopener">Custom authorization for API for GraphQL in Microsoft Fabric (Preview)</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-14</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/microsoft-fabric" target="_blank" rel="noopener">microsoft-fabric</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">community.fabric.microsoft.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://developer.okta.com/blog/2026/05/12/low-code-api-integration" target="_blank" rel="noopener">How to Build Low-Code API Integrations for Enterprise Apps Using Okta</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-12</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/okta" target="_blank" rel="noopener">okta</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">developer.okta.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://devblogs.microsoft.com/azure-sdk/mcp-as-easy-as-1-2-3-introducing-the-fluent-api-for-mcp-apps/" target="_blank" rel="noopener">MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-04-07</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/microsoft-azure-web-pubsub" target="_blank" rel="noopener">microsoft-azure-web-pubsub</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">devblogs.microsoft.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://www.pulumi.com/blog/announcing-openapi-support-pulumi-cloud/" target="_blank" rel="noopener">Announcing OpenAPI support for the Pulumi Cloud REST API</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-02-05</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/pulumi" target="_blank" rel="noopener">pulumi</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">www.pulumi.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://wundergraph.com/blog/graphql-persisted-operations-llms-mcp" target="_blank" rel="noopener">MCP Gateway with Curated GraphQL Persisted Operations</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2025-10-17</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/wundergraph" target="_blank" rel="noopener">wundergraph</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">wundergraph.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://liblab.com/blog/how-mcp-servers-simplify-api-integration" target="_blank" rel="noopener">How MCP Servers Simplify API Integration for AI</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2025-05-20</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/liblab" target="_blank" rel="noopener">liblab</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">liblab.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://blog.apilayer.com/mcp-vs-cli-which-is-better-for-ai-assisted-developer-workflows-2/" target="_blank" rel="noopener">MCP vs CLI: Which Is Better for AI-Assisted Developer Workflows?</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-15</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/api-layer" target="_blank" rel="noopener">api-layer</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">blog.apilayer.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/" target="_blank" rel="noopener">Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-12</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/amazon-deepracer" target="_blank" rel="noopener">amazon-deepracer</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">aws.amazon.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://truto.one/blog/how-to-test-and-mock-mcp-servers-in-cicd-without-hitting-live-apis/" target="_blank" rel="noopener">How to Test and Mock MCP Servers in CI/CD Without Hitting Live APIs</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-07</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/truto" target="_blank" rel="noopener">truto</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">truto.one</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills" target="_blank" rel="noopener">Introducing the Twilio MCP Server and Skills: Give Your Coding Agents Native Access to 1,800+ Twilio APIs</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-06</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/twilio" target="_blank" rel="noopener">twilio</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">www.twilio.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Discover-items-across-workspaces-with-the-OneLake-Catalog-Search/ba-p/5176768" target="_blank" rel="noopener">Discover items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-05</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/microsoft-fabric" target="_blank" rel="noopener">microsoft-fabric</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">community.fabric.microsoft.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://naftiko.io/blog/api-discovery-reusability-governance-three-capabilities-one-mcp-surface/" target="_blank" rel="noopener">API Discovery, Reusability, and Governance — Three Capabilities, One MCP Surface for Claude and Copilot</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-05-01</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/naftiko" target="_blank" rel="noopener">naftiko</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">naftiko.io</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://blogs.mulesoft.com/dev-guides/how-to-make-your-apis-agent-ready-with-mcp-bridge/" target="_blank" rel="noopener">How to Make Your APIs Agent-Ready With MCP Bridge</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-04-30</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/mulesoft" target="_blank" rel="noopener">mulesoft</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">blogs.mulesoft.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="http://redocly.com/blog/api-contract-testing-arazzo" target="_blank" rel="noopener">API contract testing from OpenAPI using Arazzo</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-04-22</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/redocly" target="_blank" rel="noopener">redocly</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">redocly.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://blogs.vmware.com/tanzu/mcp-vs-apis-why-you-need-both-for-ai-applications/" target="_blank" rel="noopener">MCP vs. APIs: Why You Need Both for AI Applications</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-04-21</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/vmware-tanzu" target="_blank" rel="noopener">vmware-tanzu</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">blogs.vmware.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-item d-flex">
+          <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+            <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h3 class="mb-1"><a href="https://wundergraph.com/blog/mcp-per-tool-oauth-scopes-graphql-schema" target="_blank" rel="noopener">Per-Tool OAuth Scopes for MCP, Derived from Your Schema</a></h3>
+            <div class="post-meta">
+              <span class="me-2">2026-04-17</span>
+              <span class="me-2">·</span>
+              <a class="post-tag" href="https://github.com/api-evangelist/wundergraph" target="_blank" rel="noopener">wundergraph</a>
+              <span class="mx-2 text-muted">·</span>
+              <span class="text-muted small">wundergraph.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-ae py-4 mt-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <span>&copy; 2026 API Evangelist</span>
+        </div>
+        <div class="col-md-6 text-md-end mt-2 mt-md-0">
+          <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+          <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+          <a href="https://github.com/api-evangelist/database" class="text-muted text-decoration-none me-3">GitHub</a>
+          <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
