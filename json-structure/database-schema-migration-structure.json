@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/database/refs/heads/main/json-structure/database-schema-migration-structure.json",
+  "name": "SchemaMigration",
+  "description": "Represents a database schema migration or deploy request, used to apply DDL changes against a managed database in a controlled, reviewable way.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the migration or deploy request.",
+      "example": "dr_2026_05_19_001"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the migration.",
+      "example": "add-orders-shipping-address"
+    },
+    "database_instance_id": {
+      "type": "string",
+      "description": "Identifier of the database instance the migration targets.",
+      "example": "br-young-snow-12345678"
+    },
+    "source_branch": {
+      "type": "string",
+      "description": "Source branch the migration was developed on.",
+      "example": "feature/shipping-address"
+    },
+    "target_branch": {
+      "type": "string",
+      "description": "Target branch the migration applies to.",
+      "example": "main"
+    },
+    "engine": {
+      "type": "string",
+      "description": "Database engine the migration targets.",
+      "enum": [
+        "postgresql",
+        "mysql",
+        "mongodb",
+        "cassandra",
+        "clickhouse",
+        "snowflake",
+        "bigquery",
+        "other"
+      ],
+      "example": "mysql"
+    },
+    "ddl": {
+      "type": "string",
+      "description": "DDL statement(s) that the migration applies.",
+      "example": "ALTER TABLE orders ADD COLUMN shipping_address TEXT NULL;"
+    },
+    "strategy": {
+      "type": "string",
+      "description": "Strategy used to apply the migration.",
+      "enum": [
+        "online",
+        "offline",
+        "expand-contract",
+        "blue-green",
+        "gh-ost",
+        "pt-osc"
+      ],
+      "example": "online"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "open",
+        "approved",
+        "queued",
+        "running",
+        "applied",
+        "reverted",
+        "failed",
+        "cancelled"
+      ],
+      "example": "open"
+    },
+    "is_blocking": {
+      "type": "boolean",
+      "description": "Whether the migration blocks reads or writes while running.",
+      "example": false
+    },
+    "applied_at": {
+      "type": "datetime",
+      "example": "2026-05-19T15:30:00Z"
+    },
+    "applied_by": {
+      "type": "string",
+      "description": "User or service account that applied the migration.",
+      "example": "ci-bot@example.com"
+    },
+    "rollback_ddl": {
+      "type": "string",
+      "description": "Optional inverse DDL used to roll back the migration.",
+      "example": "ALTER TABLE orders DROP COLUMN shipping_address;"
+    },
+    "checks": {
+      "type": "array",
+      "description": "Automated safety checks run against the migration before approval.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "example": "non-blocking-schema-change"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pass",
+              "fail",
+              "warn",
+              "skipped"
+            ],
+            "example": "pass"
+          }
+        }
+      }
+    },
+    "created_at": {
+      "type": "datetime",
+      "example": "2026-05-19T14:00:00Z"
+    }
+  },
+  "required": [
+    "name",
+    "database_instance_id",
+    "engine",
+    "ddl",
+    "status"
+  ]
+}

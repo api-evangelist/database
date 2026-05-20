@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "db": "https://api-evangelist.github.io/database/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "DatabaseInstance": "db:DatabaseInstance",
+    "SchemaMigration": "db:SchemaMigration",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "provider": "schema:provider",
+
+    "engine": {
+      "@id": "db:engine",
+      "@type": "xsd:string"
+    },
+    "engine_version": {
+      "@id": "db:engineVersion",
+      "@type": "xsd:string"
+    },
+    "category": {
+      "@id": "db:category",
+      "@type": "xsd:string"
+    },
+    "region": {
+      "@id": "db:region",
+      "@type": "xsd:string"
+    },
+    "endpoint": {
+      "@id": "db:endpoint",
+      "@type": "@id"
+    },
+    "host": {
+      "@id": "db:host",
+      "@type": "xsd:string"
+    },
+    "port": {
+      "@id": "db:port",
+      "@type": "xsd:integer"
+    },
+    "protocol": {
+      "@id": "db:protocol",
+      "@type": "xsd:string"
+    },
+    "http_query_url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "tier": {
+      "@id": "db:tier",
+      "@type": "xsd:string"
+    },
+    "storage_gb": {
+      "@id": "db:storageGb",
+      "@type": "xsd:decimal"
+    },
+    "compute_units": {
+      "@id": "db:computeUnits",
+      "@type": "xsd:decimal"
+    },
+    "high_availability": {
+      "@id": "db:highAvailability",
+      "@type": "xsd:boolean"
+    },
+    "branch": {
+      "@id": "db:branch",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "db:status",
+      "@type": "xsd:string"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "applied_at": {
+      "@id": "db:appliedAt",
+      "@type": "xsd:dateTime"
+    },
+    "applied_by": {
+      "@id": "db:appliedBy",
+      "@type": "xsd:string"
+    },
+    "database_instance_id": {
+      "@id": "db:databaseInstance",
+      "@type": "@id"
+    },
+    "source_branch": {
+      "@id": "db:sourceBranch",
+      "@type": "xsd:string"
+    },
+    "target_branch": {
+      "@id": "db:targetBranch",
+      "@type": "xsd:string"
+    },
+    "ddl": {
+      "@id": "db:ddl",
+      "@type": "xsd:string"
+    },
+    "rollback_ddl": {
+      "@id": "db:rollbackDdl",
+      "@type": "xsd:string"
+    },
+    "strategy": {
+      "@id": "db:strategy",
+      "@type": "xsd:string"
+    },
+    "is_blocking": {
+      "@id": "db:isBlocking",
+      "@type": "xsd:boolean"
+    },
+    "checks": {
+      "@id": "db:checks",
+      "@container": "@set"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dr_2026_05_19_001",
+  "name": "add-orders-shipping-address",
+  "database_instance_id": "br-young-snow-12345678",
+  "source_branch": "feature/shipping-address",
+  "target_branch": "main",
+  "engine": "mysql",
+  "ddl": "ALTER TABLE orders ADD COLUMN shipping_address TEXT NULL;",
+  "strategy": "online",
+  "status": "applied",
+  "is_blocking": false,
+  "applied_at": "2026-05-19T15:30:00Z",
+  "applied_by": "ci-bot@example.com",
+  "rollback_ddl": "ALTER TABLE orders DROP COLUMN shipping_address;",
+  "checks": [
+    { "name": "non-blocking-schema-change", "status": "pass" },
+    { "name": "foreign-key-integrity", "status": "pass" },
+    { "name": "estimated-rewrite-rows", "status": "warn" }
+  ],
+  "created_at": "2026-05-19T14:00:00Z"
+}

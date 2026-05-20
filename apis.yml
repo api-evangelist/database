@@ -1,0 +1,216 @@
+aid: database
+name: Database
+description: >-
+  An index and topic collection covering managed databases and database-as-a-service offerings exposing APIs. Database APIs enable developers to provision, configure, query, migrate, and scale relational, document, key-value,
+  wide-column, vector, graph, time-series, and analytical data stores through programmatic interfaces rather than through manual server administration. This collection includes managed PostgreSQL platforms like Neon, Supabase,
+  and Render; MySQL platforms like PlanetScale and Vitess; document databases like MongoDB Atlas and Couchbase; key-value and wide-column stores like DynamoDB, Cassandra, and Aerospike; serverless databases like Fauna,
+  Convex, and Cloudflare D1; vector databases like Pinecone, Weaviate, Qdrant, and Milvus; graph databases like Neo4j and Stardog; time-series databases like InfluxDB, TimescaleDB, and QuestDB; and analytical data warehouses
+  like Snowflake, BigQuery, Redshift, Databricks, ClickHouse, and Firebolt.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Database
+- DBaaS
+- Managed Database
+- SQL
+- NoSQL
+- Document Database
+- Graph Database
+- Vector Database
+- Time Series
+- Data Warehouse
+- Key-Value Store
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/database/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Aerospike
+  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/apis.yml
+- name: Amazon DynamoDB
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/apis.yml
+- name: Amazon Neptune
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/apis.yml
+- name: Amazon QLDB
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/apis.yml
+- name: Amazon Redshift
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/apis.yml
+- name: Amazon Timestream
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/apis.yml
+- name: Apache Cassandra
+  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/apis.yml
+- name: Apache CouchDB
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/apis.yml
+- name: Apache Druid
+  url: https://raw.githubusercontent.com/api-evangelist/apache-druid/refs/heads/main/apis.yml
+- name: Apache HBase
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/apis.yml
+- name: Apache Pinot
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/apis.yml
+- name: Appwrite
+  url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/apis.yml
+- name: Azure Cosmos DB
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/apis.yml
+- name: ClickHouse
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/apis.yml
+- name: CockroachDB
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/apis.yml
+- name: Convex
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/apis.yml
+- name: Couchbase
+  url: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/apis.yml
+- name: Databricks
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
+- name: Dragonfly
+  url: https://raw.githubusercontent.com/api-evangelist/dragonfly/refs/heads/main/apis.yml
+- name: DuckDB
+  url: https://raw.githubusercontent.com/api-evangelist/duckdb/refs/heads/main/apis.yml
+- name: Elasticsearch
+  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/apis.yml
+- name: Fauna
+  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/apis.yml
+- name: Firebolt
+  url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/apis.yml
+- name: Google BigQuery
+  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/apis.yml
+- name: Google Cloud Bigtable
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-bigtable/refs/heads/main/apis.yml
+- name: Google Cloud Firestore
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/apis.yml
+- name: Google Cloud Spanner
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/apis.yml
+- name: Google Cloud SQL
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/apis.yml
+- name: IBM Db2
+  url: https://raw.githubusercontent.com/api-evangelist/ibm-db2/refs/heads/main/apis.yml
+- name: InfluxDB
+  url: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/apis.yml
+- name: Marqo
+  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/apis.yml
+- name: Materialize
+  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/apis.yml
+- name: Microsoft Azure PostgreSQL
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/apis.yml
+- name: Microsoft Azure SQL Database
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/apis.yml
+- name: Milvus
+  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/apis.yml
+- name: MongoDB Atlas
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/apis.yml
+- name: MotherDuck
+  url: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/apis.yml
+- name: Neo4j
+  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/apis.yml
+- name: Neon
+  url: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/apis.yml
+- name: Oracle Database
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/apis.yml
+- name: Pinecone
+  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/apis.yml
+- name: PlanetScale
+  url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/apis.yml
+- name: PostgreSQL
+  url: https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/apis.yml
+- name: Prisma
+  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/apis.yml
+- name: Qdrant
+  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/apis.yml
+- name: QuestDB
+  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/apis.yml
+- name: Render
+  url: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/apis.yml
+- name: RethinkDB
+  url: https://raw.githubusercontent.com/api-evangelist/rethinkdb/refs/heads/main/apis.yml
+- name: SAP HANA
+  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/apis.yml
+- name: SingleStore
+  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/apis.yml
+- name: Snowflake
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/apis.yml
+- name: Stardog
+  url: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/apis.yml
+- name: Supabase
+  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/apis.yml
+- name: TiDB
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/apis.yml
+- name: TimescaleDB
+  url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/apis.yml
+- name: Tinybird
+  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/apis.yml
+- name: Upstash
+  url: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/apis.yml
+- name: Vespa
+  url: https://raw.githubusercontent.com/api-evangelist/vespa/refs/heads/main/apis.yml
+- name: Vitess
+  url: https://raw.githubusercontent.com/api-evangelist/vitess/refs/heads/main/apis.yml
+- name: Weaviate
+  url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/apis.yml
+- name: YugabyteDB
+  url: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/apis.yml
+- name: Zilliz
+  url: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Programmatic Database Provisioning
+    description: Database APIs let teams create, configure, resize, and tear down database instances on demand without filing tickets or running infrastructure scripts, making databases first-class deployable resources.
+  - name: Branching and Forking
+    description: Modern serverless database platforms like Neon, PlanetScale, and Supabase expose branching APIs that let developers create isolated copies of a production database for development, testing, and pull request previews.
+  - name: HTTP and SQL-over-HTTP Query Interfaces
+    description: Databases like Neon, Supabase, PlanetScale, and Cloudflare D1 expose SQL execution through HTTPS endpoints, enabling stateless query access from serverless functions and edge runtimes without persistent TCP connections.
+  - name: Vector Search and Embeddings
+    description: Vector databases like Pinecone, Weaviate, Qdrant, and Milvus expose APIs for storing high-dimensional embeddings and running nearest-neighbor similarity search, powering retrieval-augmented generation and semantic search.
+  - name: Schema Migration and Versioning
+    description: Database platforms provide APIs for managing schema migrations, deploy requests, and zero-downtime schema changes, integrating database evolution into CI/CD pipelines.
+  - name: Analytical Query and Warehouse APIs
+    description: Cloud data warehouses like Snowflake, BigQuery, Redshift, Databricks, and ClickHouse expose REST and SQL APIs for executing analytical queries, managing warehouses, and orchestrating data pipelines at petabyte scale.
+  - name: Multi-Region Replication and Edge Reads
+    description: Distributed and serverless databases expose APIs for configuring read replicas, regional failover, and edge-local reads, reducing latency for globally distributed applications.
+  - name: Backups, Snapshots, and Point-in-Time Recovery
+    description: Managed database APIs provide programmatic control over backups, snapshots, restore points, and point-in-time recovery, treating data protection as code rather than a manual operations process.
+- type: UseCases
+  data:
+  - name: Serverless Application Backends
+    description: Developers use serverless database APIs from Neon, Supabase, Fauna, Convex, and Cloudflare D1 to back serverless functions and edge applications without managing connection pools or persistent infrastructure.
+  - name: Database-per-Tenant Provisioning
+    description: SaaS platforms use database provisioning APIs to spin up isolated database instances or branches per customer, providing strong tenant isolation and per-tenant backup, recovery, and scaling.
+  - name: Retrieval-Augmented Generation (RAG)
+    description: AI applications use vector database APIs from Pinecone, Weaviate, Qdrant, Milvus, and pgvector-backed services to index document embeddings and retrieve semantically relevant context for LLM prompts.
+  - name: Real-Time Analytics and Observability
+    description: Time-series and columnar APIs from ClickHouse, InfluxDB, TimescaleDB, QuestDB, and Tinybird power real-time dashboards, observability platforms, and user-facing analytics on high-volume event streams.
+  - name: Data Warehouse Integration and ELT
+    description: Analytics and data teams use APIs from Snowflake, BigQuery, Redshift, and Databricks to load data, run transformations, manage warehouses, and integrate with dbt, Fivetran, and orchestration tooling.
+  - name: Schema Migrations in CI/CD
+    description: Teams use deploy-request and migration APIs from PlanetScale, Neon, and Supabase to gate schema changes through pull requests, run them in branches, and apply them safely to production.
+  - name: Graph Workloads and Knowledge Graphs
+    description: Applications use graph database APIs from Neo4j, Stardog, and Amazon Neptune to model relationships, run path and traversal queries, and back knowledge graphs and recommendation engines.
+  - name: Edge and Mobile Data Sync
+    description: Edge databases like Cloudflare D1, Convex, and Supabase expose APIs that synchronize state between edge runtimes, mobile clients, and central data stores with built-in conflict resolution.
+- type: Integrations
+  data:
+  - name: Neon
+    description: Serverless PostgreSQL platform with branching, scale-to-zero compute, and an HTTP query endpoint designed for serverless and edge runtimes.
+  - name: Supabase
+    description: Open-source PostgreSQL platform with auto-generated REST and GraphQL APIs, realtime subscriptions, auth, storage, and edge functions.
+  - name: PlanetScale
+    description: Serverless MySQL platform built on Vitess with non-blocking schema changes, deploy requests, and branching for safe production database evolution.
+  - name: MongoDB Atlas
+    description: Managed multi-cloud document database with Atlas Data API, Atlas Search, Atlas Vector Search, and a fully managed control plane API.
+  - name: Snowflake
+    description: Cloud data warehouse with SQL API, REST control plane, and Snowpipe for streaming data ingestion across AWS, Azure, and GCP.
+  - name: Pinecone
+    description: Managed vector database with REST and gRPC APIs for storing embeddings and running low-latency similarity search at scale.
+  - name: Databricks
+    description: Lakehouse platform with REST APIs for SQL warehouses, jobs, Unity Catalog, model serving, and Delta Lake table management.
+  - name: Fauna
+    description: Distributed document-relational serverless database with a unified HTTP API, FQL query language, and ACID transactions across regions.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

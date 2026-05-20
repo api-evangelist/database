@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/database/refs/heads/main/json-schema/database-instance-schema.json",
+  "title": "DatabaseInstance",
+  "description": "Represents a managed database instance provisioned through a database-as-a-service or managed database API.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Provider-assigned identifier for the database instance.",
+      "example": "br-young-snow-12345678"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the database instance.",
+      "example": "production-orders"
+    },
+    "provider": {
+      "type": "string",
+      "description": "Name of the managed database provider hosting this instance.",
+      "example": "Neon"
+    },
+    "engine": {
+      "type": "string",
+      "description": "Underlying database engine.",
+      "enum": [
+        "postgresql",
+        "mysql",
+        "mongodb",
+        "cassandra",
+        "redis",
+        "dynamodb",
+        "clickhouse",
+        "snowflake",
+        "bigquery",
+        "redshift",
+        "databricks",
+        "influxdb",
+        "timescaledb",
+        "questdb",
+        "neo4j",
+        "fauna",
+        "pinecone",
+        "weaviate",
+        "qdrant",
+        "milvus",
+        "other"
+      ],
+      "example": "postgresql"
+    },
+    "engine_version": {
+      "type": "string",
+      "description": "Version string of the database engine.",
+      "example": "16.2"
+    },
+    "category": {
+      "type": "string",
+      "description": "High-level category of the database.",
+      "enum": [
+        "relational",
+        "document",
+        "key-value",
+        "wide-column",
+        "graph",
+        "vector",
+        "time-series",
+        "search",
+        "data-warehouse",
+        "lakehouse",
+        "multi-model"
+      ],
+      "example": "relational"
+    },
+    "region": {
+      "type": "string",
+      "description": "Cloud region where the instance is hosted.",
+      "example": "us-east-1"
+    },
+    "endpoint": {
+      "type": "object",
+      "description": "Connection endpoint information for the database.",
+      "properties": {
+        "host": {
+          "type": "string",
+          "example": "ep-young-snow-12345678.us-east-2.aws.neon.tech"
+        },
+        "port": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65535,
+          "example": 5432
+        },
+        "protocol": {
+          "type": "string",
+          "enum": ["tcp", "tls", "https", "grpc"],
+          "example": "tls"
+        },
+        "http_query_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "HTTP endpoint for SQL-over-HTTP query execution, when supported.",
+          "example": "https://ep-young-snow-12345678.us-east-2.aws.neon.tech/sql"
+        }
+      }
+    },
+    "tier": {
+      "type": "string",
+      "description": "Compute tier or plan for the instance.",
+      "enum": ["free", "developer", "standard", "production", "enterprise", "serverless"],
+      "example": "serverless"
+    },
+    "storage_gb": {
+      "type": "number",
+      "description": "Provisioned or used storage in gigabytes.",
+      "example": 10.5
+    },
+    "compute_units": {
+      "type": "number",
+      "description": "Active compute units, vCPUs, or instance size.",
+      "example": 0.25
+    },
+    "high_availability": {
+      "type": "boolean",
+      "description": "Whether the instance has multi-zone or multi-region high availability enabled.",
+      "example": true
+    },
+    "branch": {
+      "type": "string",
+      "description": "Branch or environment name, for platforms that support database branching.",
+      "example": "main"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["provisioning", "active", "paused", "suspended", "deleting", "failed"],
+      "example": "active"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "example": "2026-05-19T14:00:00Z"
+    },
+    "tags": {
+      "type": "array",
+      "description": "User-defined tags for organizing instances.",
+      "items": { "type": "string" },
+      "example": ["production", "orders", "tenant-acme"]
+    }
+  },
+  "required": ["name", "provider", "engine", "category", "status"]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "br-young-snow-12345678",
+  "name": "production-orders",
+  "provider": "Neon",
+  "engine": "postgresql",
+  "engine_version": "16.2",
+  "category": "relational",
+  "region": "us-east-2",
+  "endpoint": {
+    "host": "ep-young-snow-12345678.us-east-2.aws.neon.tech",
+    "port": 5432,
+    "protocol": "tls",
+    "http_query_url": "https://ep-young-snow-12345678.us-east-2.aws.neon.tech/sql"
+  },
+  "tier": "serverless",
+  "storage_gb": 10.5,
+  "compute_units": 0.25,
+  "high_availability": true,
+  "branch": "main",
+  "status": "active",
+  "created_at": "2026-05-19T14:00:00Z",
+  "tags": ["production", "orders", "tenant-acme"]
+}

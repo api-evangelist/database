@@ -1,0 +1,417 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Database
+  description: Vocabulary for the database topic, covering managed databases, database-as-a-service, vector databases, graph databases, time-series databases, and cloud data warehouses.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Neon
+      namespace: neon
+      status: active
+    - name: Supabase
+      namespace: supabase
+      status: active
+    - name: PlanetScale
+      namespace: planetscale
+      status: active
+    - name: MongoDB Atlas
+      namespace: mongodb-atlas
+      status: active
+    - name: Snowflake
+      namespace: snowflake
+      status: active
+    - name: Pinecone
+      namespace: pinecone
+      status: active
+    - name: Databricks
+      namespace: databricks
+      status: active
+    - name: Fauna
+      namespace: fauna
+      status: active
+
+  resources:
+    - name: instances
+      description: Managed database instances, clusters, or projects provisioned through a DBaaS control plane
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - pause
+        - resume
+    - name: branches
+      description: Database branches or forks for development, preview, and testing workflows
+      actions:
+        - list
+        - get
+        - create
+        - delete
+        - reset
+    - name: queries
+      description: SQL, GraphQL, FQL, Cypher, or vector queries executed against a managed database
+      actions:
+        - execute
+        - explain
+        - cancel
+    - name: migrations
+      description: Schema migrations, deploy requests, and DDL change sets applied to a database
+      actions:
+        - create
+        - list
+        - get
+        - approve
+        - apply
+        - revert
+    - name: backups
+      description: Backups, snapshots, and point-in-time recovery artifacts for a managed database
+      actions:
+        - list
+        - get
+        - create
+        - restore
+        - delete
+    - name: indexes
+      description: Secondary indexes, vector indexes, full-text indexes, and search configurations
+      actions:
+        - list
+        - get
+        - create
+        - delete
+    - name: vectors
+      description: Vector embeddings and similarity-search records stored in a vector database
+      actions:
+        - upsert
+        - get
+        - delete
+        - query
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: create
+      description: Create a new resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: execute
+      description: Execute a query against a database
+      httpMethod: POST
+      pattern: query
+    - name: explain
+      description: Return the execution plan for a query
+      httpMethod: POST
+      pattern: read
+    - name: cancel
+      description: Cancel a running query or operation
+      httpMethod: POST
+      pattern: write
+    - name: pause
+      description: Pause a database instance or branch
+      httpMethod: POST
+      pattern: write
+    - name: resume
+      description: Resume a paused database instance or branch
+      httpMethod: POST
+      pattern: write
+    - name: reset
+      description: Reset a branch to a base state
+      httpMethod: POST
+      pattern: destructive
+    - name: approve
+      description: Approve a migration or deploy request
+      httpMethod: POST
+      pattern: write
+    - name: apply
+      description: Apply an approved migration to its target branch
+      httpMethod: POST
+      pattern: write
+    - name: revert
+      description: Revert a previously applied migration
+      httpMethod: POST
+      pattern: destructive
+    - name: restore
+      description: Restore a database from a backup or snapshot
+      httpMethod: POST
+      pattern: destructive
+    - name: upsert
+      description: Insert or update vector records
+      httpMethod: POST
+      pattern: write
+    - name: query
+      description: Run a similarity or filter query against vector or index records
+      httpMethod: POST
+      pattern: query
+
+  schemas:
+    core:
+      - name: DatabaseInstance
+        description: A managed database instance provisioned through a DBaaS API
+        properties:
+          - name
+          - provider
+          - engine
+          - category
+          - region
+          - endpoint
+          - tier
+          - storage_gb
+          - compute_units
+          - high_availability
+          - branch
+          - status
+          - created_at
+          - tags
+      - name: SchemaMigration
+        description: A schema migration or deploy request applied to a managed database
+        properties:
+          - name
+          - database_instance_id
+          - source_branch
+          - target_branch
+          - engine
+          - ddl
+          - strategy
+          - status
+          - is_blocking
+          - rollback_ddl
+          - checks
+          - applied_at
+
+  enums:
+    engines:
+      - postgresql
+      - mysql
+      - mongodb
+      - cassandra
+      - redis
+      - dynamodb
+      - clickhouse
+      - snowflake
+      - bigquery
+      - redshift
+      - databricks
+      - influxdb
+      - timescaledb
+      - questdb
+      - neo4j
+      - fauna
+      - pinecone
+      - weaviate
+      - qdrant
+      - milvus
+    categories:
+      - relational
+      - document
+      - key-value
+      - wide-column
+      - graph
+      - vector
+      - time-series
+      - search
+      - data-warehouse
+      - lakehouse
+      - multi-model
+    statuses:
+      - provisioning
+      - active
+      - paused
+      - suspended
+      - deleting
+      - failed
+    migration_statuses:
+      - draft
+      - open
+      - approved
+      - queued
+      - running
+      - applied
+      - reverted
+      - failed
+      - cancelled
+
+capability:
+  workflows:
+    - name: Provision Serverless Database
+      description: Provision a serverless database instance, configure its endpoint, and return connection credentials to an application
+      apis:
+        - neon
+        - supabase
+        - planetscale
+        - fauna
+      personas:
+        - Application Developer
+      domains:
+        - DBaaS
+        - Serverless Database
+    - name: Branching Schema Migration
+      description: Create a database branch, develop and verify a schema migration against it, then promote the change to the main branch
+      apis:
+        - planetscale
+        - neon
+        - supabase
+      personas:
+        - Database Engineer
+      domains:
+        - Schema Management
+        - DBaaS
+    - name: Vector Search for RAG
+      description: Upsert document embeddings into a vector index and run nearest-neighbor queries to retrieve context for an LLM prompt
+      apis:
+        - pinecone
+        - weaviate
+        - qdrant
+        - milvus
+      personas:
+        - AI Engineer
+      domains:
+        - Vector Database
+        - AI
+    - name: Analytical Warehouse Query
+      description: Execute analytical SQL queries against a cloud data warehouse and stream the results back to a BI or notebook environment
+      apis:
+        - snowflake
+        - google-bigquery
+        - databricks
+        - amazon-redshift
+        - clickhouse
+      personas:
+        - Data Engineer
+      domains:
+        - Data Warehouse
+        - Analytics
+    - name: Backup and Point-in-Time Restore
+      description: Configure automated backups, list available snapshots, and restore a database to a point in time after a data incident
+      apis:
+        - neon
+        - mongodb-atlas
+        - planetscale
+      personas:
+        - Site Reliability Engineer
+      domains:
+        - DBaaS
+        - Data Protection
+
+  personas:
+    - id: application-developer
+      name: Application Developer
+      description: Developers building application backends on top of managed databases and serverless DBaaS platforms
+      workflows:
+        - Provision Serverless Database
+    - id: database-engineer
+      name: Database Engineer
+      description: Engineers responsible for schema design, migrations, performance tuning, and database operations
+      workflows:
+        - Branching Schema Migration
+    - id: ai-engineer
+      name: AI Engineer
+      description: Engineers building retrieval-augmented generation and AI applications on top of vector databases
+      workflows:
+        - Vector Search for RAG
+    - id: data-engineer
+      name: Data Engineer
+      description: Engineers building data pipelines, warehouse models, and analytical workloads on cloud data warehouses and lakehouses
+      workflows:
+        - Analytical Warehouse Query
+    - id: site-reliability-engineer
+      name: Site Reliability Engineer
+      description: Operators responsible for the availability, backups, recovery, and observability of managed databases
+      workflows:
+        - Backup and Point-in-Time Restore
+
+  domains:
+    - name: DBaaS
+      description: Managed database services exposing provisioning, scaling, and operations through APIs
+    - name: Serverless Database
+      description: Databases that scale compute to zero and bill per-request, exposed through HTTP and serverless-friendly drivers
+    - name: Schema Management
+      description: Tooling and APIs for evolving database schemas safely across branches and environments
+    - name: Vector Database
+      description: Databases optimized for storing and searching high-dimensional vector embeddings
+    - name: Data Warehouse
+      description: Cloud-scale analytical databases optimized for OLAP queries across columnar storage
+    - name: Analytics
+      description: Workloads for BI, reporting, and analytical exploration on top of data warehouses and lakehouses
+    - name: AI
+      description: AI and machine learning workloads that depend on databases for embeddings, features, and context
+    - name: Data Protection
+      description: Backups, snapshots, point-in-time recovery, and disaster recovery for managed databases
+
+crossReference:
+  - resource: instances
+    operations:
+      - list
+      - get
+      - create
+      - pause
+      - resume
+    workflows:
+      - Provision Serverless Database
+      - Backup and Point-in-Time Restore
+    personas:
+      - Application Developer
+      - Site Reliability Engineer
+  - resource: branches
+    operations:
+      - list
+      - create
+      - delete
+      - reset
+    workflows:
+      - Branching Schema Migration
+    personas:
+      - Database Engineer
+  - resource: migrations
+    operations:
+      - create
+      - approve
+      - apply
+      - revert
+    workflows:
+      - Branching Schema Migration
+    personas:
+      - Database Engineer
+  - resource: vectors
+    operations:
+      - upsert
+      - query
+      - delete
+    workflows:
+      - Vector Search for RAG
+    personas:
+      - AI Engineer
+  - resource: queries
+    operations:
+      - execute
+      - explain
+      - cancel
+    workflows:
+      - Analytical Warehouse Query
+    personas:
+      - Data Engineer
+  - resource: backups
+    operations:
+      - list
+      - create
+      - restore
+    workflows:
+      - Backup and Point-in-Time Restore
+    personas:
+      - Site Reliability Engineer
