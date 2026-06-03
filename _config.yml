@@ -1,0 +1,27 @@
+title: Database
+description: An index and topic collection covering managed databases and database-as-a-service
+  offerings exposing APIs. Database APIs enable developers to provision, configure,
+  query, migrate, and scale relational, document, key-value, wide-column, vector,
+  graph, time-series, and analytical data stores through programmatic interfaces rather
+  than through manual server administration. This collection includes managed PostgreSQL
+  platforms like Neon, Supabase, and Render; MySQL platforms like PlanetScale and
+  Vitess; document databases like MongoDB Atlas and Couchbase; key-value and wide-column
+  stores like DynamoDB, Cassandra, and Aerospike; serverless databases like Fauna,
+  Convex, and Cloudflare D1; vector databases like Pinecone, Weaviate, Qdrant, and
+  Milvus; graph databases like Neo4j and Stardog; time-series databases like InfluxDB,
+  TimescaleDB, and QuestDB; and analytical data warehouses like Snowflake, BigQuery,
+  Redshift, Databricks, ClickHouse, and Firebolt.
+url: https://database.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
