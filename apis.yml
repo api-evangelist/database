@@ -7,7 +7,7 @@ description: >-
   Convex, and Cloudflare D1; vector databases like Pinecone, Weaviate, Qdrant, and Milvus; graph databases like Neo4j and Stardog; time-series databases like InfluxDB, TimescaleDB, and QuestDB; and analytical data warehouses
   like Snowflake, BigQuery, Redshift, Databricks, ClickHouse, and Firebolt.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Database
 - DBaaS
