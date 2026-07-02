@@ -1,0 +1,31 @@
+related:
+- name: Caching
+  url: https://caching.apievangelist.com
+  icon: https://caching.apievangelist.com/icon.png
+  description: An index and topic collection covering API-accessible caching services, in-memory data
+    stores, key-value caches, and edge/CDN cache APIs. Caching reduces latency, lowers backend…
+- name: Migration
+  url: https://migration.apievangelist.com
+  icon: https://migration.apievangelist.com/icon.png
+  description: An index and topic collection covering data migration, cloud migration, database migration,
+    and API migration platforms and services. Migration platforms help organizations move…
+- name: Machine Learning
+  url: https://machine-learning.apievangelist.com
+  icon: https://machine-learning.apievangelist.com/icon.png
+  description: An index and topic collection covering machine learning APIs, MLOps platforms, model serving
+    infrastructure, and inference providers. Machine learning APIs span the full ML…
+- name: Backups
+  url: https://backups.apievangelist.com
+  icon: https://backups.apievangelist.com/icon.png
+  description: An index and topic collection covering backup, disaster recovery, and data protection APIs.
+    Backup APIs enable applications and platforms to schedule, orchestrate, and verify the…
+- name: Encryption
+  url: https://encryption.apievangelist.com
+  icon: https://encryption.apievangelist.com/icon.png
+  description: An index and topic collection covering encryption services, key management systems (KMS),
+    hardware security modules (HSM), envelope encryption, end-to-end encryption SDKs,…
+- name: Visualization
+  url: https://visualization.apievangelist.com
+  icon: https://visualization.apievangelist.com/icon.png
+  description: An index and topic collection covering data visualization, charts, dashboards, business
+    intelligence (BI), and reporting APIs. Data visualization platforms turn raw data into…
