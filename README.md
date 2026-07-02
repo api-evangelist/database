@@ -3,8 +3,6 @@ An index and topic collection covering managed databases and database-as-a-servi
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - Database, DBaaS, Managed Database, SQL, NoSQL, Document Database, Graph Database, Vector Database, Time Series, Data Warehouse, Key-Value Store
