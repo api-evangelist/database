@@ -1,7 +1,7 @@
 ---
-title: 'GraphQL Operation Descriptions: How a Spec Update Solved Our MCP Problem'
-link: https://wundergraph.com/blog/graphql-operation-descriptions-2025-spec
-published: '2025-10-30'
+title: 'The Dream Query: Consumer-First GraphQL API Design'
+link: https://wundergraph.com/blog/dream-query-design-apis-from-consumer-out
+published: '2026-03-16'
 provider: wundergraph
 repo: https://github.com/api-evangelist/wundergraph
 domain: wundergraph.com
