@@ -1,8 +1,7 @@
 ---
-title: Introducing MCP support in Grafbase - The first GraphQL platform with native
-  AI integration
-link: https://grafbase.com/changelog/introducing-mcp
-published: '2025-04-10'
+title: Solving context explosion in GraphQL MCP servers
+link: https://grafbase.com/blog/managing-mcp-context-graphql
+published: '2025-05-28'
 provider: grafbase
 repo: https://github.com/api-evangelist/grafbase
 domain: grafbase.com
