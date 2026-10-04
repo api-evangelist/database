@@ -10,6 +10,18 @@ type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Database
+- Database-as-a-Service
+- Managed Database
+- SQL
+- NoSQL
+- Document Database
+- Graph Database
+- Vector Database
+- Time Series
+- Data Warehouse
+- Key-Value Store
+tags_raw:
+- Database
 - DBaaS
 - Managed Database
 - SQL
