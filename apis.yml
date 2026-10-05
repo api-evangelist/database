@@ -1,5 +1,6 @@
 aid: database
 name: Database
+kind: topic
 description: >-
   An index and topic collection covering managed databases and database-as-a-service offerings exposing APIs. Database APIs enable developers to provision, configure, query, migrate, and scale relational, document, key-value,
   wide-column, vector, graph, time-series, and analytical data stores through programmatic interfaces rather than through manual server administration. This collection includes managed PostgreSQL platforms like Neon, Supabase,
