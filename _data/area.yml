@@ -14,7 +14,7 @@ meta:
     BigQuery, Redshift, Databricks, ClickHouse, and Firebolt.
   tags:
   - Database
-  - DBaaS
+  - Database-as-a-Service
   - Managed Database
   - SQL
   - NoSQL
