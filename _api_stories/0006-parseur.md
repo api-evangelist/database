@@ -1,6 +1,6 @@
 ---
-title: Document Processing in Devin Desktop (Windsurf) with Parseur's MCP Server
-link: https://parseur.com/agents/devin
+title: Document Processing in VS Code with Parseur's MCP Server
+link: https://parseur.com/agents/vscode
 published: '2026-10-29'
 provider: parseur
 repo: https://github.com/api-evangelist/parseur
