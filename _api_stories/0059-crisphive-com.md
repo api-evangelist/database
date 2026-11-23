@@ -1,5 +1,5 @@
 ---
-title: How we built a remote MCP server for field service scheduling
+title: Building a remote MCP server for field service scheduling
 link: https://crisphive.com/blog/developers/how-we-built-a-remote-mcp-server-for-field
 published: '2026-09-22'
 provider: crisphive-com
